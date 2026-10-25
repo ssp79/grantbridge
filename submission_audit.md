@@ -15,7 +15,7 @@ For Sam, before submitting on Canvas (due **Monday 2026-10-26, 6:00 PM**). It ma
 
 **Missing, and only Sam can do it:**
 
-1. ~~The GitHub repository~~ — **created and pushed on 2026-10-25**: <https://github.com/ssp79/grantbridge> (private, branch `main`). `zlisto` has been invited as a collaborator and must accept the invitation; check **Settings → Collaborators**. GitHub does not offer read-only collaborators on a personal repository, so the invitation is for write access — make the repository public and remove the collaborator if you would rather not grant that.
+1. ~~The GitHub repository~~ — **created and pushed on 2026-10-25**: <https://github.com/ssp79/grantbridge>, branch `main`, **public**. It was created private and made public the same day, so Tauhid can clone it without waiting for a collaborator invitation to be accepted. The `zlisto` invitation was revoked as unnecessary. Before it was made public, every blob in every commit was scanned: 0 real key values, 0 tokens, 0 private keys.
 2. ~~Reprint the two PDFs~~ — **done on 2026-10-25.** `report.pdf` (15 pages) and `slides.pdf` (10 pages) in this folder are printed from the current HTML. To rebuild them yourself: `python -m scripts.print_pdfs --browser chromium`.
 3. ~~A real user test~~ — **done on 2026-10-24**; see `docs/evidence/user-test-2026-10-24.md`.
 4. Optional: a narrated video in your own voice, if you want one instead of the automated recording.
@@ -114,9 +114,9 @@ Per Tauhid's announcement of 2026-10-25: **Canvas accepts files or a URL, not bo
 Submit the two HTML files and nothing else. *"Any other files you include will annoy me and be penalized."*
 
 - [ ] **`report.html`** — self-contained, 0 external requests (measured). Carries
-      <https://github.com/ssp79/grantbridge> in section 1, with the private-repository notice.
-- [ ] **`slides.html`** — self-contained, 0 external requests (measured). Carries the same URL and notice on
-      the title slide and again on the closing slide.
+      <https://github.com/ssp79/grantbridge> in section 1.
+- [ ] **`slides.html`** — self-contained, 0 external requests (measured). Carries the same URL on the title
+      slide and again on the closing slide.
 - [ ] Optional: the demo video, `demo-video/grantbridge-demo-2026-10-24.webm` (3 min 57 s, 41 MB). It is not in
       the repository; attach it from that folder. Most browsers play WebM; if Canvas refuses it, say so and it
       can be converted.
