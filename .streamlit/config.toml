@@ -1,0 +1,56 @@
+[theme]
+# One palette for the whole product, public pages and application alike:
+#   ivory #F7F4EE · navy #173341 · teal #287F78 · sand #D9C6AA · sage #66756D
+# Set here rather than in CSS wherever Streamlit allows it, so the components theme themselves and the stylesheet
+# does not have to fight them. Small text uses the darkened teal #1F6A64 and sage #56645D, which keep at least
+# 4.5:1 on the warm backgrounds below.
+base = "light"
+primaryColor = "#287F78"
+backgroundColor = "#FAF8F3"
+secondaryBackgroundColor = "#F1ECE2"
+textColor = "#173341"
+linkColor = "#1F6A64"
+borderColor = "#E3DACB"
+baseRadius = "0.6rem"
+buttonRadius = "0.5rem"
+showWidgetBorder = true
+showSidebarBorder = true
+headingFontWeights = [700, 700, 600, 600, 600, 600]
+# Semantic colors chosen for at least 4.5:1 text contrast on their badge backgrounds.
+redColor = "#B42318"
+redTextColor = "#912018"
+orangeColor = "#B54708"
+orangeTextColor = "#7A2E0E"
+greenColor = "#067647"
+greenTextColor = "#05603A"
+blueColor = "#175CD3"
+blueTextColor = "#173341"
+grayTextColor = "#56645D"
+dataframeHeaderBackgroundColor = "#F1ECE2"
+dataframeBorderColor = "#E3DACB"
+
+[theme.sidebar]
+# A light rail rather than a dark slab: navy type, teal only for the selected page.
+backgroundColor = "#F3EEE4"
+secondaryBackgroundColor = "#E9E2D4"
+codeBackgroundColor = "#E9E2D4"
+textColor = "#173341"
+borderColor = "#E3DACB"
+primaryColor = "#287F78"
+linkColor = "#1F6A64"
+
+[client]
+# Never show tracebacks to users; errors are logged server-side with a reference id.
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
+[server]
+# The only upload GrantBridge accepts is one funder solicitation at a time (PDF, DOCX or TXT). Streamlit's own
+# ceiling is deliberately a little above grantbridge.documents.MAX_BYTES, so an oversized file is refused by our
+# own check with an explanation rather than by the server with a bare error.
+maxUploadSize = 10         # MB
+maxMessageSize = 25        # MB per browser message (default is 200)
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false

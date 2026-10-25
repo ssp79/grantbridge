@@ -1,0 +1,326 @@
+{
+ "errorcode": 0,
+ "msg": "Webservice Succeeds",
+ "token": "[removed for fixture]",
+ "data": {
+  "id": 361822,
+  "revision": 9,
+  "opportunityNumber": "HHS-2026-ACF-ORR-ZU-0019",
+  "opportunityTitle": "Home Study and Post-Release Services for Unaccompanied Alien Children&#8203;&#8203;",
+  "owningAgencyCode": "HHS-ACF-ORR",
+  "listed": "L",
+  "publisherUid": "[removed for fixture]",
+  "modifiedComments": "Eligibility has been updated to clarify that federal entities are ineligible.",
+  "flag2006": "N",
+  "opportunityCategory": {
+   "category": "D",
+   "description": "Discretionary"
+  },
+  "synopsis": {
+   "opportunityId": 361822,
+   "version": 5,
+   "agencyCode": "HHS-ACF-ORR",
+   "agencyName": "Administration for Children and Families - ORR",
+   "agencyPhone": "[removed for fixture]",
+   "agencyAddressDesc": "[removed for fixture]",
+   "agencyDetails": {
+    "code": "ORR",
+    "seed": "HHS-ACF-ORR",
+    "agencyName": "Administration for Children and Families - ORR",
+    "agencyCode": "HHS-ACF-ORR",
+    "topAgencyCode": "HHS"
+   },
+   "topAgencyDetails": {
+    "code": "HHS",
+    "seed": "HHS",
+    "agencyName": "Department of Health and Human Services",
+    "agencyCode": "HHS",
+    "topAgencyCode": "HHS"
+   },
+   "agencyContactPhone": "[removed for fixture]",
+   "agencyContactName": "[removed for fixture]",
+   "agencyContactDesc": "[removed for fixture]",
+   "agencyContactEmail": "[removed for fixture]",
+   "agencyContactEmailDesc": "[removed for fixture]",
+   "synopsisDesc": "This NOFO is modified. Changes are made to Step 1: Review the Opportunity. The Office of Refugee Resettlement (ORR) provides temporary housing and care for children who arrive in the United States alone. These are children who are under 18 years old, don't have legal permission to be in the U.S., and don't have a parent or legal guardian in the U.S. who can take care of them. ORR runs the Home Study and Post-Release Services Program to help these children. Before placing a child with a sponsor, ORR carefully checks potential homes to make sure they're safe and appropriate. After placement, ORR provides ongoing support to help children and their sponsors succeed. This support helps children adjust to living with their sponsor, connect with their community, stay safe and healthy, and navigate the immigration court process. The goal is to make sure children are placed in safe homes and have the support they need to thrive while their immigration cases move forward.",
+   "responseDate": "Oct 01, 2027 12:00:00 AM EDT",
+   "responseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+   "fundingDescLinkUrl": "https://www.acf.hhs.gov/orr/grants/ucb",
+   "fundingDescLinkDesc": "https://www.acf.hhs.gov/orr/grants/ucb",
+   "postingDate": "Jun 05, 2026 12:00:00 AM EDT",
+   "costSharing": false,
+   "numberOfAwards": "20",
+   "estimatedFunding": "555000000",
+   "estimatedFundingFormatted": "555,000,000",
+   "awardCeiling": "100000000",
+   "awardCeilingFormatted": "100,000,000",
+   "awardFloor": "1000000",
+   "awardFloorFormatted": "1,000,000",
+   "applicantEligibilityDesc": "Current RecipientsCurrent recipients in the final year of their project period must check when their project period ends. If the project period end date aligns with this funding opportunity&quot;s projected award date, and the current recipient wants to apply to continue providing services, they must apply for this funding opportunity.Current recipients who are not in the final year of their project period and want to apply for this funding opportunity must propose services in a new facility and new location from where they are currently funded. ACF does not fund multiple projects that offer the same type of service in the same location.   Applications from individuals (including sole proprietorships), federal entities, and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+   "sendEmail": "Y",
+   "createTimeStamp": "Aug 03, 2026 06:01:11 PM EDT",
+   "modComments": "This NOFO is modified. Changes are made to Step 1: Review the Opportunity.",
+   "createdDate": "Jun 05, 2026 02:35:52 PM EDT",
+   "lastUpdatedDate": "Aug 03, 2026 06:01:11 PM EDT",
+   "applicantTypes": [
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "23",
+     "description": "Small businesses"
+    },
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "22",
+     "description": "For profit organizations other than small businesses"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ISS",
+     "description": "Income Security and Social Services"
+    }
+   ],
+   "responseDateStr": "2027-10-01-00-00-00",
+   "postingDateStr": "2026-06-05-00-00-00",
+   "createTimeStampStr": "2026-08-03-18-01-11"
+  },
+  "agencyDetails": {
+   "code": "ORR",
+   "seed": "HHS-ACF-ORR",
+   "agencyName": "Administration for Children and Families - ORR",
+   "agencyCode": "HHS-ACF-ORR",
+   "topAgencyCode": "HHS"
+  },
+  "topAgencyDetails": {
+   "code": "HHS",
+   "seed": "HHS",
+   "agencyName": "Department of Health and Human Services",
+   "agencyCode": "HHS",
+   "topAgencyCode": "HHS"
+  },
+  "forecast": {
+   "opportunityId": 361822,
+   "version": 4,
+   "postingDate": "Apr 08, 2026 12:00:00 AM EDT",
+   "archiveDate": "Jun 04, 2026 12:00:00 AM EDT",
+   "forecastDesc": "<p style=\"margin-left:0in;\">The Office of Refugee Resettlement (ORR) provides temporary housing and care for children who arrive in the United States alone. These are children who are under 18 years old, don't have legal permission to be in the U.S., and don't have a parent or legal guardian in the U.S. who can take care of them. ORR runs the Home Study and Post-Release Services Program to help these children. Before placing a child with a sponsor, ORR carefully checks potential homes to make sure they're safe and appropriate. After placement, ORR provides ongoing support to help children and their sponsors succeed. This support helps children adjust to living with their sponsor, connect with their community, stay safe and healthy, and navigate the immigration court process. The goal is to make sure children are placed in safe homes and have the support they need to thrive while their immigration cases move forward.</p>",
+   "costSharing": false,
+   "numberOfAwards": "15",
+   "estimatedFunding": "258000000",
+   "awardCeiling": "50000000",
+   "awardFloor": "1000000",
+   "fundingDescLinkUrl": "https://www.acf.hhs.gov/orr/grants/ucb",
+   "fundingDescLinkDesc": "https://www.acf.hhs.gov/orr/grants/ucb",
+   "agencyContactName": "[removed for fixture]",
+   "agencyContactPhone": "[removed for fixture]",
+   "agencyContactEmail": "[removed for fixture]",
+   "agencyContactEmailDesc": "[removed for fixture]",
+   "agencyCode": "HHS-ACF-ORR",
+   "applicantEligibilityDesc": "Current RecipientsCurrent recipients in the final year of their project period must check when their project period ends. If the project period end date aligns with this funding opportunity&quot;s projected award date, and the current recipient wants to apply to continue providing services, they must apply for this funding opportunity.Current recipients who are not in the final year of their project period and want to apply for this funding opportunity must propose services in a new facility and new location from where they are currently funded. ACF does not fund multiple projects that offer the same type of service in the same location.   Applications from individuals (including sole proprietorships), federal entities, and foreign entities are not eligible and will be disqualified from the merit review and funding under this funding opportunity. Faith-based and community organizations that meet the eligibility requirements are eligible for awards under this funding opportunity.",
+   "estSynopsisPostingDate": "May 08, 2026 12:00:00 AM EDT",
+   "estApplicationResponseDate": "Jun 23, 2026 12:00:00 AM EDT",
+   "estApplicationResponseDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+   "estAwardDate": "Sep 29, 2026 12:00:00 AM EDT",
+   "estProjectStartDate": "Sep 29, 2026 12:00:00 AM EDT",
+   "fiscalYear": 2026,
+   "modComments": "Updated Archive Date",
+   "createTimeStamp": "Aug 03, 2026 05:51:57 PM EDT",
+   "createdDate": "Apr 08, 2026 04:10:56 PM EDT",
+   "lastUpdatedDate": "Aug 03, 2026 05:51:57 PM EDT",
+   "agencyDetails": {
+    "code": "ORR",
+    "seed": "HHS-ACF-ORR",
+    "agencyName": "Administration for Children and Families - ORR",
+    "agencyCode": "HHS-ACF-ORR",
+    "topAgencyCode": "HHS"
+   },
+   "estimatedFundingFormatted": "258,000,000",
+   "awardCeilingFormatted": "50,000,000",
+   "awardFloorFormatted": "1,000,000",
+   "applicantTypes": [
+    {
+     "id": "12",
+     "description": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "08",
+     "description": "Public housing authorities/Indian housing authorities"
+    },
+    {
+     "id": "23",
+     "description": "Small businesses"
+    },
+    {
+     "id": "25",
+     "description": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)"
+    },
+    {
+     "id": "02",
+     "description": "City or township governments"
+    },
+    {
+     "id": "04",
+     "description": "Special district governments"
+    },
+    {
+     "id": "06",
+     "description": "Public and State controlled institutions of higher education"
+    },
+    {
+     "id": "00",
+     "description": "State governments"
+    },
+    {
+     "id": "01",
+     "description": "County governments"
+    },
+    {
+     "id": "11",
+     "description": "Native American tribal organizations (other than Federally recognized tribal governments)"
+    },
+    {
+     "id": "05",
+     "description": "Independent school districts"
+    },
+    {
+     "id": "07",
+     "description": "Native American tribal governments (Federally recognized)"
+    },
+    {
+     "id": "13",
+     "description": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education"
+    },
+    {
+     "id": "22",
+     "description": "For profit organizations other than small businesses"
+    },
+    {
+     "id": "20",
+     "description": "Private institutions of higher education"
+    }
+   ],
+   "fundingInstruments": [
+    {
+     "id": "CA",
+     "description": "Cooperative Agreement"
+    }
+   ],
+   "fundingActivityCategories": [
+    {
+     "id": "ISS",
+     "description": "Income Security and Social Services"
+    }
+   ],
+   "postingDateStr": "2026-04-08-00-00-00",
+   "archiveDateStr": "2026-06-04-00-00-00",
+   "estSynopsisPostingDateStr": "2026-05-08-00-00-00",
+   "estApplicationResponseDateStr": "2026-06-23-00-00-00",
+   "estAwardDateStr": "2026-09-29-00-00-00",
+   "estProjectStartDateStr": "2026-09-29-00-00-00",
+   "createTimeStampStr": "2026-08-03-17-51-57"
+  },
+  "synopsisAttachmentFolders": [],
+  "synopsisDocumentURLs": [],
+  "synAttChangeComments": [],
+  "cfdas": [
+   {
+    "id": 432608,
+    "opportunityId": 361822,
+    "cfdaNumber": "93.676",
+    "programTitle": "Unaccompanied Children Program"
+   }
+  ],
+  "opportunityHistoryDetails": [],
+  "opportunityPkgs": [],
+  "closedOpportunityPkgs": [],
+  "originalDueDate": "Jul 06, 2026 12:00:00 AM EDT",
+  "originalDueDateDesc": "Electronically submitted applications must be submitted no later than 11:59 pm Eastern Standard Time on the listed application due date.",
+  "synopsisModifiedFields": [
+   "revision",
+   "version",
+   "agencyAddressDesc",
+   "agencyContactDesc",
+   "agencyContactEmail",
+   "agencyContactEmailDesc",
+   "synopsisDesc",
+   "numberOfAwards",
+   "estimatedFunding",
+   "awardCeiling"
+  ],
+  "forecastModifiedFields": [
+   "revision",
+   "version",
+   "sendEmail",
+   "archiveDate",
+   "modComments",
+   "createTimeStamp"
+  ],
+  "errorMessages": [],
+  "synPostDateInPast": true,
+  "docType": "synopsis",
+  "forecastHistCount": 3,
+  "synopsisHistCount": 2,
+  "assistCompatible": false,
+  "assistURL": "",
+  "relatedOpps": [],
+  "draftMode": "N",
+  "ost": "POSTED"
+ },
+ "_fixture_note": "Captured from the live Grants.gov API on 2026-10-20; contact details and session token removed, long text trimmed."
+}

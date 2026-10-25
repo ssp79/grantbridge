@@ -1,0 +1,136 @@
+Fiscal Years 2025 and 2026 Prioritization Process Pilot Program Competitive Grant Program
+Notice of Funding Opportunity
+Application Opening Date: September 30, 2026
+Application Closing Date: October 30, 2026
+
+A. BASIC INFORMATION
+Federal Agency Name: U.S. Department of Transportation (DOT), Federal Highway Administration (FHWA)
+Funding Opportunity Title: Prioritization Process Pilot Program (PPPP) Competitive Grant Program
+Announcement Type: This is a New Notice of Funding Opportunity (NOFO).
+Funding Opportunity Number: FHWA-PPPP-26-001
+Assistance Listing Number(s): 20.262
+Funding Details: This NOFO will award up to $26 million total in Fiscal Years 2025 and 2026 funding and remaining FY 2024 funding via cost reimbursable grants. Under Section 11204(c)(3) of the Infrastructure Investment and Jobs Act, the maximum amount of a grant under the PPPP Competitive Grant Program is $2 million. The PPPP Competitive Grant Program allows for the Federal share of the prioritization project to be 100 percent.
+Key Dates: Application Due Date: 10/30/2026 at 11:59 PM EST. FHWA anticipates announcing selections under this NOFO in the March 2027.
+Eligible applicants under the PPPP Competitive Grant Program are: Metropolitan planning organizations (MPO) that serve a census delineated urban area with a population of over 200,000; and States.
+
+B. ELIGIBILITY
+2. ADDITIONAL RESTRICTIONS ON ELIGIBILITY
+Applications must disclose how the applicant will address all of the statutory required uses of PPPP grants under IIJA, Sections 11204(c)(1)(A-D), 11204(c)(2)(A) or (B), and 11204(c)(2)(D), during the development and implementation of the PPPP prioritization project. If an application does not address all the statutorily required uses, which are summarized below, the application will be deemed ineligible for funding.
+
+3. COST SHARING
+The Federal cost share for eligible activities carried out under this NOFO may be up to 100 percent.
+
+5. APPLICATION LIMIT
+Only one application may be submitted by an eligible applicant for funding.
+
+D. APPLICATION CONTENTS AND FORMAT
+1. APPLICATION FORMAT
+All applications must be submitted electronically through www.grants.gov.
+Application files should be single-spaced, 12-point standard font, with 1-inch margins. Files should be in PDF unless otherwise specified. DOT recommends applicants use a file naming format of: "[Applicant organization#]-2026-[Prioritization Process Pilot Program ]".
+The application package must consist of the following:
+Standard Form (SF) 424 (Application for Federal Assistance)
+Grants.gov Lobbying Form (Certification Regarding Lobbying)
+SF-LLL (Disclosure of Lobbying Activities form)
+SF-424A (Budget Information for Non-Construction Projects)
+SF-424B (Assurances for Non-Construction Programs)
+The PPPP Application Template must be added as an attachment to item 15 of the SF-424.
+
+2. APPLICATION CONTENT
+Applicants must complete the PPPP Application Template and include it as an attachment to Item 15 of their SF-424. The Application Template should provide all information necessary for DOT to determine the prioritization project satisfy the eligibility requirements described in Section B and evaluate the criteria specified in Section F.
+FHWA will only review the completed Application Template and the allowable supplemental documents specified within the Application Template instructions.
+The application must provide a budget for the prioritization project, either within the Application Template itself, or as an attachment. The budget must list the amount and percent of both the Federal funding requested and any additional non-Federal funds, if any, to be used to pay for the prioritization project.
+
+E. SUBMISSION REQUIREMENTS AND DEADLINE
+2. UNIQUE ENTITY IDENTIFIER AND SYSTEM FOR AWARD MANAGEMENT
+Each applicant must be registered in System for Award Management (SAM) at SAM.gov before submitting its application; provide a valid Unique Entity Identifier in its application; and continue to maintain an active registration in SAM.gov.
+Please note the SAM registration process takes several weeks to complete.
+
+4. SUBMISSION DEADLINE
+FYs 2025 and 2026 PPPP applications must be submitted through Grants.gov by 11:59 PM EST on October 30, 2026.
+
+5. CONSIDERATION OF APPLICATIONS
+Only applicants who comply with all submission deadlines described in this notice and electronically submit valid, on-time applications through Grants.gov will be eligible for evaluation and possible selection for award.
+DOT will not request additional information to perfect incomplete applications.
+
+F. APPLICATION REVIEW INFORMATION
+1. MERIT CRITERIA
+DOT will evaluate applications submitted in response to this notice using the following Merit Criteria: Innovation, Economic Competitiveness, Reinvesting in the American Family, and Addressing Core Infrastructure. The ratings for each Merit Criteria will also be assigned a label of Highly Responsive, Responsive, or Non-Responsive.
+
+Criterion 1: Innovation
+The application describes how the applicant's proposed prioritization process design would use innovative and effective methods, and facilitate evaluation of its effectiveness in achieving its goals:
+A. For the public to engage in project selections during development of either short range transportation plans or long range transportation plans.
+B. For providing the public access to clear reasons why each project or strategy was selected or not selected within either the Statewide Transportation Improvement Program or TIP, or long range transportation plans.
+C. To consult with the State if the applicant is an MPO, or consult with all designated MPOs within the State if the applicant is the State.
+D. To identify, develop, and implement priority objectives for the prioritization plan.
+E. To integrate strategic goals from multiple programs and transportation agencies to strengthen multimodal and intermodal planning and to improve programming decisions.
+F. To ensure the developed process continuously identifies relevant transportation performance measures that are applicable for their State or metropolitan planning through time.
+Highly Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least five of the six objectives.
+Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least three of the six objectives.
+Non-Responsive: The application fails to demonstrate how the applicant's proposed prioritization process will meet at least three objectives.
+
+Criterion 2: Economic Competitiveness
+The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant quality data to:
+A. Support economic vitality, especially by enabling global competitiveness, productivity, and efficiency.
+B. Enhance travel and tourism.
+C. Consider intermodal or multimodal freight mobility needs.
+D. Consider freight bottlenecks as identified in the National Freight Strategic Plan, a State Freight Plan, or as measured by relevant freight industry associations.
+Highly Responsive: The application demonstrates how the applicant's proposed prioritization process will meet all of the objectives.
+Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least two of the four objectives.
+Non-Responsive: The application fails to demonstrate how the prioritization activities will address at least two objectives.
+
+Criterion 3: Reinvesting in the American Family
+The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant quality data to:
+A. Promote consistency between transportation improvements and State and local planned growth, housing, and economic development patterns.
+B. Enhance the integration and connectivity of the transportation system, across and between modes, for people.
+C. Improve wayfinding and user experience.
+D. Make transportation more affordable for families.
+E. Support the expansion and modernization of transportation in rural communities.
+Highly Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least four of the five objectives.
+Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least two of the five objectives.
+Non-Responsive: The application fails to demonstrate how the applicants proposed prioritization process will meet at least two objectives.
+
+Criterion 4: Investing in Core Infrastructure
+The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant, quality data to:
+A. Improve the resiliency and reliability of the transportation system and reduce or mitigate stormwater impacts of surface transportation.
+B. Emphasize the preservation of the existing transportation system.
+C. Promote efficient system management and operation.
+D. Increase security of the transportation system.
+E. Increase the safety of the transportation system for motorized and nonmotorized users.
+F. Enhance the integration and connectivity of the transportation system, across and between modes, for freight.
+G. Improve the condition existing transportation infrastructure, particularly infrastructure with high cost of failure.
+Highly Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least five of the seven objectives.
+Responsive: The application demonstrates how the applicant's proposed prioritization process will meet at least three of the seven objectives.
+Non-Responsive: The application does not demonstrate how the applicants proposed prioritization process will meet at least three objectives.
+
+MERIT CRITERIA RATINGS
+High: At least three of four Merit Criteria are rated Highly Responsive, and one Merit Criteria is rated Responsive.
+Medium: All Merit Criteria are rated at least Responsive.
+Low: Any of the Merit Criteria are rated Non-Responsive.
+
+2. READINESS ASSESSMENT
+Readiness: Technical Assessment
+Technical Assessment ratings will be one of the following: Certain (3), Somewhat Certain (2) or Unknown or Uncertain (1).
+Technical Assessment Elements:
+A. The applicant has the staffing and technical resources to deliver the prioritization project.
+B. The prioritization project will comply with all applicable Federal requirements.
+C. The applicant demonstrates a commitment for timely prioritization project delivery as demonstrated by the schedule information in the application.
+D. The applicant demonstrates the technical feasibility of the prioritization project.
+Certain (3): The application demonstrates the applicant and prioritization project will meet all four Technical Assessment Elements.
+
+Readiness: Financial Completeness Assessment
+The Financial Completeness Assessment evaluates the availability of matching funds and whether the applicant presented a complete funding package and will receive a rating of Complete (3), Partially Complete (2), or Incomplete (1).
+Financial Completeness Assessment Elements:
+A. The application includes complete and reasonable funding estimates based on recent stages of proposal development.
+B. The application includes a plan to address potential cost overruns.
+C. The application demonstrates reasonable availability of all funding needed to complete the prioritization project with an award.
+Complete (3): The application demonstrates the applicant and prioritization project will meet Financial Completeness Assessments Elements A, B, and C.
+
+Readiness Rating
+High: Both Readiness Assessment categories are rated as a 3.
+Medium: Both Readiness Assessment categories are rated as at least a 2 but both are not a 3.
+Low: Any readiness assessment category is rated as a 1.
+
+3. OVERALL RATING OF THE APPLICATION
+A rating of Highly Recommended will be assigned to an application that received no less than a High rating for both Merit Criteria and readiness.
+A rating of Recommended will be assigned to an application that received no less than a Medium rating for both Merit Criteria and readiness.
+A rating of Not Recommended will be assigned to an application that received a Low rating for either Merit Criteria or readiness.

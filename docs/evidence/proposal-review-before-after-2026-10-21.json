@@ -1,0 +1,241 @@
+{
+ "meta": {
+  "when": "2026-10-21 03:23 UTC",
+  "mode": "live: real model calls through the course Portkey gateway, fresh answers only",
+  "model": "gpt-6-luna",
+  "served_model": "gpt-6-luna-2026-09-22"
+ },
+ "result": {
+  "steps": [
+   {
+    "step": "Draft question 2",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 5699,
+    "model_calls": 1,
+    "input_tokens": 936,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 462,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0003246,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 5623
+   },
+   {
+    "step": "Draft question 4",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 4119,
+    "model_calls": 1,
+    "input_tokens": 928,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 322,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.0002538,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 4084
+   },
+   {
+    "step": "Review 1 (before)",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 12346,
+    "model_calls": 1,
+    "input_tokens": 2522,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2519,
+    "output_tokens": 1741,
+    "reasoning_tokens": 314,
+    "cost_usd": 0.001185675,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 12243
+   },
+   {
+    "step": "Revise question 3",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 5035,
+    "model_calls": 1,
+    "input_tokens": 1052,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1049,
+    "output_tokens": 318,
+    "reasoning_tokens": 212,
+    "cost_usd": 0.000290425,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 4993
+   },
+   {
+    "step": "Revise question 1",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 3841,
+    "model_calls": 1,
+    "input_tokens": 1041,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1038,
+    "output_tokens": 279,
+    "reasoning_tokens": 68,
+    "cost_usd": 0.00026955,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 3803
+   },
+   {
+    "step": "Revise question 4",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 3930,
+    "model_calls": 1,
+    "input_tokens": 1160,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1157,
+    "output_tokens": 311,
+    "reasoning_tokens": 44,
+    "cost_usd": 0.000300425,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 3885
+   },
+   {
+    "step": "Review 2 (after)",
+    "mode": "live",
+    "notice": null,
+    "wall_ms": 9210,
+    "model_calls": 1,
+    "input_tokens": 2678,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2675,
+    "output_tokens": 1196,
+    "reasoning_tokens": 236,
+    "cost_usd": 0.000932675,
+    "served_model": "gpt-6-luna-2026-09-22",
+    "model_ms": 9126
+   }
+  ],
+  "before": {
+   "id": 1,
+   "mode": "live",
+   "overall": 2.8,
+   "totals": {
+    "questions": 4,
+    "answered": 4,
+    "unanswered": 0,
+    "placeholders": 1,
+    "verify_markers": 0,
+    "over_limit": 0,
+    "unsupported": 2
+   },
+   "ratings": {
+    "clarity": 3,
+    "specificity": 3,
+    "alignment": 3,
+    "evidence of impact": 3,
+    "completeness": 2
+   },
+   "caps": {},
+   "unsupported_claims": 2,
+   "recommendations": 5,
+   "missing_information": 3,
+   "rules": {
+    "caps_applied": 0,
+    "recs_relabeled": 0,
+    "quotes_dropped": 0,
+    "predictions_removed": 0,
+    "figures_replaced": 0
+   }
+  },
+  "after": {
+   "id": 2,
+   "mode": "live",
+   "overall": 3.6,
+   "totals": {
+    "questions": 4,
+    "answered": 4,
+    "unanswered": 0,
+    "placeholders": 4,
+    "verify_markers": 0,
+    "over_limit": 0,
+    "unsupported": 0
+   },
+   "ratings": {
+    "clarity": 4,
+    "specificity": 4,
+    "alignment": 4,
+    "evidence of impact": 4,
+    "completeness": 2
+   },
+   "caps": {},
+   "unsupported_claims": 0,
+   "recommendations": 3,
+   "missing_information": 2,
+   "rules": {
+    "caps_applied": 0,
+    "recs_relabeled": 0,
+    "quotes_dropped": 0,
+    "predictions_removed": 0,
+    "figures_replaced": 0
+   }
+  },
+  "revisions": [
+   {
+    "question": 3,
+    "priority": "high",
+    "basis": "funder requirement",
+    "feedback": "Remove the placeholder, include the math result supported by the profile, and state the assessment period and source for both outcomes. Remove the award claim unless it can be verified.",
+    "words_before": 32,
+    "words_after": 43,
+    "verify_markers_added": [],
+    "placeholders": [],
+    "sentence_changes": 6
+   },
+   {
+    "question": 1,
+    "priority": "high",
+    "basis": "funder requirement",
+    "feedback": "Replace the general description with supported details about the grades and approximate number of students served, their Bridgeport school setting, and relevant population characteristics.",
+    "words_before": 47,
+    "words_after": 110,
+    "verify_markers_added": [],
+    "placeholders": [],
+    "sentence_changes": 9
+   },
+   {
+    "question": 4,
+    "priority": "medium",
+    "basis": "funder requirement",
+    "feedback": "Add a supported spending breakdown for the $25,000 request, showing the amounts or proportions assigned to the proposed activities.",
+    "words_before": 133,
+    "words_after": 173,
+    "verify_markers_added": [],
+    "placeholders": [
+     "[NEEDS: dollar amount or proportion for recruiting tutors]",
+     "[NEEDS: dollar amount or proportion for tutor training]",
+     "[NEEDS: dollar amount or proportion for ongoing tutor support]",
+     "[NEEDS: dollar amount or proportion for adding the third partner school]"
+    ],
+    "sentence_changes": 3
+   }
+  ],
+  "changed_questions": [
+   {
+    "question": 1,
+    "words_before": 47,
+    "words_after": 110,
+    "sentence_changes": 9
+   },
+   {
+    "question": 3,
+    "words_before": 32,
+    "words_after": 43,
+    "sentence_changes": 6
+   },
+   {
+    "question": 4,
+    "words_before": 133,
+    "words_after": 173,
+    "sentence_changes": 3
+   }
+  ]
+ }
+}

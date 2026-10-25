@@ -1,0 +1,173 @@
+{
+ "errorcode": 0,
+ "msg": "Webservice Succeeds",
+ "token": "[removed for fixture]",
+ "data": {
+  "searchParams": {
+   "resultType": "json",
+   "searchOnly": false,
+   "oppNum": "",
+   "cfda": "",
+   "sortBy": "",
+   "oppStatuses": "forecasted|posted",
+   "startRecordNum": 0,
+   "eligibilities": "12",
+   "fundingInstruments": "",
+   "fundingCategories": "",
+   "agencies": "",
+   "rows": 3,
+   "keyword": "tutoring",
+   "keywordEncoded": true
+  },
+  "hitCount": 1,
+  "startRecord": 0,
+  "oppHits": [
+   {
+    "id": "361822",
+    "number": "HHS-2026-ACF-ORR-ZU-0019",
+    "title": "Home Study and Post-Release Services for Unaccompanied Alien Children&#8203;&#8203;",
+    "agencyCode": "HHS-ACF-ORR",
+    "agency": "Administration for Children and Families - ORR",
+    "openDate": "06/05/2026",
+    "closeDate": "10/01/2027",
+    "oppStatus": "posted",
+    "docType": "synopsis",
+    "cfdaList": [
+     "93.676"
+    ]
+   }
+  ],
+  "oppStatusOptions": [
+   {
+    "label": "posted",
+    "value": "posted",
+    "count": 1
+   },
+   {
+    "label": "closed",
+    "value": "closed",
+    "count": 14
+   },
+   {
+    "label": "archived",
+    "value": "archived",
+    "count": 186
+   },
+   {
+    "label": "forecasted",
+    "value": "forecasted",
+    "count": 0
+   }
+  ],
+  "dateRangeOptions": [],
+  "suggestion": "",
+  "eligibilities": [
+   {
+    "label": "City or township governments",
+    "value": "02",
+    "count": 1
+   },
+   {
+    "label": "County governments",
+    "value": "01",
+    "count": 1
+   },
+   {
+    "label": "For profit organizations other than small businesses",
+    "value": "22",
+    "count": 1
+   },
+   {
+    "label": "Independent school districts",
+    "value": "05",
+    "count": 1
+   },
+   {
+    "label": "Native American tribal governments (Federally recognized)",
+    "value": "07",
+    "count": 1
+   },
+   {
+    "label": "Native American tribal organizations (other than Federally recognized tribal governments)",
+    "value": "11",
+    "count": 1
+   },
+   {
+    "label": "Nonprofits having a 501(c)(3) status with the IRS, other than institutions of higher education",
+    "value": "12",
+    "count": 1
+   },
+   {
+    "label": "Nonprofits that do not have a 501(c)(3) status with the IRS, other than institutions of higher education",
+    "value": "13",
+    "count": 1
+   },
+   {
+    "label": "Others (see text field entitled \"Additional Information on Eligibility\" for clarification)",
+    "value": "25",
+    "count": 1
+   },
+   {
+    "label": "Private institutions of higher education",
+    "value": "20",
+    "count": 1
+   },
+   {
+    "label": "Public and State controlled institutions of higher education",
+    "value": "06",
+    "count": 1
+   },
+   {
+    "label": "Public housing authorities/Indian housing authorities",
+    "value": "08",
+    "count": 1
+   },
+   {
+    "label": "Small businesses",
+    "value": "23",
+    "count": 1
+   },
+   {
+    "label": "Special district governments",
+    "value": "04",
+    "count": 1
+   },
+   {
+    "label": "State governments",
+    "value": "00",
+    "count": 1
+   }
+  ],
+  "fundingCategories": [
+   {
+    "label": "Income Security and Social Services",
+    "value": "ISS",
+    "count": 1
+   }
+  ],
+  "fundingInstruments": [
+   {
+    "label": "Cooperative Agreement",
+    "value": "CA",
+    "count": 1
+   }
+  ],
+  "agencies": [
+   {
+    "subAgencyOptions": [
+     {
+      "label": "Administration for Children and Families - ORR",
+      "value": "HHS-ACF-ORR",
+      "count": 1
+     }
+    ],
+    "label": "Department of Health and Human Services",
+    "value": "HHS",
+    "count": 1
+   }
+  ],
+  "accessKey": "",
+  "errorMsgs": []
+ },
+ "_fixture_note": "Captured from the live Grants.gov API on 2026-10-20; contact details and session token removed, long text trimmed."
+}

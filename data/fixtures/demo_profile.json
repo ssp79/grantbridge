@@ -1,0 +1,28 @@
+{
+  "_note": "SAMPLE DEMO DATA. This organization, its numbers, and its outcomes are invented for the GrantBridge course demo. It is not based on any real nonprofit.",
+  "profile": {
+    "name": "Harbor Lantern Tutoring Collective (sample)",
+    "ein": "",
+    "state": "CT",
+    "city": "Bridgeport",
+    "website": "",
+    "mission": "Harbor Lantern helps students in grades 3-8 in Bridgeport become confident, on-grade-level readers and math learners through free small-group tutoring led by trained volunteers.",
+    "programs": "After-School Tutoring: groups of three students meet with a trained volunteer tutor twice a week for 90 minutes at two partner public elementary and middle schools, October through May. Summer Bridge: a five-week summer reading and math program for about 45 rising 4th-7th graders. Family Learning Nights: four evenings a year where families meet their child's tutor and take home learning kits in English, Spanish, and Portuguese.",
+    "population_served": "About 140 students a year in grades 3-8 (ages 8-14) at two Bridgeport public schools. About 85% qualify for free or reduced-price school meals, and about 30% are multilingual learners, mostly from Spanish- and Portuguese-speaking families.",
+    "tax_status": "Yes, IRS-recognized 501(c)(3)",
+    "requested_amount": 25000,
+    "funding_purpose": "Recruit, train, and support 20 more volunteer tutors and add a third partner school, so 50 more students can be tutored in the 2027-28 school year.",
+    "track_record": "Founded in 2017; more than 900 students served in total. In the 2025-26 school year, 72% of students who attended at least 30 sessions gained one or more grade levels on the district's spring reading assessment, and 64% did so in math. 58 volunteer tutors gave about 4,100 hours, and 70% returned for a second year. Students attended 81% of scheduled sessions on average.",
+    "annual_budget": 285000,
+    "staff_size": 3,
+    "founded_year": 2017,
+    "focus_areas": ["Education", "Youth"]
+  },
+  "saved_grants": ["sample-01", "sample-05"],
+  "application": {
+    "grant_id": "sample-01",
+    "status": "Researching",
+    "amount_requested": 25000,
+    "notes": "Sample application. Confirm attendance data with the program director before submitting."
+  }
+}

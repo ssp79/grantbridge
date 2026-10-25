@@ -1,0 +1,3536 @@
+{
+ "meta": {
+  "when": "2026-10-21 00:57 UTC",
+  "mode": "live: real model calls through the course Portkey gateway, fresh answers only",
+  "model": "gpt-6-luna",
+  "served_model": "gpt-6-luna-2026-09-22",
+  "reps": 3,
+  "settings": {
+   "baseline": {
+    "GRANTBRIDGE_REASONING_EFFORT": "default"
+   },
+   "low reasoning": {
+    "GRANTBRIDGE_REASONING_EFFORT": "low"
+   }
+  },
+  "monthly_use": {
+   "Explain fit": 20,
+   "Advisor answer": 40,
+   "Draft one answer": 10
+  },
+  "daily_budget": 100000,
+  "server_daily_budget": 1000000
+ },
+ "records": [
+  {
+   "workflow": "Explain fit",
+   "case": "sample-01: passes every automatic check",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000387425,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1284,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1281,
+     "output_tokens": 454,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 7426,
+     "model_ms": 7426,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1284,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1281,
+    "output_tokens": 454,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 7426,
+    "model_ms": 7426,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000387425
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": true
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "likely fit (confidence medium). The tutoring program appears to match the sample grant\u2019s Connecticut, education, student-age, and funding criteria. This is a sample for the demo, not a real opportunity; the listed deadline status says it is not accepting applications."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-08: fails the award range check",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000468925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1236,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1233,
+     "output_tokens": 629,
+     "reasoning_tokens": 307,
+     "elapsed_ms": 6214,
+     "model_ms": 6214,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1236,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1233,
+    "output_tokens": 629,
+    "reasoning_tokens": 307,
+    "elapsed_ms": 6214,
+    "model_ms": 6214,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000468925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": true
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The family-learning focus and four annual Family Learning Nights appear relevant. However, the $25,000 request exceeds the listed $20,000 maximum, and family involvement in planning or evaluation is unknown. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-07: fails the state check (required)",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000502675,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1226,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1223,
+     "output_tokens": 699,
+     "reasoning_tokens": 423,
+     "elapsed_ms": 7016,
+     "model_ms": 7016,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1226,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1223,
+    "output_tokens": 699,
+    "reasoning_tokens": 423,
+    "elapsed_ms": 7016,
+    "model_ms": 7016,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000502675
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "unlikely fit (confidence medium). This is a sample for the demo, not a real opportunity. The listed grant targets adult job training leading to industry-recognized credentials, while Harbor Lantern serves school-age students through tutoring. The state check also fails."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "Which sample grants fit us best?",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000877375,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 2,
+     "input_tokens": 4014,
+     "cached_tokens": 0,
+     "cache_write_tokens": 3039,
+     "output_tokens": 800,
+     "reasoning_tokens": 156,
+     "elapsed_ms": 8867,
+     "model_ms": 8809,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 2,
+    "input_tokens": 4014,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3039,
+    "output_tokens": 800,
+    "reasoning_tokens": 156,
+    "elapsed_ms": 8867,
+    "model_ms": 8809,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000877375
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": false
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "- **Connecticut After-School Learning Grant (sample-01):** Strong program match for your after-school tutoring. Automatic checks meet on state, focus, request range, self-reported 501(c)(3), and budget. Human checks remain: serving K\u201312 students outside school hours and reporting attendance plus an academic outcome.\n- **New England Youth Opportunity Fund (sample-05):** Your reported ages and low-income participation appear aligned with its unchecked age and income conditions, but those need human verification. Automatic checks meet on state, focus, request range, self-reported 501(c)(3), and request versus budget.\n- **Small Nonprofit Capacity Grant (sample-03):** Could match your tutor expansion. Automatic checks meet across all listed criteria; human check: submitting the latest annual financial statement.\n\nI\u2019d prioritize sample-01 for program fit, then sample-05 and sample-03. Automatic checks are not a determination that you qualify."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "What does the Connecticut After-School Learning Grant require?",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000718915,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 4,
+     "tool_calls": 3,
+     "input_tokens": 6698,
+     "cached_tokens": 3354,
+     "cache_write_tokens": 2359,
+     "output_tokens": 584,
+     "reasoning_tokens": 122,
+     "elapsed_ms": 9685,
+     "model_ms": 9634,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 4,
+    "tool_calls": 3,
+    "input_tokens": 6698,
+    "cached_tokens": 3354,
+    "cache_write_tokens": 2359,
+    "output_tokens": 584,
+    "reasoning_tokens": 122,
+    "elapsed_ms": 9685,
+    "model_ms": 9634,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000718915
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The **Connecticut After-School Learning Grant** is fictional sample data\u2014not a real or currently accepting opportunity. (Sample grant.)\n\nIts listed requirements are: IRS-recognized 501(c)(3) public charity; located in Connecticut and serving Connecticut students; serve K\u201312 students outside the regular school day; annual operating budget under $1,000,000; and report student attendance plus at least one academic outcome. (Sample grant.)\n\nThe automatic checks say your profile meets the state, focus-area, requested-award-range, self-reported 501(c)(3), and budget checks. They do **not** automatically verify the after-school program or outcome-reporting requirements; those need human review. (Sample grant.)\n\nThe sample application asks about your organization and students, program schedule and staffing, tracked academic outcomes and recent results, and planned use of funds. (Sample grant.)"
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "How far along are my applications?",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000363375,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 1,
+     "input_tokens": 2238,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1263,
+     "output_tokens": 216,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 4016,
+     "model_ms": 3977,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 1,
+    "input_tokens": 2238,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1263,
+    "output_tokens": 216,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 4016,
+    "model_ms": 3977,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000363375
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    }
+   ],
+   "shown": "You have 1 application in progress: **Connecticut After-School Learning Grant** (sample grant). Its status is **Researching**. None of its 4 questions have been answered, and none are over the word limit. The recorded due date is **December 11, 2026**; the application record does not say whether that deadline is still current."
+  },
+  {
+   "workflow": "Draft one answer",
+   "case": "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+   "setting": "baseline",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "find facts",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0007246,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 931,
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1263,
+     "reasoning_tokens": 839,
+     "elapsed_ms": 23266,
+     "model_ms": 23202,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "draft",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000603175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1062,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1059,
+     "output_tokens": 941,
+     "reasoning_tokens": 415,
+     "elapsed_ms": 9339,
+     "model_ms": 9291,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "review",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000644925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1448,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1445,
+     "output_tokens": 928,
+     "reasoning_tokens": 516,
+     "elapsed_ms": 8635,
+     "model_ms": 8578,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 0,
+    "input_tokens": 3441,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2504,
+    "output_tokens": 3132,
+    "reasoning_tokens": 1770,
+    "elapsed_ms": 41240,
+    "model_ms": 41071,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.0019727
+   },
+   "checks": [
+    {
+     "check": "All three steps answered by the AI (no fallback)",
+     "passed": true
+    },
+    {
+     "check": "Fact finder asked 1 to 4 questions",
+     "passed": true
+    },
+    {
+     "check": "Fact finder listed facts the profile already has",
+     "passed": true
+    },
+    {
+     "check": "Draft stays within the word limit",
+     "passed": true
+    },
+    {
+     "check": "Draft invents no figures or names (nothing marked [VERIFY])",
+     "passed": true
+    },
+    {
+     "check": "Draft uses at least 40% of the word limit",
+     "passed": true
+    },
+    {
+     "check": "Review covers every requirement",
+     "passed": true
+    },
+    {
+     "check": "Every review quote is really in the answer",
+     "passed": true
+    },
+    {
+     "check": "Review writes a summary",
+     "passed": true
+    }
+   ],
+   "shown": "Draft (215 of 400 words): We provide free after-school tutoring for students in grades 3\u20138 at two Bridgeport public schools. From October through May, groups of three students meet with a trained volunteer tutor twice a week for 90 minutes. We serve about 140 students each year, and the requested funding would support recruiting, training, and supporting 20 additional volunteer tutors and adding a third partner school, with the goal of serving 50 more students in the 2027\u201328 school year.\n\nOur program director, a former Bridgeport teacher, leads the work with two site coordinators. Before tutoring, each volunteer completes eight hours of training in reading and math strategies and receives monthly coaching. In 2025\u201326, 58 tutors contributed about 4,100 hours, and 70% returned for a second year.\n\nWe measure student participation through attendance and academic progress through the district\u2019s spring reading assessment. In 2025\u201326, 72% of students who attended at least 30 sessions gained one or more grade levels on that assessment. Students attended 81% of scheduled sessions on average.\n\nFamilies take part through four Family Learning Nights each year, where they meet their child\u2019s tutor and take home learning kits in English, Spanish, and Portuguese. About 30% of our students are multilingual learners, mostly from Spanish- and Portuguese-speaking families, so these materials help families engage with learning at home.\nReview: The draft addresses all three requirements and describes the program\u2019s schedule, staffing, progress measurement, and family participation. Clarify the assessment group size if available, and avoid presenting the learning kits\u2019 effect as established without supporting evidence."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-01: passes every automatic check",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000378925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1284,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1281,
+     "output_tokens": 437,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 4243,
+     "model_ms": 4243,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1284,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1281,
+    "output_tokens": 437,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 4243,
+    "model_ms": 4243,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000378925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "likely fit (confidence medium). The tutoring program appears closely aligned with this sample grant\u2019s Connecticut, after-school education focus and listed award range. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-08: fails the award range check",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000321425,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1236,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1233,
+     "output_tokens": 334,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3899,
+     "model_ms": 3899,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1236,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1233,
+    "output_tokens": 334,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 3899,
+    "model_ms": 3899,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000321425
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The tutoring and family learning activities align with the grant\u2019s education and family-engagement focus, but the $25,000 request exceeds the listed $20,000 maximum. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-07: fails the state check (required)",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000319175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1226,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1223,
+     "output_tokens": 332,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3704,
+     "model_ms": 3704,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1226,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1223,
+    "output_tokens": 332,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 3704,
+    "model_ms": 3704,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000319175
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "unlikely fit (confidence medium). The grant\u2019s stated focus and award range match, but its regional and participant requirements do not match Harbor Lantern\u2019s profile. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "Which sample grants fit us best?",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000744875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 2,
+     "input_tokens": 4014,
+     "cached_tokens": 0,
+     "cache_write_tokens": 3039,
+     "output_tokens": 535,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 6127,
+     "model_ms": 6055,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 2,
+    "input_tokens": 4014,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3039,
+    "output_tokens": 535,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 6127,
+    "model_ms": 6055,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000744875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The strongest apparent fits are these **fictional sample grants\u2014not real or accepting applications**:\n\n- **Small Nonprofit Capacity Grant (sample-03):** All automatic checks meet, including focus, state, request amount, 501(c)(3) status, budget, and staff size. You\u2019d still need to confirm the requirement to submit your latest annual financial statement.\n- **Connecticut After-School Learning Grant (sample-01):** All automatic checks meet. Your after-school tutoring appears relevant, but a human must confirm the K\u201312/outside-school-hours and attendance/outcome requirements.\n- **New England Youth Opportunity Fund (sample-05):** All automatic checks meet. The age requirement seems consistent with the students you serve; confirm that at least 60% of participants meet its low-income definition.\n\nThese rise to the top because they match your focus and requested amount, with the first having fewer unchecked requirements. None is verified as a fit; check the remaining requirements before pursuing one."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "What does the Connecticut After-School Learning Grant require?",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000650415,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 4,
+     "tool_calls": 3,
+     "input_tokens": 6698,
+     "cached_tokens": 3354,
+     "cache_write_tokens": 2359,
+     "output_tokens": 447,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 9496,
+     "model_ms": 9434,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 4,
+    "tool_calls": 3,
+    "input_tokens": 6698,
+    "cached_tokens": 3354,
+    "cache_write_tokens": 2359,
+    "output_tokens": 447,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 9496,
+    "model_ms": 9434,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000650415
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": false
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "This is a **fictional sample grant**, not a real funding opportunity. Its listed requirements are:\n- Be an IRS-recognized 501(c)(3) public charity and be located in Connecticut, serving Connecticut students.\n- Run a program for K\u201312 students outside the regular school day.\n- Have an annual operating budget under $1,000,000.\n- Report student attendance and at least one academic outcome.\n\nThe sample record also lists four application prompts: describe your organization and students (250 words); the program schedule and staffing (400 words); tracked academic outcomes and recent results (300 words); and how funds would be used (200 words).\n\nFor your profile, the automatic checks meet the sample\u2019s state, focus, request-size, self-reported 501(c)(3), and budget checks. Whether the program meets the after-school requirement and reporting requirement was not automatically checked, so those need human verification. The sample is not accepting applications."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "How far along are my applications?",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000374875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 1,
+     "input_tokens": 2238,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1263,
+     "output_tokens": 239,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 6415,
+     "model_ms": 6387,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 1,
+    "input_tokens": 2238,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1263,
+    "output_tokens": 239,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 6415,
+    "model_ms": 6387,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000374875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    }
+   ],
+   "shown": "You have **1 application** in progress: **Connecticut After-School Learning Grant** (sample grant **sample-01**). Its status is **Researching**. **0 of 4 questions are answered**, and none are over the word limit. The recorded due date is **December 11, 2026**. The application record lists **$25,000 requested**."
+  },
+  {
+   "workflow": "Draft one answer",
+   "case": "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+   "setting": "low reasoning",
+   "rep": 1,
+   "runs": [
+    {
+     "step": "find facts",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0004336,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 931,
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 681,
+     "reasoning_tokens": 220,
+     "elapsed_ms": 6112,
+     "model_ms": 6086,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "draft",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000432675,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1062,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1059,
+     "output_tokens": 600,
+     "reasoning_tokens": 128,
+     "elapsed_ms": 6348,
+     "model_ms": 6328,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "review",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0005183,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1459,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1456,
+     "output_tokens": 672,
+     "reasoning_tokens": 240,
+     "elapsed_ms": 6613,
+     "model_ms": 6589,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 0,
+    "input_tokens": 3452,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2515,
+    "output_tokens": 1953,
+    "reasoning_tokens": 588,
+    "elapsed_ms": 19073,
+    "model_ms": 19003,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.001384575
+   },
+   "checks": [
+    {
+     "check": "All three steps answered by the AI (no fallback)",
+     "passed": true
+    },
+    {
+     "check": "Fact finder asked 1 to 4 questions",
+     "passed": true
+    },
+    {
+     "check": "Fact finder listed facts the profile already has",
+     "passed": true
+    },
+    {
+     "check": "Draft stays within the word limit",
+     "passed": true
+    },
+    {
+     "check": "Draft invents no figures or names (nothing marked [VERIFY])",
+     "passed": true
+    },
+    {
+     "check": "Draft uses at least 40% of the word limit",
+     "passed": true
+    },
+    {
+     "check": "Review covers every requirement",
+     "passed": true
+    },
+    {
+     "check": "Every review quote is really in the answer",
+     "passed": true
+    },
+    {
+     "check": "Review writes a summary",
+     "passed": true
+    }
+   ],
+   "shown": "Draft (224 of 400 words): Our After-School Tutoring program provides free, small-group reading and math support to students in grades 3\u20138 at two Bridgeport public schools. From October through May, groups of three students meet with a trained volunteer tutor twice a week for 90 minutes. With this grant, we would recruit, train, and support 20 additional volunteer tutors and add a third partner school, with the goal of serving 50 more students in the 2027\u201328 school year.\n\nOur program director, a former Bridgeport teacher, leads the work with two site coordinators. Before starting, every volunteer tutor completes eight hours of training in reading and math strategies, followed by monthly coaching. In 2025\u201326, 58 tutors contributed about 4,100 hours, and 70% returned for a second year.\n\nWe track student attendance and academic progress. Students attended an average of 81% of scheduled sessions in 2025\u201326. We measure reading and math progress using the district\u2019s spring assessments. Among students who attended at least 30 sessions that school year, 72% gained one or more grade levels on the spring reading assessment, and 64% did so in math.\n\nFamilies take part through four Family Learning Nights each year, where they meet their child\u2019s tutor and take home learning kits in English, Spanish, and Portuguese. These evenings connect families with the tutoring team and provide materials they can use to support learning at home.\nReview: The draft addresses all three requirements and describes the schedule, staffing, progress measures, and family participation. The reported results would be stronger with a source and cohort size, and one statement about supporting learning at home is not substantiated by the supplied information."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-01: passes every automatic check",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000542925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1284,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1281,
+     "output_tokens": 765,
+     "reasoning_tokens": 421,
+     "elapsed_ms": 6478,
+     "model_ms": 6478,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1284,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1281,
+    "output_tokens": 765,
+    "reasoning_tokens": 421,
+    "elapsed_ms": 6478,
+    "model_ms": 6478,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000542925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The listed criteria align well with Harbor Lantern\u2019s Connecticut after-school tutoring, requested amount, and budget. This grant is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-08: fails the award range check",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000449925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1236,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1233,
+     "output_tokens": 591,
+     "reasoning_tokens": 227,
+     "elapsed_ms": 6330,
+     "model_ms": 6330,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1236,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1233,
+    "output_tokens": 591,
+    "reasoning_tokens": 227,
+    "elapsed_ms": 6330,
+    "model_ms": 6330,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000449925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The education and family-learning activities appear relevant, but the $25,000 request exceeds the listed $20,000 maximum. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-07: fails the state check (required)",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000560175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1226,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1223,
+     "output_tokens": 814,
+     "reasoning_tokens": 410,
+     "elapsed_ms": 17077,
+     "model_ms": 17077,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1226,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1223,
+    "output_tokens": 814,
+    "reasoning_tokens": 410,
+    "elapsed_ms": 17077,
+    "model_ms": 17077,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000560175
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "unlikely fit (confidence medium). This is a sample for the demo, not a real opportunity. The request amount is within the listed range, but the organization is in Connecticut and serves school-age students, while the listing specifies a four-state region and adult credential training."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "Which sample grants fit us best?",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000963875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 2,
+     "input_tokens": 4014,
+     "cached_tokens": 0,
+     "cache_write_tokens": 3039,
+     "output_tokens": 973,
+     "reasoning_tokens": 348,
+     "elapsed_ms": 10004,
+     "model_ms": 9968,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 2,
+    "input_tokens": 4014,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3039,
+    "output_tokens": 973,
+    "reasoning_tokens": 348,
+    "elapsed_ms": 10004,
+    "model_ms": 9968,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000963875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "These **fictional sample grants** look like the strongest potential fits\u2014not real opportunities, and none is accepting applications:\n\n- **Connecticut After-School Learning Grant (sample-01):** Strong match for your after-school tutoring in grades 3\u20138. Its unchecked requirements\u2014serving K\u201312 students outside school hours and reporting attendance plus an academic outcome\u2014appear consistent with your programs and reported tracking. Human review is still needed.\n- **New England Youth Opportunity Fund (sample-05):** Your reported participant ages (8\u201314) fit its unchecked 8\u201318 age range. Your reported 85% qualifying for free or reduced-price school meals suggests a possible match for its low-income threshold, but confirm how the fund defines that requirement.\n- **Small Nonprofit Capacity Grant (sample-03):** All listed automatic checks meet, including the request amount and staff-size check. You\u2019d still need to confirm you can submit the most recent annual financial statement.\n\nThe checks are not a determination that you qualify; review each grant\u2019s full rules before relying on the match."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "What does the Connecticut After-School Learning Grant require?",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000701415,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 4,
+     "tool_calls": 3,
+     "input_tokens": 6698,
+     "cached_tokens": 3354,
+     "cache_write_tokens": 2359,
+     "output_tokens": 549,
+     "reasoning_tokens": 87,
+     "elapsed_ms": 9176,
+     "model_ms": 9134,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 4,
+    "tool_calls": 3,
+    "input_tokens": 6698,
+    "cached_tokens": 3354,
+    "cache_write_tokens": 2359,
+    "output_tokens": 549,
+    "reasoning_tokens": 87,
+    "elapsed_ms": 9176,
+    "model_ms": 9134,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000701415
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The **Connecticut After-School Learning Grant is fictional sample data, not a real opportunity** (\u201csample grant\u201d). Its listed requirements are: an IRS-recognized 501(c)(3) public charity located in Connecticut and serving Connecticut students; a K\u201312 program outside regular school hours; an annual operating budget under $1,000,000; and reporting student attendance plus at least one academic outcome.\n\nThe sample grant\u2019s automatic checks say your profile meets the state, focus-area, request-range, self-reported 501(c)(3), and budget checks. Those checks do not establish eligibility. A human would still need to verify that the program meets the after-school requirement and that the required attendance and academic outcomes are reported. The grant\u2019s listed application asks for four descriptions: your organization/students, program schedule/staffing, tracked academic outcomes and results, and intended use of funds. Its example deadline is not real."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "How far along are my applications?",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000444875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 1,
+     "input_tokens": 2238,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1263,
+     "output_tokens": 379,
+     "reasoning_tokens": 145,
+     "elapsed_ms": 6187,
+     "model_ms": 6160,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 1,
+    "input_tokens": 2238,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1263,
+    "output_tokens": 379,
+    "reasoning_tokens": 145,
+    "elapsed_ms": 6187,
+    "model_ms": 6160,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000444875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    }
+   ],
+   "shown": "Your application for the Connecticut After-School Learning Grant is marked **Researching**. It has **0 of 4 questions answered**; none are over the word limit. The recorded due date is **December 11, 2026**. This is a fictional sample grant in GrantBridge\u2019s demo data, not a live opportunity."
+  },
+  {
+   "workflow": "Draft one answer",
+   "case": "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+   "setting": "baseline",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "find facts",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0006671,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 931,
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 1148,
+     "reasoning_tokens": 659,
+     "elapsed_ms": 24350,
+     "model_ms": 24316,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "draft",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000433175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1062,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1059,
+     "output_tokens": 601,
+     "reasoning_tokens": 171,
+     "elapsed_ms": 6800,
+     "model_ms": 6777,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "review",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000971425,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1404,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1401,
+     "output_tokens": 1592,
+     "reasoning_tokens": 1173,
+     "elapsed_ms": 13254,
+     "model_ms": 13226,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 0,
+    "input_tokens": 3397,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2460,
+    "output_tokens": 3341,
+    "reasoning_tokens": 2003,
+    "elapsed_ms": 44404,
+    "model_ms": 44319,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.0020717
+   },
+   "checks": [
+    {
+     "check": "All three steps answered by the AI (no fallback)",
+     "passed": true
+    },
+    {
+     "check": "Fact finder asked 1 to 4 questions",
+     "passed": true
+    },
+    {
+     "check": "Fact finder listed facts the profile already has",
+     "passed": true
+    },
+    {
+     "check": "Draft stays within the word limit",
+     "passed": true
+    },
+    {
+     "check": "Draft invents no figures or names (nothing marked [VERIFY])",
+     "passed": true
+    },
+    {
+     "check": "Draft uses at least 40% of the word limit",
+     "passed": true
+    },
+    {
+     "check": "Review covers every requirement",
+     "passed": true
+    },
+    {
+     "check": "Every review quote is really in the answer",
+     "passed": true
+    },
+    {
+     "check": "Review writes a summary",
+     "passed": true
+    }
+   ],
+   "shown": "Draft (190 of 400 words): We provide free after-school tutoring for students in grades 3\u20138 at Bridgeport public schools. From October through May, students meet twice a week for 90 minutes in small groups of three with a trained volunteer tutor. Our program director, a former Bridgeport teacher, leads the work with two site coordinators. Before starting, each tutor completes eight hours of training in reading and math strategies and receives monthly coaching.\n\nThis grant would support recruiting, training, and supporting 20 additional volunteer tutors and adding a third partner school, with the goal of tutoring 50 more students in the 2027\u201328 school year.\n\nWe track student attendance and academic progress. In the 2025\u201326 school year, students attended an average of 81% of scheduled sessions. We also use the district\u2019s spring reading assessment to measure reading progress and its spring math assessment to measure math progress. Among students who attended at least 30 sessions, 72% gained one or more grade levels in reading and 64% did so in math.\n\nFamilies take part in four Family Learning Nights each year, where they meet their child\u2019s tutor and take home learning kits in English, Spanish, and Portuguese.\nReview: The draft addresses the program schedule, staffing, progress measurement, and family participation. Clarify the source of the math assessment and add cohort and attendance-data details to strengthen the evidence."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-01: passes every automatic check",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000363425,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1284,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1281,
+     "output_tokens": 406,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 4339,
+     "model_ms": 4339,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1284,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1281,
+    "output_tokens": 406,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 4339,
+    "model_ms": 4339,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000363425
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": true
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "likely fit (confidence medium). The tutoring work appears closely aligned with the sample grant\u2019s Connecticut, after-school education focus and listed award range. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-08: fails the award range check",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000283925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1236,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1233,
+     "output_tokens": 259,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3154,
+     "model_ms": 3154,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1236,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1233,
+    "output_tokens": 259,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 3154,
+    "model_ms": 3154,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000283925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The tutoring and family-learning activities appear relevant to the grant\u2019s family-engagement focus, but the $25,000 request exceeds the $20,000 maximum. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-07: fails the state check (required)",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000322675,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1226,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1223,
+     "output_tokens": 339,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3620,
+     "model_ms": 3620,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1226,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1223,
+    "output_tokens": 339,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 3620,
+    "model_ms": 3620,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000322675
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "unlikely fit (confidence medium). This is a sample for the demo, not a real opportunity. The listed regional and adult-training requirements conflict with Harbor Lantern\u2019s Connecticut location and its tutoring for children."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "Which sample grants fit us best?",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000751405,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 3,
+     "tool_calls": 2,
+     "input_tokens": 5482,
+     "cached_tokens": 1473,
+     "cache_write_tokens": 3031,
+     "output_tokens": 520,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 8118,
+     "model_ms": 8092,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 2,
+    "input_tokens": 5482,
+    "cached_tokens": 1473,
+    "cache_write_tokens": 3031,
+    "output_tokens": 520,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 8118,
+    "model_ms": 8092,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000751405
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The strongest apparent matches are **sample-01, Connecticut After-School Learning Grant**, and **sample-03, Small Nonprofit Capacity Grant**. Both show automatic checks as meeting for state, education/youth focus, your $25,000 request, and your self-reported 501(c)(3) status. Sample-03 also meets its budget and staff-size checks; sample-01 meets its budget check.\n\n**sample-05, New England Youth Opportunity Fund**, also looks promising: its automatic checks meet for state, focus, request versus budget, and self-reported 501(c)(3) status. Its unchecked conditions\u2014ages 8\u201318 and at least 60% low-income participants\u2014appear aligned with your profile, but need human verification.\n\nThese are fictional sample grants, not real opportunities and not accepting applications. For sample-01, verify the after-school K\u201312 and attendance/outcome requirements; for sample-03, verify the financial-statement requirement."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "What does the Connecticut After-School Learning Grant require?",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000651915,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 4,
+     "tool_calls": 3,
+     "input_tokens": 6698,
+     "cached_tokens": 3354,
+     "cache_write_tokens": 2359,
+     "output_tokens": 450,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 9360,
+     "model_ms": 9330,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 4,
+    "tool_calls": 3,
+    "input_tokens": 6698,
+    "cached_tokens": 3354,
+    "cache_write_tokens": 2359,
+    "output_tokens": 450,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 9360,
+    "model_ms": 9330,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000651915
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The Connecticut After-School Learning Grant is **fictional sample data, not a real or available grant**. Its sample requirements are:\n- IRS-recognized 501(c)(3) public charity located in Connecticut and serving Connecticut students.\n- Serve K\u201312 students outside the regular school day.\n- Annual operating budget under $1,000,000.\n- Report student attendance and at least one academic outcome.\n\nThe sample listing\u2019s automatic checks show \u201cmeets\u201d for state, focus area, requested amount, self-reported 501(c)(3) status, and budget. The out-of-school-time program and reporting requirements were not automatically checked and need human review. The sample award range is $10,000\u2013$40,000. Its example deadline is not real."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "How far along are my applications?",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000365875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 1,
+     "input_tokens": 2238,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1263,
+     "output_tokens": 221,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 4654,
+     "model_ms": 4633,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 1,
+    "input_tokens": 2238,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1263,
+    "output_tokens": 221,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 4654,
+    "model_ms": 4633,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000365875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    }
+   ],
+   "shown": "You have 1 application in progress: Connecticut After-School Learning Grant (sample grant; fictional demo data). Its status is \u201cResearching.\u201d None of the 4 questions are answered, and none are over the word limit. The recorded due date is December 11, 2026, and the requested amount is $25,000."
+  },
+  {
+   "workflow": "Draft one answer",
+   "case": "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+   "setting": "low reasoning",
+   "rep": 2,
+   "runs": [
+    {
+     "step": "find facts",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0004431,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 931,
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 700,
+     "reasoning_tokens": 323,
+     "elapsed_ms": 17850,
+     "model_ms": 17826,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "draft",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000394175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1062,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1059,
+     "output_tokens": 523,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 4272,
+     "model_ms": 4247,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "review",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0004563,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1455,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1452,
+     "output_tokens": 549,
+     "reasoning_tokens": 209,
+     "elapsed_ms": 5557,
+     "model_ms": 5530,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 0,
+    "input_tokens": 3448,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2511,
+    "output_tokens": 1772,
+    "reasoning_tokens": 532,
+    "elapsed_ms": 27679,
+    "model_ms": 27603,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.001293575
+   },
+   "checks": [
+    {
+     "check": "All three steps answered by the AI (no fallback)",
+     "passed": true
+    },
+    {
+     "check": "Fact finder asked 1 to 4 questions",
+     "passed": true
+    },
+    {
+     "check": "Fact finder listed facts the profile already has",
+     "passed": true
+    },
+    {
+     "check": "Draft stays within the word limit",
+     "passed": true
+    },
+    {
+     "check": "Draft invents no figures or names (nothing marked [VERIFY])",
+     "passed": true
+    },
+    {
+     "check": "Draft uses at least 40% of the word limit",
+     "passed": true
+    },
+    {
+     "check": "Review covers every requirement",
+     "passed": true
+    },
+    {
+     "check": "Every review quote is really in the answer",
+     "passed": true
+    },
+    {
+     "check": "Review writes a summary",
+     "passed": true
+    }
+   ],
+   "shown": "Draft (219 of 400 words): We provide free after-school tutoring to students in grades 3\u20138 at two Bridgeport public elementary and middle schools. From October through May, groups of three students meet with a trained volunteer tutor twice a week for 90 minutes. The grant would support recruiting, training, and supporting 20 additional volunteer tutors and adding a third partner school, with the goal of serving 50 more students in the 2027\u201328 school year.\n\nOur program director, a former Bridgeport teacher, leads the work with two site coordinators. Each volunteer completes eight hours of reading and math strategies training before tutoring begins and receives monthly coaching. In 2025\u201326, 58 tutors contributed about 4,100 hours, and 70% returned for a second year.\n\nWe track attendance and academic progress. Students attended an average of 81% of scheduled sessions in 2025\u201326. We measure reading and math growth using the district\u2019s spring reading assessment and [NEEDS: name of math assessment]. Among students who attended at least 30 sessions, 72% gained one or more grade levels on the spring reading assessment, and 64% did so in math.\n\nFamilies take part through four Family Learning Nights each year, where they meet their child\u2019s tutor and take home learning kits in English, Spanish, and Portuguese. About 30% of the students we serve are multilingual learners, mostly from Spanish- and Portuguese-speaking families.\nReview: The draft answers the program, schedule, staffing, and family-participation questions and includes attendance and academic outcomes. Identify the math assessment before submission to fully explain how progress is measured."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-01: passes every automatic check",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000556925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1284,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1281,
+     "output_tokens": 793,
+     "reasoning_tokens": 375,
+     "elapsed_ms": 7571,
+     "model_ms": 7571,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1284,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1281,
+    "output_tokens": 793,
+    "reasoning_tokens": 375,
+    "elapsed_ms": 7571,
+    "model_ms": 7571,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000556925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": true
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The tutoring programs appear aligned with the grant\u2019s education focus, student grades, location, and award range. This is a sample for the demo, not a real opportunity. SAMPLE / NOT LIVE: this grant is invented for the demo and is not accepting applications. Its example deadline (2026-12-11) is not real."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-08: fails the award range check",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000493925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1236,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1233,
+     "output_tokens": 679,
+     "reasoning_tokens": 312,
+     "elapsed_ms": 6175,
+     "model_ms": 6175,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1236,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1233,
+    "output_tokens": 679,
+    "reasoning_tokens": 312,
+    "elapsed_ms": 6175,
+    "model_ms": 6175,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000493925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": true
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The program aligns with the grant\u2019s family-engagement focus, including four annual Family Learning Nights. However, the $25,000 request exceeds the listed $20,000 maximum, and family involvement in planning or evaluation is unknown. This grant is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-07: fails the state check (required)",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000548675,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1226,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1223,
+     "output_tokens": 791,
+     "reasoning_tokens": 364,
+     "elapsed_ms": 7214,
+     "model_ms": 7214,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1226,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1223,
+    "output_tokens": 791,
+    "reasoning_tokens": 364,
+    "elapsed_ms": 7214,
+    "model_ms": 7214,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000548675
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "unlikely fit (confidence medium). The organization\u2019s Connecticut location conflicts with the listed state requirement, and its tutoring serves children rather than adults seeking job credentials. The $25,000 request is within the listed range, but this grant is an invented sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "Which sample grants fit us best?",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000885875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 2,
+     "input_tokens": 4014,
+     "cached_tokens": 0,
+     "cache_write_tokens": 3039,
+     "output_tokens": 817,
+     "reasoning_tokens": 179,
+     "elapsed_ms": 8788,
+     "model_ms": 8761,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 2,
+    "input_tokens": 4014,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3039,
+    "output_tokens": 817,
+    "reasoning_tokens": 179,
+    "elapsed_ms": 8788,
+    "model_ms": 8761,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000885875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": false
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "These are **fictional sample grants, not real opportunities**; none is accepting applications. Based on the available checks and how closely the stated criteria match your program, I\u2019d prioritize:\n\n1. **Connecticut After-School Learning Grant (sample-01)** \u2014 Strongest program fit: its unchecked criteria cover K\u201312 students served outside school hours and reporting attendance and an academic outcome. Your profile describes after-school tutoring and tracks both attendance and academic outcomes; confirm the funder\u2019s exact definitions.\n2. **New England Youth Opportunity Fund (sample-05)** \u2014 Strong fit for youth ages 8\u201318; the listed age and 60% low-income criteria still need human confirmation. Your profile reports ages 8\u201314 and about 85% qualify for free or reduced-price school meals, which does not by itself verify the fund\u2019s low-income definition.\n3. **Small Nonprofit Capacity Grant (sample-03)** \u2014 Its automatic checks meet, including your stated request and budget range. It requires the most recent annual financial statement, which has not been checked.\n\nAll listed automatic checks for these grants meet, but that does **not** establish eligibility. The remaining criteria need human review, and the 501(c)(3) status is self-reported, not verified."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "What does the Connecticut After-School Learning Grant require?",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000708415,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 4,
+     "tool_calls": 3,
+     "input_tokens": 6698,
+     "cached_tokens": 3354,
+     "cache_write_tokens": 2359,
+     "output_tokens": 563,
+     "reasoning_tokens": 137,
+     "elapsed_ms": 10888,
+     "model_ms": 10849,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 4,
+    "tool_calls": 3,
+    "input_tokens": 6698,
+    "cached_tokens": 3354,
+    "cache_write_tokens": 2359,
+    "output_tokens": 563,
+    "reasoning_tokens": 137,
+    "elapsed_ms": 10888,
+    "model_ms": 10849,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000708415
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The **Connecticut After-School Learning Grant is fictional sample data, not a real opportunity**. Its sample grant record lists these requirements:\n- Be an IRS-recognized 501(c)(3) public charity located in Connecticut and serving Connecticut students.\n- Serve K\u201312 students outside the regular school day.\n- Have an annual operating budget under $1,000,000.\n- Report student attendance and at least one academic outcome.\n\nThe sample record lists a $10,000\u2013$40,000 award range and application questions about your organization and students, program schedule and staffing, tracked outcomes and recent results, and planned use of funds. Automatic checks show \u201cmeets\u201d for state, focus area, requested amount, self-reported 501(c)(3) status, and budget. The program details and outcome-reporting requirements were not checked automatically and need human review. The sample deadline is not real; this is not accepting applications."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "How far along are my applications?",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000461875,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 1,
+     "input_tokens": 2238,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1263,
+     "output_tokens": 413,
+     "reasoning_tokens": 191,
+     "elapsed_ms": 7752,
+     "model_ms": 7726,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 1,
+    "input_tokens": 2238,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1263,
+    "output_tokens": 413,
+    "reasoning_tokens": 191,
+    "elapsed_ms": 7752,
+    "model_ms": 7726,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000461875
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    }
+   ],
+   "shown": "Your application for the Connecticut After-School Learning Grant is at the **Researching** stage. It\u2019s **0 of 4 questions answered**, and none are over the word limit. The application lists a due date of **December 11, 2026** and a requested amount of **$25,000**. This is a fictional sample grant in GrantBridge\u2019s demo data."
+  },
+  {
+   "workflow": "Draft one answer",
+   "case": "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+   "setting": "baseline",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "find facts",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0005721,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 931,
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 958,
+     "reasoning_tokens": 516,
+     "elapsed_ms": 11970,
+     "model_ms": 11950,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "draft",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000519175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1062,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1059,
+     "output_tokens": 773,
+     "reasoning_tokens": 325,
+     "elapsed_ms": 8099,
+     "model_ms": 8076,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "review",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000762425,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1420,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1417,
+     "output_tokens": 1170,
+     "reasoning_tokens": 826,
+     "elapsed_ms": 8696,
+     "model_ms": 8675,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 0,
+    "input_tokens": 3413,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2476,
+    "output_tokens": 2901,
+    "reasoning_tokens": 1667,
+    "elapsed_ms": 28765,
+    "model_ms": 28701,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.0018537
+   },
+   "checks": [
+    {
+     "check": "All three steps answered by the AI (no fallback)",
+     "passed": true
+    },
+    {
+     "check": "Fact finder asked 1 to 4 questions",
+     "passed": true
+    },
+    {
+     "check": "Fact finder listed facts the profile already has",
+     "passed": true
+    },
+    {
+     "check": "Draft stays within the word limit",
+     "passed": true
+    },
+    {
+     "check": "Draft invents no figures or names (nothing marked [VERIFY])",
+     "passed": true
+    },
+    {
+     "check": "Draft uses at least 40% of the word limit",
+     "passed": true
+    },
+    {
+     "check": "Review covers every requirement",
+     "passed": true
+    },
+    {
+     "check": "Every review quote is really in the answer",
+     "passed": true
+    },
+    {
+     "check": "Review writes a summary",
+     "passed": true
+    }
+   ],
+   "shown": "Draft (194 of 400 words): We provide free after-school tutoring for students in grades 3\u20138 at two Bridgeport public schools. From October through May, groups of three students meet with a trained volunteer tutor twice a week for 90 minutes. Our program director, a former Bridgeport teacher, leads the work with two site coordinators. Before tutoring begins, each volunteer completes eight hours of training in reading and math strategies and receives monthly coaching. In 2025\u201326, 58 volunteer tutors contributed about 4,100 hours, and 70% returned for a second year.\n\nWe track student attendance and measure academic progress using the district\u2019s spring reading and math assessments. In 2025\u201326, among students who attended at least 30 sessions, 72% gained one or more grade levels on the reading assessment and 64% did so in math. Students attended an average of 81% of scheduled sessions.\n\nFamilies take part in four Family Learning Nights each year, where they meet their child\u2019s tutor and take home learning kits in English, Spanish, and Portuguese. With this grant, we would recruit, train, and support 20 additional volunteer tutors and add a third partner school, with the goal of tutoring 50 more students in the 2027\u201328 school year.\nReview: The draft addresses the program, schedule, staffing, student progress measures, and family participation. Adding the outcome sample size and documentation would strengthen the evidence for the reported results."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-01: passes every automatic check",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000382925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1284,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1281,
+     "output_tokens": 445,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 4062,
+     "model_ms": 4062,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1284,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1281,
+    "output_tokens": 445,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 4062,
+    "model_ms": 4062,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000382925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": true
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "likely fit (confidence medium). The organization\u2019s Connecticut location, tutoring focus, request amount, and reported budget align with the listed criteria. This is a sample for the demo, not a real opportunity, and its application status and example deadline are not real."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-08: fails the award range check",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000315925,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1236,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1233,
+     "output_tokens": 323,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3924,
+     "model_ms": 3924,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1236,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1233,
+    "output_tokens": 323,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 3924,
+    "model_ms": 3924,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000315925
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "possible fit (confidence medium). The tutoring and family learning activities align with the sample grant\u2019s family-engagement focus, and the profile reports four family events each year. However, the $25,000 request exceeds the listed $20,000 maximum. This is a sample for the demo, not a real opportunity."
+  },
+  {
+   "workflow": "Explain fit",
+   "case": "sample-07: fails the state check (required)",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "explain fit",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000312675,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1226,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1223,
+     "output_tokens": 319,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3652,
+     "model_ms": 3652,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 1226,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1223,
+    "output_tokens": 319,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 3652,
+    "model_ms": 3652,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000312675
+   },
+   "checks": [
+    {
+     "check": "Returned a readable explanation",
+     "passed": true
+    },
+    {
+     "check": "Verdict agrees with the automatic checks, with no correction needed",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Confidence fits the unchecked items (no cap needed)",
+     "passed": false
+    },
+    {
+     "check": "Says the grant is a sample, not a real opportunity",
+     "passed": true
+    },
+    {
+     "check": "Gives at least two reasons",
+     "passed": true
+    },
+    {
+     "check": "Lists something to verify next",
+     "passed": true
+    }
+   ],
+   "shown": "unlikely fit (confidence medium). This is a sample for the demo, not a real opportunity. The organization\u2019s Connecticut location conflicts with the listed state requirement, and its tutoring serves children rather than adults seeking credentialed job training."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "Which sample grants fit us best?",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000753905,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 3,
+     "tool_calls": 2,
+     "input_tokens": 5482,
+     "cached_tokens": 1473,
+     "cache_write_tokens": 3031,
+     "output_tokens": 525,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 7584,
+     "model_ms": 7556,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 2,
+    "input_tokens": 5482,
+    "cached_tokens": 1473,
+    "cache_write_tokens": 3031,
+    "output_tokens": 525,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 7584,
+    "model_ms": 7556,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000753905
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "Based on your profile and the automatic checks, these fictional demo grants look like the strongest matches:\n\n- **Connecticut After-School Learning Grant (sample-01):** State, focus, request amount, self-reported 501(c)(3), and budget checks all meet. Human checks remain: whether the program serves K\u201312 students outside school hours and whether you can report attendance and an academic outcome.\n- **New England Youth Opportunity Fund (sample-05):** State, focus, request amount, self-reported 501(c)(3), and request-versus-budget checks all meet. Human checks remain: participant ages 8\u201318 and whether at least 60% are from low-income households.\n- **Small Nonprofit Capacity Grant (sample-03):** State, focus, request amount, self-reported 501(c)(3), budget, and staff-size checks all meet. Human check: submission of the most recent annual financial statement.\n\nThese are **fictional sample grants, not real opportunities**; none is accepting applications. Checks are not a determination that you qualify."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "What does the Connecticut After-School Learning Grant require?",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000668415,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 4,
+     "tool_calls": 3,
+     "input_tokens": 6698,
+     "cached_tokens": 3354,
+     "cache_write_tokens": 2359,
+     "output_tokens": 483,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 10183,
+     "model_ms": 10149,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 4,
+    "tool_calls": 3,
+    "input_tokens": 6698,
+    "cached_tokens": 3354,
+    "cache_write_tokens": 2359,
+    "output_tokens": 483,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 10183,
+    "model_ms": 10149,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000668415
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    },
+    {
+     "check": "Says the grants are samples (fictional demo data)",
+     "passed": true
+    }
+   ],
+   "shown": "The Connecticut After-School Learning Grant is **fictional sample data, not a real opportunity**. Its listed requirements are:\n- Be an IRS-recognized 501(c)(3) public charity and be located in Connecticut serving Connecticut students.\n- Serve K\u201312 students outside regular school hours.\n- Have an annual operating budget under $1,000,000.\n- Report student attendance and at least one academic outcome.\n\nFor your organization, the sample grant\u2019s automatic checks say state, focus area, requested amount, self-reported 501(c)(3) status, and budget **meet** the checks. A human still needs to verify the after-school K\u201312 service requirement and attendance/outcomes reporting. The sample lists four application prompts: organization/students, program schedule and staffing, tracked outcomes/results, and use of funds. It is not accepting applications; its example deadline is not real."
+  },
+  {
+   "workflow": "Advisor answer",
+   "case": "How far along are my applications?",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "advisor answer",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000370375,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 2,
+     "tool_calls": 1,
+     "input_tokens": 2238,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1263,
+     "output_tokens": 230,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 6696,
+     "model_ms": 6666,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 2,
+    "tool_calls": 1,
+    "input_tokens": 2238,
+    "cached_tokens": 0,
+    "cache_write_tokens": 1263,
+    "output_tokens": 230,
+    "reasoning_tokens": 0,
+    "elapsed_ms": 6696,
+    "model_ms": 6666,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.000370375
+   },
+   "checks": [
+    {
+     "check": "Answered by the AI (no fallback, no limit hit)",
+     "passed": true
+    },
+    {
+     "check": "Looked up the right record (the tool the question needs; sample-01 when asked about it)",
+     "passed": true
+    },
+    {
+     "check": "Every figure matches a record it retrieved",
+     "passed": true
+    },
+    {
+     "check": "Cites only grants it looked up",
+     "passed": true
+    },
+    {
+     "check": "No sentence had to be removed (open-status or eligibility claims)",
+     "passed": true
+    },
+    {
+     "check": "Names the grant it is about (a top-3 match, or the one asked about)",
+     "passed": true
+    },
+    {
+     "check": "Stays within the 180 words its instructions allow",
+     "passed": true
+    }
+   ],
+   "shown": "You have 1 application, for the Connecticut After-School Learning Grant (sample grant; fictional demo data). Its status is \u201cResearching,\u201d and 0 of 4 questions are answered. The due date listed is December 11, 2026. No answers are over the word limit. The application record lists $25,000 requested."
+  },
+  {
+   "workflow": "Draft one answer",
+   "case": "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+   "setting": "low reasoning",
+   "rep": 3,
+   "runs": [
+    {
+     "step": "find facts",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0004711,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 931,
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "output_tokens": 756,
+     "reasoning_tokens": 345,
+     "elapsed_ms": 8735,
+     "model_ms": 8708,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "draft",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.000337175,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1062,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1059,
+     "output_tokens": 409,
+     "reasoning_tokens": 0,
+     "elapsed_ms": 3648,
+     "model_ms": 3627,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    },
+    {
+     "step": "review",
+     "model": "gpt-6-luna",
+     "served_model": "gpt-6-luna-2026-09-22",
+     "gateway_cache": [
+      "refresh"
+     ],
+     "cost_usd": 0.0005423,
+     "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20",
+     "unpriced_calls": 0,
+     "model_calls": 1,
+     "tool_calls": 0,
+     "input_tokens": 1411,
+     "cached_tokens": 0,
+     "cache_write_tokens": 1408,
+     "output_tokens": 732,
+     "reasoning_tokens": 261,
+     "elapsed_ms": 6228,
+     "model_ms": 6196,
+     "unreported_calls": 0,
+     "gateway_hits": 0
+    }
+   ],
+   "totals": {
+    "model_calls": 3,
+    "tool_calls": 0,
+    "input_tokens": 3404,
+    "cached_tokens": 0,
+    "cache_write_tokens": 2467,
+    "output_tokens": 1897,
+    "reasoning_tokens": 606,
+    "elapsed_ms": 18611,
+    "model_ms": 18531,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "cost_usd": 0.001350575
+   },
+   "checks": [
+    {
+     "check": "All three steps answered by the AI (no fallback)",
+     "passed": true
+    },
+    {
+     "check": "Fact finder asked 1 to 4 questions",
+     "passed": true
+    },
+    {
+     "check": "Fact finder listed facts the profile already has",
+     "passed": true
+    },
+    {
+     "check": "Draft stays within the word limit",
+     "passed": true
+    },
+    {
+     "check": "Draft invents no figures or names (nothing marked [VERIFY])",
+     "passed": true
+    },
+    {
+     "check": "Draft uses at least 40% of the word limit",
+     "passed": true
+    },
+    {
+     "check": "Review covers every requirement",
+     "passed": true
+    },
+    {
+     "check": "Every review quote is really in the answer",
+     "passed": true
+    },
+    {
+     "check": "Review writes a summary",
+     "passed": true
+    }
+   ],
+   "shown": "Draft (195 of 400 words): We provide free after-school tutoring for students in grades 3\u20138 at two Bridgeport public schools. From October through May, groups of three students meet with a trained volunteer tutor twice a week for 90 minutes. Our program director, a former Bridgeport teacher, leads the work with two site coordinators. Before starting, each volunteer completes eight hours of training in reading and math strategies and then receives monthly coaching.\n\nThe requested grant would support recruiting, training, and supporting 20 additional volunteer tutors and adding a third partner school. We aim to make tutoring available to 50 more students in the 2027\u201328 school year.\n\nWe track attendance and assess academic progress using the district\u2019s spring reading and math assessments. In 2025\u201326, students attended an average of 81% of scheduled sessions. Among students who attended at least 30 sessions, 72% gained one or more grade levels on the spring reading assessment, and 64% did so in math.\n\nFamilies take part through four Family Learning Nights each year. They meet their child\u2019s tutor and take home learning kits in English, Spanish, and Portuguese. These gatherings help families connect with the tutoring program and support learning beyond the after-school sessions.\nReview: The draft addresses the program schedule, staffing, progress measurement, and family participation within the word limit. Clarify the basis for the math measure and add the sample size and source for the reported outcomes."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "run": "2026-10-21 19:02:34 UTC",
+ "command": "python -m pytest -q -p no:cacheprovider -rw",
+ "result": "724 passed in 478.23s (0:07:58)",
+ "passed": 724,
+ "failed": 0,
+ "seconds": 478.23,
+ "python": "3.12.10",
+ "network": "blocked by tests/conftest.py",
+ "notes": "Code with Can We Afford to Win?, the redesigned About page, and the fixes the browser runs found. No warnings were reported.",
+ "previous": [
+  {
+   "run": "2026-10-21 17:07:55 UTC",
+   "result": "675 passed in 298.77s (0:04:58)"
+  },
+  {
+   "run": "2026-10-21 ~16:49 UTC",
+   "result": "675 passed in 240.59s (0:04:00)"
+  },
+  {
+   "run": "2026-10-21 ~12:13 UTC",
+   "result": "673 passed in 290.84s (0:04:50)"
+  }
+ ]
+}

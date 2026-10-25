@@ -1,0 +1,62 @@
+{
+ "source": "docs/evidence/advisor-trace-2026-10-21.md",
+ "logged_at": "2026-10-21 12:46:04,759",
+ "run": 5,
+ "question": "Which sample grants fit us best?",
+ "steps": [
+  {
+   "tool": "receive_message",
+   "type": "code",
+   "status": "ok",
+   "ms": 0,
+   "tokens_in": 0,
+   "tokens_out": 0,
+   "cost_usd": null
+  },
+  {
+   "tool": "advisor_model",
+   "type": "llm",
+   "status": "ok",
+   "ms": 2822,
+   "tokens_in": 1181,
+   "tokens_out": 58,
+   "cost_usd": 0.000177
+  },
+  {
+   "tool": "get_organization_profile",
+   "type": "tool",
+   "status": "ok",
+   "ms": 0,
+   "tokens_in": 0,
+   "tokens_out": 0,
+   "cost_usd": null
+  },
+  {
+   "tool": "search_grants",
+   "type": "tool",
+   "status": "ok",
+   "ms": 1,
+   "tokens_in": 0,
+   "tokens_out": 0,
+   "cost_usd": null
+  },
+  {
+   "tool": "advisor_model",
+   "type": "llm",
+   "status": "ok",
+   "ms": 6532,
+   "tokens_in": 3251,
+   "tokens_out": 387,
+   "cost_usd": 0.000464
+  },
+  {
+   "tool": "check_reply",
+   "type": "code",
+   "status": "ok",
+   "ms": 10,
+   "tokens_in": 0,
+   "tokens_out": 0,
+   "cost_usd": null
+  }
+ ]
+}

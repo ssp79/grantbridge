@@ -1,0 +1,512 @@
+{
+ "sections": [
+  {
+   "heading": "Need",
+   "purpose": "Explain the need for the proposed land acquisition and its fit with the Act and Department priorities.",
+   "required_elements": [
+    {
+     "text": "Describe why the proposed land acquisition is needed.",
+     "excerpt": "Need: Describe why the proposed land acquisition is needed."
+    },
+    {
+     "text": "Describe how the proposed land acquisition fulfills the purposes of the Highlands Conservation Act and meets the Department of the Interior priorities.",
+     "excerpt": "Describe how the proposed land acquisition fulfills the purposes of the Highlands Conservation Act and meets the Department of the Interior priorities."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [
+    "Additional Criterion 3: High Conservation Value and Presidential and Department of Interior Priorities"
+   ],
+   "excerpt": "Use the following format for the Project Narrative:"
+  },
+  {
+   "heading": "Purpose",
+   "purpose": "State the general desired outcome to be accomplished during the project period, in response to the stated need.",
+   "required_elements": [
+    {
+     "text": "Explain what is to be accomplished during the period of the project pursuant to the stated need.",
+     "excerpt": "Purpose: Explain what is to be accomplished during the period of the project pursuant to the stated need."
+    },
+    {
+     "text": "State the desired outcome of the proposed project in general terms.",
+     "excerpt": "The purpose should state the desired outcome of the proposed project in general terms."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "Purpose: Explain what is to be accomplished during the period of the project pursuant to the stated need."
+  },
+  {
+   "heading": "Objective",
+   "purpose": "Identify the acquisition interest, acreage, and target date.",
+   "required_elements": [
+    {
+     "text": "Specify the type of interest to be acquired.",
+     "excerpt": "Objective: Specify the type of interest and acres to be acquired."
+    },
+    {
+     "text": "Specify the acres to be acquired.",
+     "excerpt": "Objective: Specify the type of interest and acres to be acquired."
+    },
+    {
+     "text": "Specify the target acquisition date.",
+     "excerpt": "Specify the target acquisition date."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "Objective: Specify the type of interest and acres to be acquired."
+  },
+  {
+   "heading": "Expected Results or Benefits",
+   "purpose": "Demonstrate the conservation value and benefits of each parcel, including public access and activities when applicable.",
+   "required_elements": [
+    {
+     "text": "For each parcel, show that at least one listed resource is of high conservation value and will be conserved, protected, or enhanced by the acquisition.",
+     "excerpt": "Each parcel must show that at least one of the following resources is of \"high conservation value\" and will be conserved, protected, or enhanced because of the land acquisition project: water, forest, agricultural, wildlife, recreational, or cultural resource."
+    },
+    {
+     "text": "Provide quantifiable or verifiable resource benefits when possible.",
+     "excerpt": "Provide quantifiable or verifiable resource benefits when possible."
+    },
+    {
+     "text": "If the property will be open to the public, list the allowed activities.",
+     "excerpt": "If the property will be open to the public, list the allowed activities and describe how the property can be accessed."
+    },
+    {
+     "text": "If the property will be open to the public, describe how it can be accessed.",
+     "excerpt": "If the property will be open to the public, list the allowed activities and describe how the property can be accessed."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [
+    "Additional Criterion 3: High Conservation Value and Presidential and Department of Interior Priorities"
+   ],
+   "excerpt": "Expected Results or Benefits: Each parcel must show that at least one of the following resources is of \"high conservation value\" and will be conserved, protected, or enhanced because of the land acquisition project: water, forest, agricultural, wildlife, recreational, or cultural resource."
+  },
+  {
+   "heading": "Approach",
+   "purpose": "Explain how the objectives will be achieved, including procedures, schedules, partners, roles, and subawards.",
+   "required_elements": [
+    {
+     "text": "Explain how the objective(s) will be attained.",
+     "excerpt": "Approach: Explain how the objective(s) will be attained."
+    },
+    {
+     "text": "Include specific procedures.",
+     "excerpt": "Include specific procedures, schedules, key cooperators, and respective roles."
+    },
+    {
+     "text": "Include schedules.",
+     "excerpt": "Include specific procedures, schedules, key cooperators, and respective roles."
+    },
+    {
+     "text": "Identify key cooperators and their respective roles.",
+     "excerpt": "Include specific procedures, schedules, key cooperators, and respective roles."
+    },
+    {
+     "text": "Describe any subaward relationships.",
+     "excerpt": "Describe any subaward relationships."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "Approach: Explain how the objective(s) will be attained."
+  },
+  {
+   "heading": "Location",
+   "purpose": "Describe and map every proposed parcel and identify its municipality, county, and congressional district.",
+   "required_elements": [
+    {
+     "text": "Describe the parcel(s) proposed for acquisition.",
+     "excerpt": "Location: Describe and show the parcel(s) proposed for acquisition."
+    },
+    {
+     "text": "Include the name of the Municipality and County where the property is located.",
+     "excerpt": "Include the name of the Municipality and County, and the name of the Congressional District in which the property is located."
+    },
+    {
+     "text": "Include the name of the Congressional District where the property is located.",
+     "excerpt": "Include the name of the Municipality and County, and the name of the Congressional District in which the property is located."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "Include at minimum an aerial map of the proposed properties.",
+     "excerpt": "Proposals must include at minimum an aerial map of the proposed properties and a map showing the location of proposed properties in relation to the Highlands Region boundary."
+    },
+    {
+     "text": "Include a map showing the location of proposed properties in relation to the Highlands Region boundary.",
+     "excerpt": "Proposals must include at minimum an aerial map of the proposed properties and a map showing the location of proposed properties in relation to the Highlands Region boundary."
+    }
+   ],
+   "scored_by": [],
+   "excerpt": "Location: Describe and show the parcel(s) proposed for acquisition."
+  },
+  {
+   "heading": "Stakeholder Coordination/Involvement",
+   "purpose": "Describe relevant coordination and involvement in project planning and activities, as applicable.",
+   "required_elements": [
+    {
+     "text": "As applicable, describe how your organization coordinated with and involved other relevant organizations or individuals in planning the project.",
+     "excerpt": "Stakeholder Coordination/Involvement: As applicable, describe how your organization has coordinated with and involved other relevant organizations or individuals in planning the project, and detail if and how they will be involved in conducting project activities."
+    },
+    {
+     "text": "As applicable, detail whether and how other relevant organizations or individuals will be involved in conducting project activities.",
+     "excerpt": "Stakeholder Coordination/Involvement: As applicable, describe how your organization has coordinated with and involved other relevant organizations or individuals in planning the project, and detail if and how they will be involved in conducting project activities."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "Stakeholder Coordination/Involvement: As applicable, describe how your organization has coordinated with and involved other relevant organizations or individuals in planning the project, and detail if and how they will be involved in conducting project activities."
+  },
+  {
+   "heading": "Description of Entities Undertaking the Project",
+   "purpose": "Describe the applicant and participating entities and individuals, and provide complete contact information for the project manager.",
+   "required_elements": [
+    {
+     "text": "Provide a brief description of the applicant organization.",
+     "excerpt": "Description of Entities Undertaking the Project: Provide a brief description of the applicant organization and all participating entities and individuals."
+    },
+    {
+     "text": "Provide a brief description of all participating entities and individuals.",
+     "excerpt": "Description of Entities Undertaking the Project: Provide a brief description of the applicant organization and all participating entities and individuals."
+    },
+    {
+     "text": "Provide complete contact information for the individual within the organization who will oversee and manage project activities.",
+     "excerpt": "Provide complete contact information for the individual within the organization that will oversee and manage the project activities."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "Description of Entities Undertaking the Project: Provide a brief description of the applicant organization and all participating entities and individuals."
+  },
+  {
+   "heading": "Budget Narrative",
+   "purpose": "Justify the proposed budget, document costs and match, and explain indirect and acquisition costs, including any request for pre-award costs.",
+   "required_elements": [
+    {
+     "text": "Describe and justify items and costs listed in the budget.",
+     "excerpt": "Applicants must describe and justify items and costs listed in their budget."
+    },
+    {
+     "text": "Identify total estimated costs, non-Federal cost share, third-party contributions, and any pre-award costs.",
+     "excerpt": "The budget narrative must identify the following cost items: total estimated costs, non-Federal cost share, third-party contributions, and any pre-award costs."
+    },
+    {
+     "text": "Ensure budget items are reasonable, allowable, allocable, necessary, and compliant with 2 CFR 200 Subpart E cost principles.",
+     "excerpt": "Budget items must be: Reasonable, allowable, allocable, and necessary."
+    },
+    {
+     "text": "Indicate how indirect costs will be charged, including the rate to be applied.",
+     "excerpt": "Applicants must indicate in their budget narrative how they will charge indirect costs, including the rate to be applied."
+    },
+    {
+     "text": "If eligible, state whether the organization is opting to use the de minimis rate of up to 15% of total modified direct costs.",
+     "excerpt": "De Minimis Rate: If eligible, state if your organization is opting to use the de minimis rate of up to 15% of total modified direct costs."
+    },
+    {
+     "text": "State whether the organization will negotiate with its cognizant agency.",
+     "excerpt": "Negotiated Rate: State if you will negotiate with your cognizant agency."
+    },
+    {
+     "text": "If the organization has previously negotiated a rate, attach a copy of the most recently negotiated rate agreement, whether active or expired.",
+     "excerpt": "If your organization has previously negotiated a rate, attach a copy of the most recently negotiated rate agreement (active or expired)."
+    },
+    {
+     "text": "Provide a breakdown of costs for acquiring each property.",
+     "excerpt": "Provide a breakdown of costs for acquiring each property."
+    },
+    {
+     "text": "For each acquisition, show the estimated costs, an itemized list of transaction costs and estimates, total Federal funding requested, and proposed match contribution.",
+     "excerpt": "The breakdown must show the estimated costs of each acquisition, including itemized list of transaction costs and estimates, as well as the total Federal funding requested and the proposed match contribution."
+    },
+    {
+     "text": "If seeking approval for pre-award costs, specify this in the Budget Narrative.",
+     "excerpt": "Applicants must specify in the Budget Narrative if they are seeking approval for pre-award costs."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "If the organization has previously negotiated a rate, attach its most recently negotiated rate agreement.",
+     "excerpt": "If your organization has previously negotiated a rate, attach a copy of the most recently negotiated rate agreement (active or expired)."
+    }
+   ],
+   "scored_by": [],
+   "excerpt": "Applicants must describe and justify items and costs listed in their budget."
+  },
+  {
+   "heading": "Conflict of Interest and Unresolved Matters Disclosures",
+   "purpose": "Disclose any actual or potential project-related conflict of interest and provide information for a significance determination.",
+   "required_elements": [
+    {
+     "text": "If an actual or potential conflict of interest related to the project exists at application time, provide sufficient information to support a program determination of significance under 2 CFR 1402.112.",
+     "excerpt": "If any actual or potential conflict of interest exists related to this project at the time of application, the applicant must provide sufficient information to support a program determination of significance per 2 CFR 1402.112."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "If any actual or potential conflict of interest exists related to this project at the time of application, the applicant must provide sufficient information to support a program determination of significance per 2 CFR 1402.112."
+  },
+  {
+   "heading": "Overlap or Duplication of Effort Statement",
+   "purpose": "State whether proposed activities, costs, or key personnel time overlap with another Federal proposal or award and provide details and supporting material if they do.",
+   "required_elements": [
+    {
+     "text": "State whether the activities, costs, or time commitment of key personnel proposed in this application overlap with those in any other Federal proposal or award.",
+     "excerpt": "Applicants must state in their application if the activities, costs, or time commitment of key personnel proposed in this application overlap with those in any other Federal proposal or award or not."
+    },
+    {
+     "text": "If no overlap exists, include a statement to that effect.",
+     "excerpt": "If no overlap exists, include a statement to that effect."
+    },
+    {
+     "text": "If overlap exists, describe the overlapping activities.",
+     "excerpt": "Activities: Description any overlapping activities."
+    },
+    {
+     "text": "If overlap exists, describe the overlapping costs.",
+     "excerpt": "Costs: Description of any overlapping costs."
+    },
+    {
+     "text": "If overlap exists, describe overlapping key personnel time.",
+     "excerpt": "Time: Description of any overlapping key personnel time."
+    },
+    {
+     "text": "If overlap exists, provide details on when each overlapping proposal was submitted, to whom, and the expected funding decision date.",
+     "excerpt": "Details on when any overlapping proposal was submitted, to whom, and the expected date of the funding decision."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "If overlap exists, include a copy of any overlapping or duplicative proposal submitted to another potential funding entity.",
+     "excerpt": "A copy of any overlapping or duplicative proposal submitted to any other potential funding entity."
+    }
+   ],
+   "scored_by": [],
+   "excerpt": "Applicants must state in their application if the activities, costs, or time commitment of key personnel proposed in this application overlap with those in any other Federal proposal or award or not."
+  }
+ ],
+ "criteria": [
+  {
+   "name": "Minimum Criterion 1: Eligible Project Location",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [],
+   "threshold": "Project is either in the Highlands Region as defined in the NY-NJ Highlands Regional Study: 2002 Update and the Highlands Regional Study: Connecticut and Pennsylvania 2010 Update, or in a Municipality within the Highlands Expansion Opportunity Area that has been submitted by the Lead State Agency with Municipal concurrence and approved by the Service.",
+   "objectives": [
+    {
+     "text": "Project is in the specified Highlands Region or in a qualifying municipality within the Highlands Expansion Opportunity Area.",
+     "excerpt": "Project is either in the Highlands Region as defined in the NY-NJ Highlands Regional Study: 2002 Update and the Highlands Regional Study: Connecticut and Pennsylvania 2010 Update, or in a Municipality within the Highlands Expansion Opportunity Area that has been submitted by the Lead State Agency with Municipal concurrence and approved by the Service."
+    }
+   ],
+   "kind": "threshold",
+   "excerpt": "1. Project is either in the Highlands Region as defined in the NY-NJ Highlands Regional Study: 2002 Update and the Highlands Regional Study: Connecticut and Pennsylvania 2010 Update, or in a Municipality within the Highlands Expansion Opportunity Area that has been submitted by the Lead State Agency with Municipal concurrence and approved by the Service."
+  },
+  {
+   "name": "Minimum Criterion 2: 1:1 Cost Share",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [],
+   "threshold": "1:1 cost share.",
+   "objectives": [
+    {
+     "text": "Meet the 1:1 cost share requirement.",
+     "excerpt": "2. 1:1 cost share."
+    }
+   ],
+   "kind": "threshold",
+   "excerpt": "2. 1:1 cost share."
+  },
+  {
+   "name": "Additional Criterion 3: High Conservation Value and Presidential and Department of Interior Priorities",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [
+    "Project Narrative clearly demonstrates the project has high conservation value",
+    "Project Narrative does not demonstrate that the project has high conservation value"
+   ],
+   "threshold": "Projects that meet Criteria 1 and 2 and score 35 points or higher in Criteria 3 as determined by the Merit Review Panel will be eligible for funding.",
+   "objectives": [
+    {
+     "text": "Show that at least one specified resource is of high conservation value and will be conserved, protected, or enhanced because of the acquisition.",
+     "excerpt": "Each project must show that at least one of the following resources is of \"high conservation value\" and will be conserved, protected, or enhanced because of the land acquisition project: water, forest, agricultural, wildlife, recreational, or cultural resource."
+    },
+    {
+     "text": "Clearly demonstrate the project has high conservation value (25\u201350 points), or the project does not demonstrate high conservation value (0\u201324 points).",
+     "excerpt": "a) Project Narrative clearly demonstrates the project has high conservation value. 25-50 points."
+    },
+    {
+     "text": "Address applicable Presidential and Department of Interior priorities; up to 20 points may be awarded based on the extent the project demonstrably advances the Administration's priorities.",
+     "excerpt": "c) Presidential and Department of Interior Priorities. Up to 20 points may be awarded based on the extent that the project demonstrably advances the Administration's priorities."
+    },
+    {
+     "text": "Address only priorities applicable to the project; all priorities receive equal consideration.",
+     "excerpt": "Please address only those priorities that are applicable to your project. All priorities will be given equal consideration."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "The following criteria will be used by the Merit Review Panel to determine eligibility of all proposed projects."
+  }
+ ],
+ "components": [
+  {
+   "name": "SF-424, Application for Federal Assistance",
+   "kind": "form",
+   "condition": "Required from all applicants.",
+   "contents": [],
+   "excerpt": "SF-424, Application for Federal Assistance. Required from all applicants."
+  },
+  {
+   "name": "Appendix A to 43 CFR 18-Certification Regarding Lobbying",
+   "kind": "certification",
+   "condition": "For applicants requesting more than $100,000 in Federal funds; the Authorized Representative's signature or electronic equivalent on the Application for Federal Assistance form represents the certification.",
+   "contents": [],
+   "excerpt": "For applicants requesting more than $100,000 in Federal funds, the Authorized Representative's signature (or electronic equivalent) on the Application for Federal Assistance form also represents their certification of the statements in Appendix A to 43 CFR 18-Certification Regarding Lobbying."
+  },
+  {
+   "name": "SF-424A, Budget Information - Non-Construction Programs",
+   "kind": "form",
+   "condition": "Required for non-construction projects.",
+   "contents": [],
+   "excerpt": "SF-424A, Budget Information - Non-Construction Programs. Required for non-construction projects."
+  },
+  {
+   "name": "SF-424C: Budget Information - Construction Programs",
+   "kind": "form",
+   "condition": "Required for construction projects.",
+   "contents": [],
+   "excerpt": "SF-424C: Budget Information - Construction Programs. Required for construction projects."
+  },
+  {
+   "name": "SF-429 (Cover Page & Attachment B), Request to Acquire, Improve, or Furnish Real Property",
+   "kind": "form",
+   "condition": "Required if requesting to acquire, improve, or furnish real property.",
+   "contents": [],
+   "excerpt": "SF-429 (Cover Page & Attachment B), Request to Acquire, Improve, or Furnish Real Property. Required if requesting to acquire, improve, or furnish real property."
+  },
+  {
+   "name": "SF-LLL, Disclosure of Lobbying Activities",
+   "kind": "disclosure",
+   "condition": "Required if requesting more than $100,000 in Federal funds and the applicant has used or plans to use funds other than Federal appropriated funds for lobbying related to the proposed project.",
+   "contents": [],
+   "excerpt": "SF-LLL, Disclosure of Lobbying Activities. Required if requesting more than $100,000 in Federal funds and the applicant has used or plans to use funds other than Federal appropriated funds for lobbying related to the proposed project."
+  },
+  {
+   "name": "Project Abstract Summary (OMB 4040-0019)",
+   "kind": "form",
+   "condition": "Required from all applicants.",
+   "contents": [
+    {
+     "text": "Award purpose.",
+     "excerpt": "Must include, in plain language: Award purpose, Activities to be performed, Expected deliverables or outcomes, Intended beneficiaries, Subrecipient activities (if known or specified at time of award)."
+    },
+    {
+     "text": "Activities to be performed.",
+     "excerpt": "Must include, in plain language: Award purpose, Activities to be performed, Expected deliverables or outcomes, Intended beneficiaries, Subrecipient activities (if known or specified at time of award)."
+    },
+    {
+     "text": "Expected deliverables or outcomes.",
+     "excerpt": "Must include, in plain language: Award purpose, Activities to be performed, Expected deliverables or outcomes, Intended beneficiaries, Subrecipient activities (if known or specified at time of award)."
+    },
+    {
+     "text": "Intended beneficiaries.",
+     "excerpt": "Must include, in plain language: Award purpose, Activities to be performed, Expected deliverables or outcomes, Intended beneficiaries, Subrecipient activities (if known or specified at time of award)."
+    },
+    {
+     "text": "Subrecipient activities, if known or specified at time of award.",
+     "excerpt": "Must include, in plain language: Award purpose, Activities to be performed, Expected deliverables or outcomes, Intended beneficiaries, Subrecipient activities (if known or specified at time of award)."
+    }
+   ],
+   "excerpt": "Project Abstract Summary (OMB 4040-0019). Must include, in plain language: Award purpose, Activities to be performed, Expected deliverables or outcomes, Intended beneficiaries, Subrecipient activities (if known or specified at time of award). Required from all applicants."
+  },
+  {
+   "name": "Most recently negotiated indirect cost rate agreement",
+   "kind": "attachment",
+   "condition": "Required if the organization has previously negotiated a rate.",
+   "contents": [],
+   "excerpt": "If your organization has previously negotiated a rate, attach a copy of the most recently negotiated rate agreement (active or expired)."
+  },
+  {
+   "name": "Overlapping or duplicative proposal",
+   "kind": "attachment",
+   "condition": "Required if any overlapping or duplicative proposal was submitted to another potential funding entity.",
+   "contents": [],
+   "excerpt": "A copy of any overlapping or duplicative proposal submitted to any other potential funding entity."
+  },
+  {
+   "name": "Conflict of Interest and Unresolved Matters Disclosure",
+   "kind": "disclosure",
+   "condition": "If any actual or potential conflict of interest related to the project exists at the time of application.",
+   "contents": [
+    {
+     "text": "Provide sufficient information to support a program determination of significance per 2 CFR 1402.112.",
+     "excerpt": "If any actual or potential conflict of interest exists related to this project at the time of application, the applicant must provide sufficient information to support a program determination of significance per 2 CFR 1402.112."
+    }
+   ],
+   "excerpt": "If any actual or potential conflict of interest exists related to this project at the time of application, the applicant must provide sufficient information to support a program determination of significance per 2 CFR 1402.112."
+  }
+ ],
+ "registrations": [
+  {
+   "name": "SAM.gov registration and Unique Entity Identifier (UEI)",
+   "lead_time": "The SAM.gov registration process can take several months.",
+   "excerpt": "The SAM.gov registration process can take several months."
+  },
+  {
+   "name": "GrantSolutions.gov",
+   "lead_time": null,
+   "excerpt": "You must register with GrantSolutions."
+  },
+  {
+   "name": "Grants.gov registration",
+   "lead_time": "Please allow 30 days to register in Grants.gov.",
+   "excerpt": "Please allow 30 days to register in Grants.gov."
+  },
+  {
+   "name": "Login.gov",
+   "lead_time": null,
+   "excerpt": "GrantSolutions requires users to log in through Login.gov."
+  }
+ ],
+ "format_rules": [
+  {
+   "text": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date.",
+   "excerpt": "Electronically submitted applications must be submitted no later than 11:59 PM, ET, on the listed application due date."
+  },
+  {
+   "text": "The application closing date is 10/31/2026.",
+   "excerpt": "Closing Date for Applications: 10/31/2026"
+  },
+  {
+   "text": "Do not encrypt, zip, or password-protect any files.",
+   "excerpt": "Do not encrypt, zip, or password-protect any files."
+  },
+  {
+   "text": "The Project Narrative must include at minimum an aerial map of the proposed properties and a map showing the location of proposed properties in relation to the Highlands Region boundary.",
+   "excerpt": "Proposals must include at minimum an aerial map of the proposed properties and a map showing the location of proposed properties in relation to the Highlands Region boundary."
+  }
+ ]
+}

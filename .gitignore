@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local app data (SQLite database, run logs)
+*.db
+*.sqlite3
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# The demo video is submitted on its own (scripts/record_demo.py writes it here)
+demo-video/

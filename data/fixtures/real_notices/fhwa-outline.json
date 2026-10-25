@@ -1,0 +1,385 @@
+{
+ "sections": [
+  {
+   "heading": "PPPP Application Template",
+   "purpose": "Complete the template with the information DOT needs to determine eligibility and assess the project against the merit and readiness criteria.",
+   "required_elements": [
+    {
+     "text": "Disclose how the applicant will address every statutory required use of PPPP grants during development and implementation of the prioritization project.",
+     "excerpt": "Applications must disclose how the applicant will address all of the statutory required uses of PPPP grants under IIJA, Sections 11204(c)(1)(A-D), 11204(c)(2)(A) or (B), and 11204(c)(2)(D), during the development and implementation of the PPPP prioritization project."
+    },
+    {
+     "text": "Describe how the proposed prioritization process design would use innovative and effective methods, and facilitate evaluation of its effectiveness in achieving its goals.",
+     "excerpt": "The application describes how the applicant's proposed prioritization process design would use innovative and effective methods, and facilitate evaluation of its effectiveness in achieving its goals:"
+    },
+    {
+     "text": "Describe how the proposed prioritization process design and purpose would leverage relevant quality data to address economic competitiveness.",
+     "excerpt": "The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant quality data to:"
+    },
+    {
+     "text": "Describe how the proposed prioritization process design and purpose would leverage relevant quality data to address reinvesting in the American family.",
+     "excerpt": "The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant quality data to:"
+    },
+    {
+     "text": "Describe how the proposed prioritization process design and purpose would leverage relevant, quality data to address core infrastructure.",
+     "excerpt": "The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant, quality data to:"
+    },
+    {
+     "text": "Provide schedule information demonstrating commitment to timely project delivery.",
+     "excerpt": "The applicant demonstrates a commitment for timely prioritization project delivery as demonstrated by the schedule information in the application."
+    },
+    {
+     "text": "Demonstrate staffing and technical resources to deliver the project, compliance with applicable Federal requirements, and technical feasibility.",
+     "excerpt": "The applicant has the staffing and technical resources to deliver the prioritization project."
+    },
+    {
+     "text": "Include complete and reasonable funding estimates based on recent stages of proposal development.",
+     "excerpt": "The application includes complete and reasonable funding estimates based on recent stages of proposal development."
+    },
+    {
+     "text": "Include a plan to address potential cost overruns.",
+     "excerpt": "The application includes a plan to address potential cost overruns."
+    },
+    {
+     "text": "Demonstrate reasonable availability of all funding needed to complete the project with an award.",
+     "excerpt": "The application demonstrates reasonable availability of all funding needed to complete the prioritization project with an award."
+    },
+    {
+     "text": "Provide a budget within the template or as an attachment, listing the amount and percent of Federal funding requested and any additional non-Federal funds to be used.",
+     "excerpt": "The application must provide a budget for the prioritization project, either within the Application Template itself, or as an attachment."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "Include the project budget in the template or as an attachment.",
+     "excerpt": "The application must provide a budget for the prioritization project, either within the Application Template itself, or as an attachment."
+    }
+   ],
+   "scored_by": [
+    "Innovation",
+    "Economic Competitiveness",
+    "Reinvesting in the American Family",
+    "Investing in Core Infrastructure",
+    "Readiness: Technical Assessment",
+    "Readiness: Financial Completeness Assessment"
+   ],
+   "excerpt": "Applicants must complete the PPPP Application Template and include it as an attachment to Item 15 of their SF-424."
+  }
+ ],
+ "criteria": [
+  {
+   "name": "Statutory required uses of PPPP grants",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [],
+   "threshold": "Applications that do not address all the statutorily required uses are ineligible for funding.",
+   "objectives": [
+    {
+     "text": "Address all required uses under IIJA Sections 11204(c)(1)(A-D), 11204(c)(2)(A) or (B), and 11204(c)(2)(D) during development and implementation of the project.",
+     "excerpt": "Applications must disclose how the applicant will address all of the statutory required uses of PPPP grants under IIJA, Sections 11204(c)(1)(A-D), 11204(c)(2)(A) or (B), and 11204(c)(2)(D), during the development and implementation of the PPPP prioritization project."
+    }
+   ],
+   "kind": "threshold",
+   "excerpt": "If an application does not address all the statutorily required uses, which are summarized below, the application will be deemed ineligible for funding."
+  },
+  {
+   "name": "Innovation",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [
+    "Highly Responsive",
+    "Responsive",
+    "Non-Responsive"
+   ],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Enable public engagement in project selections during development of short-range or long-range transportation plans.",
+     "excerpt": "A. For the public to engage in project selections during development of either short range transportation plans or long range transportation plans."
+    },
+    {
+     "text": "Provide the public access to clear reasons why each project or strategy was or was not selected within the specified plans or programs.",
+     "excerpt": "B. For providing the public access to clear reasons why each project or strategy was selected or not selected within either the Statewide Transportation Improvement Program or TIP, or long range transportation plans."
+    },
+    {
+     "text": "Consult with the State if the applicant is an MPO, or with all designated MPOs within the State if the applicant is the State.",
+     "excerpt": "C. To consult with the State if the applicant is an MPO, or consult with all designated MPOs within the State if the applicant is the State."
+    },
+    {
+     "text": "Identify, develop, and implement priority objectives for the prioritization plan.",
+     "excerpt": "D. To identify, develop, and implement priority objectives for the prioritization plan."
+    },
+    {
+     "text": "Integrate strategic goals from multiple programs and transportation agencies to strengthen multimodal and intermodal planning and improve programming decisions.",
+     "excerpt": "E. To integrate strategic goals from multiple programs and transportation agencies to strengthen multimodal and intermodal planning and to improve programming decisions."
+    },
+    {
+     "text": "Ensure the process continuously identifies relevant transportation performance measures applicable to State or metropolitan planning through time.",
+     "excerpt": "F. To ensure the developed process continuously identifies relevant transportation performance measures that are applicable for their State or metropolitan planning through time."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "The ratings for each Merit Criteria will also be assigned a label of Highly Responsive, Responsive, or Non-Responsive."
+  },
+  {
+   "name": "Economic Competitiveness",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [
+    "Highly Responsive",
+    "Responsive",
+    "Non-Responsive"
+   ],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Support economic vitality, especially by enabling global competitiveness, productivity, and efficiency.",
+     "excerpt": "A. Support economic vitality, especially by enabling global competitiveness, productivity, and efficiency."
+    },
+    {
+     "text": "Enhance travel and tourism.",
+     "excerpt": "B. Enhance travel and tourism."
+    },
+    {
+     "text": "Consider intermodal or multimodal freight mobility needs.",
+     "excerpt": "C. Consider intermodal or multimodal freight mobility needs."
+    },
+    {
+     "text": "Consider freight bottlenecks identified in the National Freight Strategic Plan, a State Freight Plan, or measured by relevant freight industry associations.",
+     "excerpt": "D. Consider freight bottlenecks as identified in the National Freight Strategic Plan, a State Freight Plan, or as measured by relevant freight industry associations."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant quality data to:"
+  },
+  {
+   "name": "Reinvesting in the American Family",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [
+    "Highly Responsive",
+    "Responsive",
+    "Non-Responsive"
+   ],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Promote consistency between transportation improvements and State and local planned growth, housing, and economic development patterns.",
+     "excerpt": "A. Promote consistency between transportation improvements and State and local planned growth, housing, and economic development patterns."
+    },
+    {
+     "text": "Enhance integration and connectivity of the transportation system, across and between modes, for people.",
+     "excerpt": "B. Enhance the integration and connectivity of the transportation system, across and between modes, for people."
+    },
+    {
+     "text": "Improve wayfinding and user experience.",
+     "excerpt": "C. Improve wayfinding and user experience."
+    },
+    {
+     "text": "Make transportation more affordable for families.",
+     "excerpt": "D. Make transportation more affordable for families."
+    },
+    {
+     "text": "Support the expansion and modernization of transportation in rural communities.",
+     "excerpt": "E. Support the expansion and modernization of transportation in rural communities."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant quality data to:"
+  },
+  {
+   "name": "Investing in Core Infrastructure",
+   "max_points": null,
+   "weight_percent": null,
+   "rating_scale": [
+    "Highly Responsive",
+    "Responsive",
+    "Non-Responsive"
+   ],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Improve system resiliency and reliability and reduce or mitigate stormwater impacts of surface transportation.",
+     "excerpt": "A. Improve the resiliency and reliability of the transportation system and reduce or mitigate stormwater impacts of surface transportation."
+    },
+    {
+     "text": "Emphasize preservation of the existing transportation system.",
+     "excerpt": "B. Emphasize the preservation of the existing transportation system."
+    },
+    {
+     "text": "Promote efficient system management and operation.",
+     "excerpt": "C. Promote efficient system management and operation."
+    },
+    {
+     "text": "Increase transportation system security.",
+     "excerpt": "D. Increase security of the transportation system."
+    },
+    {
+     "text": "Increase safety for motorized and nonmotorized users.",
+     "excerpt": "E. Increase the safety of the transportation system for motorized and nonmotorized users."
+    },
+    {
+     "text": "Enhance integration and connectivity of the transportation system, across and between modes, for freight.",
+     "excerpt": "F. Enhance the integration and connectivity of the transportation system, across and between modes, for freight."
+    },
+    {
+     "text": "Improve the condition of existing transportation infrastructure, particularly infrastructure with high cost of failure.",
+     "excerpt": "G. Improve the condition existing transportation infrastructure, particularly infrastructure with high cost of failure."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "The application describes how the applicant's proposed prioritization process design and purpose would leverage relevant, quality data to:"
+  },
+  {
+   "name": "Readiness: Technical Assessment",
+   "max_points": 3,
+   "weight_percent": null,
+   "rating_scale": [
+    "Certain (3)",
+    "Somewhat Certain (2)",
+    "Unknown or Uncertain (1)"
+   ],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Have staffing and technical resources to deliver the prioritization project.",
+     "excerpt": "A. The applicant has the staffing and technical resources to deliver the prioritization project."
+    },
+    {
+     "text": "Comply with all applicable Federal requirements.",
+     "excerpt": "B. The prioritization project will comply with all applicable Federal requirements."
+    },
+    {
+     "text": "Demonstrate commitment to timely project delivery through schedule information in the application.",
+     "excerpt": "C. The applicant demonstrates a commitment for timely prioritization project delivery as demonstrated by the schedule information in the application."
+    },
+    {
+     "text": "Demonstrate technical feasibility of the project.",
+     "excerpt": "D. The applicant demonstrates the technical feasibility of the prioritization project."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "Technical Assessment ratings will be one of the following: Certain (3), Somewhat Certain (2) or Unknown or Uncertain (1)."
+  },
+  {
+   "name": "Readiness: Financial Completeness Assessment",
+   "max_points": 3,
+   "weight_percent": null,
+   "rating_scale": [
+    "Complete (3)",
+    "Partially Complete (2)",
+    "Incomplete (1)"
+   ],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Include complete and reasonable funding estimates based on recent stages of proposal development.",
+     "excerpt": "A. The application includes complete and reasonable funding estimates based on recent stages of proposal development."
+    },
+    {
+     "text": "Include a plan to address potential cost overruns.",
+     "excerpt": "B. The application includes a plan to address potential cost overruns."
+    },
+    {
+     "text": "Demonstrate reasonable availability of all funding needed to complete the project with an award.",
+     "excerpt": "C. The application demonstrates reasonable availability of all funding needed to complete the prioritization project with an award."
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "The Financial Completeness Assessment evaluates the availability of matching funds and whether the applicant presented a complete funding package and will receive a rating of Complete (3), Partially Complete (2), or Incomplete (1)."
+  }
+ ],
+ "components": [
+  {
+   "name": "Standard Form (SF) 424 (Application for Federal Assistance)",
+   "kind": "form",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application package must consist of the following:"
+  },
+  {
+   "name": "Grants.gov Lobbying Form (Certification Regarding Lobbying)",
+   "kind": "certification",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application package must consist of the following:"
+  },
+  {
+   "name": "SF-LLL (Disclosure of Lobbying Activities form)",
+   "kind": "disclosure",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application package must consist of the following:"
+  },
+  {
+   "name": "SF-424A (Budget Information for Non-Construction Projects)",
+   "kind": "form",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application package must consist of the following:"
+  },
+  {
+   "name": "SF-424B (Assurances for Non-Construction Programs)",
+   "kind": "certification",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application package must consist of the following:"
+  },
+  {
+   "name": "PPPP Application Template",
+   "kind": "attachment",
+   "condition": "Required from all applicants",
+   "contents": [
+    {
+     "text": "Attach the completed template to Item 15 of the SF-424.",
+     "excerpt": "The PPPP Application Template must be added as an attachment to item 15 of the SF-424."
+    }
+   ],
+   "excerpt": "Applicants must complete the PPPP Application Template and include it as an attachment to Item 15 of their SF-424."
+  },
+  {
+   "name": "Prioritization project budget",
+   "kind": "attachment",
+   "condition": "Required from all applicants; may be included in the Application Template or submitted as an attachment",
+   "contents": [
+    {
+     "text": "List the amount and percent of Federal funding requested and any additional non-Federal funds, if any, to be used for the project.",
+     "excerpt": "The budget must list the amount and percent of both the Federal funding requested and any additional non-Federal funds, if any, to be used to pay for the prioritization project."
+    }
+   ],
+   "excerpt": "The application must provide a budget for the prioritization project, either within the Application Template itself, or as an attachment."
+  }
+ ],
+ "registrations": [
+  {
+   "name": "System for Award Management (SAM.gov)",
+   "lead_time": "The SAM registration process takes several weeks to complete.",
+   "excerpt": "Each applicant must be registered in System for Award Management (SAM) at SAM.gov before submitting its application; provide a valid Unique Entity Identifier in its application; and continue to maintain an active registration in SAM.gov."
+  },
+  {
+   "name": "Grants.gov",
+   "lead_time": null,
+   "excerpt": "All applications must be submitted electronically through www.grants.gov."
+  }
+ ],
+ "format_rules": [
+  {
+   "text": "Submit applications electronically through Grants.gov.",
+   "excerpt": "All applications must be submitted electronically through www.grants.gov."
+  },
+  {
+   "text": "Application files should be single-spaced, in 12-point standard font, with 1-inch margins.",
+   "excerpt": "Application files should be single-spaced, 12-point standard font, with 1-inch margins."
+  },
+  {
+   "text": "Files should be PDF unless otherwise specified.",
+   "excerpt": "Files should be in PDF unless otherwise specified."
+  },
+  {
+   "text": "DOT recommends the file naming format: \u201c[Applicant organization#]-2026-[Prioritization Process Pilot Program ].\u201d",
+   "excerpt": "DOT recommends applicants use a file naming format of: \"[Applicant organization#]-2026-[Prioritization Process Pilot Program ]\"."
+  }
+ ]
+}

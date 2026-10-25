@@ -1,0 +1,8 @@
+{
+ "_note": "SAMPLE. Award terms invented for GrantBridge's Can We Afford to Win? demonstration. Not any real funder's terms. The organization's money figures are samples too.",
+ "grant_id": "sample-05",
+ "notice_name": "SAMPLE award terms: New England Youth Opportunity Fund",
+ "notice": "SAMPLE / NOT LIVE. These award terms are illustrative, written for practice.\n\nNew England Youth Opportunity Fund: summary of award terms\n\nAward period. Awards cover a 24-month grant period that begins on the start date in the award letter.\n\nPayment. This is a reimbursement grant: the Fund pays only for approved expenses that the grantee has already paid. Grantees submit a reimbursement request after the end of each calendar quarter, and approved requests are paid within 90 days of the end of the quarter.\n\nMatching funds. Grantees must provide a cash match of at least 50% of the total project cost. In-kind contributions do not count toward the match.\n\nAllowable costs. Program staff, tutor training, and program supplies are allowable. Food, entertainment, and fundraising costs are not allowable.\n\nIndirect costs. Indirect costs are limited to 10% of direct costs.\n\nReporting. Grantees submit quarterly progress and financial reports, and a final report within 60 days of the end of the grant period. An independent financial review must accompany the final report.\n\nStaffing. Grantees must dedicate at least 0.5 FTE of a program coordinator to the funded program for the full grant period.",
+ "finances": {"cash_reserves": 30000, "indirect_rate": 18},
+ "inputs": {"award": 55000, "committed_match": 10000}
+}

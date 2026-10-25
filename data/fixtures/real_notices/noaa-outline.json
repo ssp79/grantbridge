@@ -1,0 +1,498 @@
+{
+ "sections": [
+  {
+   "heading": "Title Page",
+   "purpose": "Identify the proposal, its investigators and institutional representative, and the requested federal funding.",
+   "required_elements": [
+    {
+     "text": "Obtain official authorization from the institutional representative.",
+     "excerpt": "The title page must be officially authorized by the institutional representative."
+    },
+    {
+     "text": "Identify the PI and institutional representative by full name, title, organization, telephone number, and address.",
+     "excerpt": "The PI and institutional representative should be identified by full name, title, organization, telephone number, and address."
+    },
+    {
+     "text": "Clearly indicate the total amount of requested Federal funds.",
+     "excerpt": "It is requested that the title page clearly indicates the total amount of requested Federal funds."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "The title page must be officially authorized by the institutional representative."
+  },
+  {
+   "heading": "Abstract Page",
+   "purpose": "Summarize the problem, rationale, and proposed work, with the requested identifying and budget information.",
+   "required_elements": [
+    {
+     "text": "Introduce the problem.",
+     "excerpt": "An abstract should be included and should contain an introduction of the problem, rationale, and a brief summary of work to be completed."
+    },
+    {
+     "text": "Explain the rationale.",
+     "excerpt": "An abstract should be included and should contain an introduction of the problem, rationale, and a brief summary of work to be completed."
+    },
+    {
+     "text": "Briefly summarize the work to be completed.",
+     "excerpt": "An abstract should be included and should contain an introduction of the problem, rationale, and a brief summary of work to be completed."
+    },
+    {
+     "text": "Place the abstract on a separate page.",
+     "excerpt": "The abstract should appear on a separate page, headed with the proposal title, institution's investigators, total proposed cost, and budget period."
+    },
+    {
+     "text": "Head the abstract with the proposal title, institution's investigators, total proposed cost, and budget period.",
+     "excerpt": "The abstract should appear on a separate page, headed with the proposal title, institution's investigators, total proposed cost, and budget period."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [],
+   "excerpt": "An abstract should be included and should contain an introduction of the problem, rationale, and a brief summary of work to be completed."
+  },
+  {
+   "heading": "Results from Prior Projects",
+   "purpose": "Summarize relevant prior project results and explain their relationship to the proposed work.",
+   "required_elements": [
+    {
+     "text": "Describe the results of relevant projects.",
+     "excerpt": "The results of relevant projects should be described, including their relation to the currently proposed work."
+    },
+    {
+     "text": "Explain how the relevant prior projects relate to the currently proposed work.",
+     "excerpt": "The results of relevant projects should be described, including their relation to the currently proposed work."
+    },
+    {
+     "text": "For each prior award, provide its title, agency, award number, PIs, period of award, and total award.",
+     "excerpt": "Reference to each prior award should include the title, agency, award number, PIs, period of award, and total award."
+    },
+    {
+     "text": "Keep this section a brief summary.",
+     "excerpt": "The section should be a brief summary and should not exceed five pages total."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": 5,
+   "evidence_needed": [],
+   "scored_by": [
+    "Overall qualifications of applicants"
+   ],
+   "excerpt": "The results of relevant projects should be described, including their relation to the currently proposed work."
+  },
+  {
+   "heading": "Project Narrative",
+   "purpose": "Fully describe the proposed project, its program relevance and scientific merit, and its benefits to the public and scientific and educational communities.",
+   "required_elements": [
+    {
+     "text": "Completely describe the proposed project.",
+     "excerpt": "The proposed project must be completely described, including identification of the problem, relevance to the program priorities, and scientific merit."
+    },
+    {
+     "text": "Identify the problem.",
+     "excerpt": "The proposed project must be completely described, including identification of the problem, relevance to the program priorities, and scientific merit."
+    },
+    {
+     "text": "Explain the project's relevance to the program priorities.",
+     "excerpt": "The proposed project must be completely described, including identification of the problem, relevance to the program priorities, and scientific merit."
+    },
+    {
+     "text": "Explain the project's scientific merit.",
+     "excerpt": "The proposed project must be completely described, including identification of the problem, relevance to the program priorities, and scientific merit."
+    },
+    {
+     "text": "Discuss the benefits of the proposed project to the general public.",
+     "excerpt": "Benefits of the proposed project to the general public and the broader scientific and educational community must be discussed."
+    },
+    {
+     "text": "Discuss the benefits of the proposed project to the broader scientific and educational community.",
+     "excerpt": "Benefits of the proposed project to the general public and the broader scientific and educational community must be discussed."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [],
+   "scored_by": [
+    "Importance/relevance and applicability of proposed projects to the program goals",
+    "Technical/scientific merit",
+    "Overall qualifications of applicants",
+    "Engagement and Education"
+   ],
+   "excerpt": "The proposed project must be completely described, including identification of the problem, relevance to the program priorities, and scientific merit."
+  },
+  {
+   "heading": "Data/Information Sharing Plan",
+   "purpose": "Describe how project data and information will be managed and made publicly discoverable and accessible.",
+   "required_elements": [
+    {
+     "text": "Describe the types of environmental data and information expected to be created during the project.",
+     "excerpt": "A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible."
+    },
+    {
+     "text": "State the tentative date by which data will be shared.",
+     "excerpt": "A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible."
+    },
+    {
+     "text": "Identify the standards to be used for data and metadata format and content.",
+     "excerpt": "A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible."
+    },
+    {
+     "text": "Describe the methods for providing data access.",
+     "excerpt": "A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible."
+    },
+    {
+     "text": "Estimate the approximate total volume of data to be collected.",
+     "excerpt": "A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible."
+    },
+    {
+     "text": "Describe prior experience in making data accessible.",
+     "excerpt": "A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible."
+    },
+    {
+     "text": "Describe how the requirements for making environmental data and information discoverable by and accessible to the general public in a timely fashion will be satisfied.",
+     "excerpt": "Proposals submitted in response to this Announcement must include a Data Management Plan of up to two pages describing how these requirements will be satisfied."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": 2,
+   "evidence_needed": [],
+   "scored_by": [
+    "Technical/scientific merit"
+   ],
+   "excerpt": "Proposals submitted in response to this Announcement must include a Data Management Plan of up to two pages describing how these requirements will be satisfied."
+  },
+  {
+   "heading": "Budget, Proposed Budget Justification, and Other Required Forms",
+   "purpose": "Present the project budget and its justification, including annual budget detail and a budget table in the proposal body.",
+   "required_elements": [
+    {
+     "text": "Include a separate table in the proposal body showing total and annual budgets corresponding with the project description.",
+     "excerpt": "In addition, the body of the proposal should include a separate table showing total and annual budgets corresponding with the project description."
+    },
+    {
+     "text": "For multi-year proposals, show the yearly budget breakout on the SF 424A.",
+     "excerpt": "Applicants should pay careful attention to show the yearly budget breakout on the SF 424A for multi-year proposals."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "Include a separate table showing total and annual budgets corresponding with the project description.",
+     "excerpt": "In addition, the body of the proposal should include a separate table showing total and annual budgets corresponding with the project description."
+    }
+   ],
+   "scored_by": [
+    "Project costs"
+   ],
+   "excerpt": "In addition, the body of the proposal should include a separate table showing total and annual budgets corresponding with the project description."
+  },
+  {
+   "heading": "Vitae",
+   "purpose": "Provide abbreviated curriculum vitae for the proposal\u2019s investigators, with publication references limited as specified.",
+   "required_elements": [
+    {
+     "text": "Provide abbreviated curriculum vitae with the proposal.",
+     "excerpt": "Abbreviated curriculum vitae are requested with each proposal."
+    },
+    {
+     "text": "Limit reference lists to publications from the last five years, plus up to five other relevant papers.",
+     "excerpt": "Reference lists should be limited to all publications in the last five years, with up to five other relevant papers."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "Include abbreviated curriculum vitae with the proposal.",
+     "excerpt": "Abbreviated curriculum vitae are requested with each proposal."
+    }
+   ],
+   "scored_by": [
+    "Overall qualifications of applicants"
+   ],
+   "excerpt": "Abbreviated curriculum vitae are requested with each proposal."
+  },
+  {
+   "heading": "Current and Pending Support",
+   "purpose": "List current and pending support information for each investigator.",
+   "required_elements": [
+    {
+     "text": "For each investigator, list project title, supporting agency with grant number, investigator months, dollar value, and duration.",
+     "excerpt": "For each investigator, submit a list which includes project title, supporting agency with grant number, investigator months, dollar value, and duration."
+    },
+    {
+     "text": "List requested values for pending support.",
+     "excerpt": "Requested values should be listed for pending support."
+    }
+   ],
+   "limit_words": null,
+   "limit_pages": null,
+   "evidence_needed": [
+    {
+     "text": "Submit a current and pending support list for each investigator.",
+     "excerpt": "For each investigator, submit a list which includes project title, supporting agency with grant number, investigator months, dollar value, and duration."
+    }
+   ],
+   "scored_by": [],
+   "excerpt": "For each investigator, submit a list which includes project title, supporting agency with grant number, investigator months, dollar value, and duration."
+  }
+ ],
+ "criteria": [
+  {
+   "name": "Importance/relevance and applicability of proposed projects to the program goals",
+   "max_points": 5,
+   "weight_percent": 25,
+   "rating_scale": [],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Address whether proposed research activities can lead to improved understanding of NOAA-related science by society.",
+     "excerpt": "(a) Can the proposed research activities lead to improved understanding of NOAA-related science by society?"
+    },
+    {
+     "text": "Address the likelihood that scientific collaborations will develop research personnel across the full spectrum of NOAA-related sciences with stronger understanding of these sciences and NOAA fields of work.",
+     "excerpt": "(b) What is the likelihood that the proposed scientific collaborations will develop research personnel across the full spectrum of NOAA-related sciences, with a stronger understanding of these sciences and NOAA fields of work?"
+    },
+    {
+     "text": "Address the degree and quality of collaboration with multiple NOAA units throughout the project.",
+     "excerpt": "(c) What is the degree and quality of collaboration with multiple NOAA units throughout the project?"
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "1. Importance/relevance and applicability of proposed projects to the program goals. Maximum Points: 5. (Weight = 25%)"
+  },
+  {
+   "name": "Technical/scientific merit",
+   "max_points": 5,
+   "weight_percent": 20,
+   "rating_scale": [],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Address whether a sound strategy was developed to identify, develop, and manage the scientists who will enter the program and work with NOAA professionals across numerous science areas.",
+     "excerpt": "(a) Was a sound strategy developed to identify, develop, and manage the scientists that will enter the program and work with NOAA professionals across numerous science areas?"
+    },
+    {
+     "text": "Address whether focused scientific objectives and strategies, including data management considerations, project milestones, and timelines, were used.",
+     "excerpt": "(b) Were focused scientific objectives and strategies, including data management considerations, project milestones, and timelines used?"
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "2. Technical/scientific merit. Maximum Points: 5. (Weight = 20%)"
+  },
+  {
+   "name": "Overall qualifications of applicants",
+   "max_points": 5,
+   "weight_percent": 30,
+   "rating_scale": [],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Document past experience with identifying, developing, and managing numerous science support activities, including project coordination, logistics support, human resources support, and general business administration support, and demonstrate technical expertise to carry out the project.",
+     "excerpt": "(a) Does the applicant clearly document past experience with identifying, developing, and managing numerous science support activities, including project coordination, logistics support, human resources support, and general business administration support and generally have the technical expertise to carry out the project?"
+    },
+    {
+     "text": "Demonstrate the ability to conduct successful program management and coordinate varied research activities with numerous NOAA and external partners.",
+     "excerpt": "(b) Has the applicant demonstrated the ability to conduct successful program management and coordinate a variety of different research activities with numerous NOAA and external partners?"
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "3. Overall qualifications of applicants. Maximum Points: 5. (Weight = 30%)"
+  },
+  {
+   "name": "Project costs",
+   "max_points": 5,
+   "weight_percent": 15,
+   "rating_scale": [],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Address whether there is a clear and efficient plan to identify, develop, and manage a variety of different research projects.",
+     "excerpt": "(a) Is there a clear and efficient plan in place to identify, develop, and manage a variety of different research projects?"
+    },
+    {
+     "text": "Demonstrate the ability to manage resources effectively through the proposed project plan.",
+     "excerpt": "(b) Through the proposed project plan, does the applicant demonstrate the ability to manage resources effectively?"
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "4. Project costs. Maximum Points: 5. (Weight = 15%)"
+  },
+  {
+   "name": "Engagement and Education",
+   "max_points": 5,
+   "weight_percent": 10,
+   "rating_scale": [],
+   "threshold": null,
+   "objectives": [
+    {
+     "text": "Address whether the project will support richer understanding and knowledge of NOAA-related science and its application to societal decisions.",
+     "excerpt": "(a) Will the proposed project support result in a richer understanding and knowledge of NOAA-related science and the application of that science to support societal decisions?"
+    },
+    {
+     "text": "Address whether research results will be communicated effectively to develop broader awareness and application.",
+     "excerpt": "(b) Will research results be communicated in an effective way to develop broader awareness and application?"
+    }
+   ],
+   "kind": "scored",
+   "excerpt": "5. Engagement and Education. Maximum Points: 5. (Weight = 10%)"
+  }
+ ],
+ "components": [
+  {
+   "name": "Standard Form (SF) 424, Application for Federal Assistance",
+   "kind": "form",
+   "condition": "Required from all applicants",
+   "contents": [
+    {
+     "text": "Include a detailed budget using the SF 424A, Budget Information--Non-Construction Programs.",
+     "excerpt": "Applicants must submit a Standard Form (SF) 424, Application for Federal Assistance, including a detailed budget using the SF 424A, Budget Information--Non-Construction Programs."
+    },
+    {
+     "text": "Create and enter a PD/PI account on the Applicant Identifier field of the SF-424.",
+     "excerpt": "A Project Director/Principal Investigator (PD/PI) account must be created and entered on the Applicant Identifier field of the SF-424 for a successful submission."
+    },
+    {
+     "text": "Include the applicant's congressional district number in the required two-letter abbreviation, hyphen, and three-digit district number format.",
+     "excerpt": "The applicant's congressional district number must be included in the SF-424 for a successful submission."
+    }
+   ],
+   "excerpt": "Applicants must submit a Standard Form (SF) 424, Application for Federal Assistance, including a detailed budget using the SF 424A, Budget Information--Non-Construction Programs."
+  },
+  {
+   "name": "SF 424A, Budget Information--Non-Construction Programs",
+   "kind": "form",
+   "condition": "Required from all applicants",
+   "contents": [
+    {
+     "text": "Provide a detailed budget.",
+     "excerpt": "Applicants must submit a Standard Form (SF) 424, Application for Federal Assistance, including a detailed budget using the SF 424A, Budget Information--Non-Construction Programs."
+    },
+    {
+     "text": "For multi-year proposals, show the yearly budget breakout.",
+     "excerpt": "Applicants should pay careful attention to show the yearly budget breakout on the SF 424A for multi-year proposals."
+    }
+   ],
+   "excerpt": "Applicants must submit a Standard Form (SF) 424, Application for Federal Assistance, including a detailed budget using the SF 424A, Budget Information--Non-Construction Programs."
+  },
+  {
+   "name": "SF-424B, Assurances - Non-Construction Programs",
+   "kind": "form",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application must also include form SF-424B, Assurances - Non-Construction Programs; form CD-511, Certifications; and SF-LLL, Disclosure of Lobbying Activities."
+  },
+  {
+   "name": "CD-511, Certifications",
+   "kind": "certification",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application must also include form SF-424B, Assurances - Non-Construction Programs; form CD-511, Certifications; and SF-LLL, Disclosure of Lobbying Activities."
+  },
+  {
+   "name": "SF-LLL, Disclosure of Lobbying Activities",
+   "kind": "disclosure",
+   "condition": "Required from all applicants",
+   "contents": [],
+   "excerpt": "The application must also include form SF-424B, Assurances - Non-Construction Programs; form CD-511, Certifications; and SF-LLL, Disclosure of Lobbying Activities."
+  },
+  {
+   "name": "Negotiated indirect cost rate agreement (NICRA)",
+   "kind": "attachment",
+   "condition": "If indirect charges are included in the budget",
+   "contents": [
+    {
+     "text": "Include a copy of the institution's current negotiated indirect cost rate agreement.",
+     "excerpt": "If indirect charges are included in the budget, a copy of the institution's current Negotiated indirect cost rate agreement (NICRA) must be included."
+    }
+   ],
+   "excerpt": "If indirect charges are included in the budget, a copy of the institution's current Negotiated indirect cost rate agreement (NICRA) must be included."
+  },
+  {
+   "name": "Abbreviated curriculum vitae",
+   "kind": "attachment",
+   "condition": "Requested with each proposal",
+   "contents": [
+    {
+     "text": "Limit reference lists to publications from the last five years, with up to five other relevant papers.",
+     "excerpt": "Reference lists should be limited to all publications in the last five years, with up to five other relevant papers."
+    }
+   ],
+   "excerpt": "Abbreviated curriculum vitae are requested with each proposal."
+  },
+  {
+   "name": "Current and Pending Support list",
+   "kind": "attachment",
+   "condition": "Required for each investigator",
+   "contents": [
+    {
+     "text": "Include project title, supporting agency with grant number, investigator months, dollar value, and duration.",
+     "excerpt": "For each investigator, submit a list which includes project title, supporting agency with grant number, investigator months, dollar value, and duration."
+    },
+    {
+     "text": "List requested values for pending support.",
+     "excerpt": "Requested values should be listed for pending support."
+    }
+   ],
+   "excerpt": "For each investigator, submit a list which includes project title, supporting agency with grant number, investigator months, dollar value, and duration."
+  },
+  {
+   "name": "Letters of support",
+   "kind": "attachment",
+   "condition": "Not stated as required; if included, excluded from the page count",
+   "contents": [],
+   "excerpt": "Federally mandated forms, tables of content, principal investigator (PI) and staff vitae, budget tables, current/pending support, and any letters of support are not included within the page count."
+  }
+ ],
+ "registrations": [
+  {
+   "name": "System for Award Management (SAM)",
+   "lead_time": "Once an organization submits their registration in SAM.gov, it can take at least ten business days for it to become active.",
+   "excerpt": "Each applicant is required to be registered in SAM before submitting its application, provide a valid unique entity identifier (UEI) in its application, and continue to maintain an active SAM registration."
+  },
+  {
+   "name": "Grants.gov",
+   "lead_time": "Process time: 3-5 days or up to 4 weeks if all steps are not completed correctly.",
+   "excerpt": "After receiving a UEI from SAM.gov, applicants must register their organization in Grants.gov."
+  },
+  {
+   "name": "eRA Commons",
+   "lead_time": "Organizations registering in the eRA Commons for the first time should allow 2-4 weeks to complete the registration process.",
+   "excerpt": "Prior to submitting in Grants.gov, applicant organizations must first register in eRA Commons."
+  }
+ ],
+ "format_rules": [
+  {
+   "text": "Proposals may total no more than 20 pages, single spaced, excluding supporting documents.",
+   "excerpt": "Proposals should total no more than 20 pages in length, single spaced (not including supporting documents)."
+  },
+  {
+   "text": "Times New Roman 12-point font, or an equivalent, is strongly recommended.",
+   "excerpt": "It is strongly recommended that Times New Roman 12-point font, or an equivalent, be used."
+  },
+  {
+   "text": "Results from Prior Projects must not exceed five pages total.",
+   "excerpt": "The section should be a brief summary and should not exceed five pages total."
+  },
+  {
+   "text": "The Data Management Plan may be up to two pages.",
+   "excerpt": "Proposals submitted in response to this Announcement must include a Data Management Plan of up to two pages describing how these requirements will be satisfied."
+  },
+  {
+   "text": "Use December 1, 2026 as the proposed start date unless otherwise directed by the NOAA Program Officer.",
+   "excerpt": "December 1, 2026 is to be used as the proposed start date on proposals unless otherwise directed by the NOAA Program Officer."
+  },
+  {
+   "text": "Submit applications through Grants.gov; faxed or emailed copies will not be accepted.",
+   "excerpt": "All applications should be submitted through grants.gov."
+  },
+  {
+   "text": "Faxed or emailed copies of applications will not be accepted.",
+   "excerpt": "Faxed or emailed copies of applications will not be accepted."
+  }
+ ]
+}

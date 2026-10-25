@@ -1,0 +1,106 @@
+NOTICE OF FUNDING OPPORTUNITY
+Federal Agency Name: OAR Climate Program Office (CPO)
+Funding Opportunity Title: Climate Program Office (CPO) FY2026 Earth System Science and Services Partnership
+Announcement Type: Competitive
+Funding Opportunity Number: NOAA-OAR-CPO-2026-33326
+Assistance Listing Number(s): 11.431
+
+Dates
+Full applications for all competitions must be received by 11:59 p.m. Pacific Time, on October 26, 2026.
+
+Funding Opportunity Description
+The Earth System Science and Services Partnership (ESSSP) supports research, programs, projects and other activities related to NOAA's mission, primarily through collaborations among scientists and professionals in areas of mutual interest associated with understanding and predicting changes in the Earth's atmosphere, oceans, coasts, land, and ice.
+Eligible applicants must be academic institutions of higher learning which offer doctoral degrees in NOAA-related sciences; consortia of academic institutions of higher learning which offer doctoral degrees in NOAA-related sciences; or non-profit research institutions. Multi-institution applications will not be accepted.
+The total NOAA funding amount available for the ESSSP is anticipated to be approximately $10,000,000.
+
+II. Award Information
+A. Funding Availability
+The total NOAA funding amount available for the award is anticipated to be approximately $10,000,000.
+B. Project/Award Period
+This program announcement is for support of a program for one year, with an anticipated start date of December 1, 2026.
+C. Type of Funding Instrument
+The funding instrument used for this program will be a cooperative agreement, since several NOAA organizations and programs will be substantially involved in working with the award recipient.
+
+III. Eligibility Information
+A. Eligible Applicants
+Eligible applicants must be academic institutions of higher learning which offer doctoral degrees in NOAA-related sciences; consortia of academic institutions of higher learning which offer doctoral degrees in NOAA-related sciences; and non-profit research institutions. Multi-institution applications will not be accepted.
+B. Cost Share or Matching Requirement
+No cost sharing is required under this program.
+C. Other Criteria that Affect Eligibility
+None.
+
+IV. Application and Submission Information
+B. Content and Form of Application
+Proposals should total no more than 20 pages in length, single spaced (not including supporting documents). It is strongly recommended that Times New Roman 12-point font, or an equivalent, be used. Federally mandated forms, tables of content, principal investigator (PI) and staff vitae, budget tables, current/pending support, and any letters of support are not included within the page count.
+Multi-year proposals up to a maximum of five years will be considered; however, funding beyond the first year will be dependent upon satisfactory performance and the availability of funds. December 1, 2026 is to be used as the proposed start date on proposals unless otherwise directed by the NOAA Program Officer.
+The application elements listed below are required before an award can be made. Failure to submit all elements by the deadline will result in the application not being reviewed if the omissions are not corrected prior to the deadline.
+
+1. Title Page. The title page must be officially authorized by the institutional representative. The PI and institutional representative should be identified by full name, title, organization, telephone number, and address. It is requested that the title page clearly indicates the total amount of requested Federal funds.
+2. Abstract Page. An abstract should be included and should contain an introduction of the problem, rationale, and a brief summary of work to be completed. The abstract should appear on a separate page, headed with the proposal title, institution's investigators, total proposed cost, and budget period.
+3. Results from Prior Projects. The results of relevant projects should be described, including their relation to the currently proposed work. Reference to each prior award should include the title, agency, award number, PIs, period of award, and total award. The section should be a brief summary and should not exceed five pages total.
+4. Project Narrative. The proposed project must be completely described, including identification of the problem, relevance to the program priorities, and scientific merit. Benefits of the proposed project to the general public and the broader scientific and educational community must be discussed.
+5. Data/Information Sharing Plan. Proposals submitted in response to this announcement must include a data management plan (up to 2 pages).
+6. Budget, Proposed Budget Justification, and Other Required Forms. Applicants must submit a Standard Form (SF) 424, Application for Federal Assistance, including a detailed budget using the SF 424A, Budget Information--Non-Construction Programs. Applicants should pay careful attention to show the yearly budget breakout on the SF 424A for multi-year proposals. In addition, the body of the proposal should include a separate table showing total and annual budgets corresponding with the project description. If indirect charges are included in the budget, a copy of the institution's current Negotiated indirect cost rate agreement (NICRA) must be included. The application must also include form SF-424B, Assurances - Non-Construction Programs; form CD-511, Certifications; and SF-LLL, Disclosure of Lobbying Activities.
+7. Vitae. Abbreviated curriculum vitae are requested with each proposal. Reference lists should be limited to all publications in the last five years, with up to five other relevant papers.
+8. Current and Pending Support. For each investigator, submit a list which includes project title, supporting agency with grant number, investigator months, dollar value, and duration. Requested values should be listed for pending support.
+9. National Environmental Policy Act (NEPA) Questionnaire. This program does not require any NEPA questions to be answered as part of the application.
+
+C. Unique entity identifier and System for Award Management (SAM)
+Each applicant is required to be registered in SAM before submitting its application, provide a valid unique entity identifier (UEI) in its application, and continue to maintain an active SAM registration.
+Once an organization submits their registration in SAM.gov, it can take at least ten business days for it to become active.
+
+Grants.gov
+After receiving a UEI from SAM.gov, applicants must register their organization in Grants.gov. Register early to avoid delays.
+Process time: 3-5 days or up to 4 weeks if all steps are not completed correctly.
+
+eRA Commons
+Prior to submitting in Grants.gov, applicant organizations must first register in eRA Commons.
+eRA Commons registration must be completed by the Signing Official (SO). An SO is someone in the organization with signatory authority such as a President, Executive Director, Owner, etc.
+Organizations registering in the eRA Commons for the first time should allow 2-4 weeks to complete the registration process.
+
+Common Errors
+A Project Director/Principal Investigator (PD/PI) account must be created and entered on the Applicant Identifier field of the SF-424 for a successful submission.
+The applicant's congressional district number must be included in the SF-424 for a successful submission. It must be the two-letter abbreviation, a hyphen, and the three-digit district number. For example: State of Virginia, 1st Congressional District would be "VA-001."
+
+D. Submission Dates and Times
+The deadline for receipt of proposals is 11:59 p.m. Pacific Time, on October 26, 2026. Proposals received after the deadline will be rejected or returned to the sender without further consideration.
+
+G. Other Submission Requirements
+All applications should be submitted through grants.gov.
+Faxed or emailed copies of applications will not be accepted.
+
+V. Application Review Information
+
+1. Importance/relevance and applicability of proposed projects to the program goals. Maximum Points: 5. (Weight = 25%)
+This criterion ascertains whether there is intrinsic value in the proposed work and/or relevance to NOAA priorities. For the NOAA Earth System Science and Services Partnership competition, this includes:
+(a) Can the proposed research activities lead to improved understanding of NOAA-related science by society?
+(b) What is the likelihood that the proposed scientific collaborations will develop research personnel across the full spectrum of NOAA-related sciences, with a stronger understanding of these sciences and NOAA fields of work?
+(c) What is the degree and quality of collaboration with multiple NOAA units throughout the project?
+
+2. Technical/scientific merit. Maximum Points: 5. (Weight = 20%)
+This criterion assesses whether the approach is technically sound and/or innovative, if the methods are appropriate, and whether there are clear project goals and objectives. For this competition, this includes:
+(a) Was a sound strategy developed to identify, develop, and manage the scientists that will enter the program and work with NOAA professionals across numerous science areas?
+(b) Were focused scientific objectives and strategies, including data management considerations, project milestones, and timelines used?
+
+3. Overall qualifications of applicants. Maximum Points: 5. (Weight = 30%)
+This criterion ascertains whether the applicant possesses the necessary education, experience, training, facilities, and administrative resources to accomplish the project. For this competition, this includes:
+(a) Does the applicant clearly document past experience with identifying, developing, and managing numerous science support activities, including project coordination, logistics support, human resources support, and general business administration support and generally have the technical expertise to carry out the project?
+(b) Has the applicant demonstrated the ability to conduct successful program management and coordinate a variety of different research activities with numerous NOAA and external partners?
+
+4. Project costs. Maximum Points: 5. (Weight = 15%)
+This criterion evaluates the budget to determine if it is realistic and commensurate with the project needs and time-frame. For this competition, this includes:
+(a) Is there a clear and efficient plan in place to identify, develop, and manage a variety of different research projects?
+(b) Through the proposed project plan, does the applicant demonstrate the ability to manage resources effectively?
+
+5. Engagement and Education. Maximum Points: 5. (Weight = 10%)
+NOAA assesses whether this project provides focused and effective engagement outreach, and/or education to advance societal preparedness and NOAA's mission. For this competition, this includes:
+(a) Will the proposed project support result in a richer understanding and knowledge of NOAA-related science and the application of that science to support societal decisions?
+(b) Will research results be communicated in an effective way to develop broader awareness and application?
+
+Review and Selection Process
+An initial administrative review/screening is conducted to determine compliance with requirements/completeness. All proposals will be evaluated and individually ranked in accordance with the assigned weights of the above evaluation criteria by an independent peer panel review.
+
+DATA SHARING PLAN
+Environmental data and information collected or created under NOAA grants or cooperative agreements must be made discoverable by and accessible to the general public, in a timely fashion, typically within two years.
+Proposals submitted in response to this Announcement must include a Data Management Plan of up to two pages describing how these requirements will be satisfied.
+A typical plan should include descriptions of the types of environmental data and information expected to be created during the course of the project; the tentative date by which data will be shared; the standards to be used for data/metadata format and content; methods for providing data access; approximate total volume of data to be collected; and prior experience in making such data accessible.

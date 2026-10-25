@@ -1,0 +1,245 @@
+[
+  {
+    "id": "sample-01",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Connecticut After-School Learning Grant",
+    "funder": "Sample Shoreline Education Fund",
+    "funder_type": "Community foundation",
+    "summary": "Supports out-of-school-time tutoring and academic enrichment for Connecticut students in grades K-12.",
+    "amount_min": 10000,
+    "amount_max": 40000,
+    "deadline": "2026-12-11",
+    "focus_areas": ["Education", "Youth"],
+    "eligible_states": ["CT"],
+    "eligibility": [
+      "Must be an IRS-recognized 501(c)(3) public charity",
+      "Must be located in Connecticut and serve Connecticut students",
+      "Program must serve students in grades K-12 outside the regular school day",
+      "Annual operating budget under $1,000,000",
+      "Must report student attendance and at least one academic outcome"
+    ],
+    "questions": [
+      "Describe your organization and the students you serve. (250 words)",
+      "Describe the after-school program this grant would support, including its schedule and staffing. (400 words)",
+      "What academic outcomes do you track, and what were your most recent results? (300 words)",
+      "How will you use the requested funds? (200 words)"
+    ]
+  },
+  {
+    "id": "sample-02",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Early Literacy Partners Grant",
+    "funder": "Sample Reading Foundation",
+    "funder_type": "Corporate foundation",
+    "summary": "Supports reading programs for children from birth to age 8 and their caregivers.",
+    "amount_min": 5000,
+    "amount_max": 25000,
+    "deadline": "2027-04-09",
+    "focus_areas": ["Education", "Youth"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be a 501(c)(3) public charity, public school, or public library",
+      "Program must serve children from birth to age 8",
+      "Must include a caregiver or family engagement component",
+      "Must not be a religious instruction program"
+    ],
+    "questions": [
+      "Describe the young children and families your literacy program serves. (250 words)",
+      "How does the program engage caregivers? (200 words)",
+      "What reading outcomes do you track, and what did you see last year? (250 words)"
+    ]
+  },
+  {
+    "id": "sample-03",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Small Nonprofit Capacity Grant",
+    "funder": "Sample Community Trust",
+    "funder_type": "Community foundation",
+    "summary": "Capacity support for small organizations investing in staff, systems, training, or planning.",
+    "amount_min": 10000,
+    "amount_max": 40000,
+    "deadline": "rolling",
+    "focus_areas": ["Community development", "Education", "Health", "Housing", "Food security", "Youth"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be an IRS-recognized 501(c)(3) public charity",
+      "Annual operating budget between $100,000 and $1,500,000",
+      "Fewer than 20 full-time staff",
+      "Must submit the most recent annual financial statement"
+    ],
+    "questions": [
+      "What capacity challenge are you trying to solve? (300 words)",
+      "How will this investment make your organization stronger in two years? (300 words)",
+      "Who on your team will lead this work? (150 words)"
+    ]
+  },
+  {
+    "id": "sample-04",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "STEM Futures Mentoring Award",
+    "funder": "Sample Innovation Foundation",
+    "funder_type": "Corporate foundation",
+    "summary": "Funds mentoring programs that build middle and high school students' skills and interest in STEM.",
+    "amount_min": 15000,
+    "amount_max": 50000,
+    "deadline": "2027-02-05",
+    "focus_areas": ["Education", "Youth"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be a 501(c)(3) public charity or fiscally sponsored project",
+      "Program must serve students in grades 6-12",
+      "At least half of program time must focus on science, technology, engineering, or math",
+      "Mentors must include people working in STEM fields"
+    ],
+    "questions": [
+      "Describe the STEM learning activities in your program. (300 words)",
+      "Who are your mentors, and how are they recruited and trained? (250 words)",
+      "How do you measure growth in students' STEM skills or interest? (250 words)"
+    ]
+  },
+  {
+    "id": "sample-05",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "New England Youth Opportunity Fund",
+    "funder": "Sample Northeast Youth Fund",
+    "funder_type": "Private foundation",
+    "summary": "Supports proven programs that help young people in New England from low-income households succeed in school.",
+    "amount_min": 20000,
+    "amount_max": 60000,
+    "deadline": "2027-01-22",
+    "focus_areas": ["Youth", "Education", "Community development"],
+    "eligible_states": ["CT", "MA", "RI", "VT", "NH", "ME"],
+    "eligibility": [
+      "Must be an IRS-recognized 501(c)(3) public charity",
+      "Must be located in a New England state",
+      "Program must serve young people ages 8 to 18",
+      "At least 60% of participants must be from low-income households",
+      "Requested amount may not exceed 20% of the organization's annual budget"
+    ],
+    "questions": [
+      "What problem does your program address for young people in your community? (300 words)",
+      "Describe your program model and why it works. (400 words)",
+      "Share two or three results from the past year. (250 words)",
+      "How do young people and families help shape the program? (200 words)"
+    ]
+  },
+  {
+    "id": "sample-06",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Rural Schools Partnership Grant",
+    "funder": "Sample Heartland Education Fund",
+    "funder_type": "Private foundation",
+    "summary": "Funds nonprofit and school partnerships that expand learning opportunities in rural districts.",
+    "amount_min": 5000,
+    "amount_max": 30000,
+    "deadline": "2026-12-04",
+    "focus_areas": ["Education"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be a 501(c)(3) public charity or a public school district",
+      "Must serve students in a rural school district as defined by the National Center for Education Statistics",
+      "Must have a written partnership agreement with at least one school"
+    ],
+    "questions": [
+      "Describe the rural community and schools you serve. (250 words)",
+      "What will the partnership accomplish this year? (300 words)",
+      "How will the school partner be involved? (200 words)"
+    ]
+  },
+  {
+    "id": "sample-07",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Workforce Bridge Training Grant",
+    "funder": "Sample Regional Workforce Board",
+    "funder_type": "Public agency",
+    "summary": "Funds job-training programs that lead to industry-recognized credentials for adults returning to work.",
+    "amount_min": 20000,
+    "amount_max": 75000,
+    "deadline": "2027-03-12",
+    "focus_areas": ["Workforce development", "Education"],
+    "eligible_states": ["TX", "OK", "LA", "NM"],
+    "eligibility": [
+      "Must be a 501(c)(3) public charity",
+      "Must be located in Texas, Oklahoma, Louisiana, or New Mexico",
+      "Participants must be adults age 18 or older",
+      "Training must lead to an industry-recognized credential"
+    ],
+    "questions": [
+      "Describe the training program and the credential participants earn. (300 words)",
+      "Who are your employer partners, and what role do they play? (250 words)",
+      "What were your job placement rates in the last program year? (150 words)"
+    ]
+  },
+  {
+    "id": "sample-08",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Family Engagement in Education Grant",
+    "funder": "Sample Family Learning Fund",
+    "funder_type": "Private foundation",
+    "summary": "Supports programs that help families take an active part in their children's learning.",
+    "amount_min": 7500,
+    "amount_max": 20000,
+    "deadline": "2027-01-15",
+    "focus_areas": ["Education", "Youth", "Community development"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be a 501(c)(3) public charity or fiscally sponsored project",
+      "Must serve families with school-age children",
+      "Must offer at least four family engagement events or activities per year",
+      "Families must be involved in planning or evaluating the program"
+    ],
+    "questions": [
+      "How do you engage families in their children's learning? (300 words)",
+      "How do families help plan or evaluate your work? (200 words)",
+      "What changes have you seen in families who take part? (250 words)"
+    ]
+  },
+  {
+    "id": "sample-09",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "First-Generation College Access Grant",
+    "funder": "Sample College Pathways Foundation",
+    "funder_type": "Private foundation",
+    "summary": "Helps high school students who will be the first in their families to attend college apply, enroll, and pay for it.",
+    "amount_min": 10000,
+    "amount_max": 35000,
+    "deadline": "2026-11-30",
+    "focus_areas": ["Education", "Youth"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be an IRS-recognized 501(c)(3) public charity",
+      "Program must serve high school students in grades 10-12",
+      "At least 75% of participants must be the first in their family to attend college",
+      "Must provide college application or financial aid support"
+    ],
+    "questions": [
+      "Describe the students you serve and their path to college. (250 words)",
+      "What college access services do you provide? (300 words)",
+      "How many of last year's seniors enrolled in college? (150 words)"
+    ]
+  },
+  {
+    "id": "sample-10",
+    "label": "SAMPLE / NOT LIVE",
+    "title": "Volunteer Program Excellence Award",
+    "funder": "Sample Service Leadership Fund",
+    "funder_type": "Corporate foundation",
+    "summary": "Recognizes and strengthens nonprofits whose programs are powered by well-trained, well-supported volunteers.",
+    "amount_min": 5000,
+    "amount_max": 15000,
+    "deadline": "rolling",
+    "focus_areas": ["Community development", "Education", "Youth"],
+    "eligible_states": ["ALL"],
+    "eligibility": [
+      "Must be a 501(c)(3) public charity",
+      "Must engage at least 25 active volunteers each year",
+      "Must track volunteer hours and retention",
+      "Award may be used only for volunteer recruitment, training, or recognition"
+    ],
+    "questions": [
+      "Describe your volunteer program and how volunteers are trained. (300 words)",
+      "Share your volunteer numbers from the past year: active volunteers, hours, and retention. (150 words)",
+      "How would this award strengthen your volunteer program? (200 words)"
+    ]
+  }
+]

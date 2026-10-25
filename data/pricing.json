@@ -1,0 +1,40 @@
+{
+  "about": "Token prices GrantBridge uses to estimate the cost of each AI call. Rates are US dollars per 1 million tokens. Edit this file, or point GRANTBRIDGE_PRICING_FILE at another one, when prices change. A model with no entry here gets no cost estimate: GrantBridge never guesses a price.",
+  "models": [
+    {
+      "model": "gpt-6-luna",
+      "aliases": ["gpt-6-luna-global", "gpt-6-luna-2026-09-22"],
+      "source": "OpenAI API pricing, gpt-6-luna, Standard tier",
+      "source_url": "https://developers.openai.com/api/docs/pricing",
+      "checked": "2026-10-20",
+      "also_checked": [
+        {
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+          "finding": "Same rates on the model page: input $0.1, cached input $0.01, cache writes $0.125, output $0.5 per 1M tokens. Cached input is 10% of the input rate; cache writes are 1.25x; prompts over 272K input tokens cost 2x input and cache rates and 1.5x output for the whole request; regional processing adds 10%."
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+          "finding": "For GPT-5.6 and later, a 30-minute cache write costs 1.25x the uncached input rate and a cache read 0.1x. cached_tokens (reads) and cache_write_tokens are both parts of input_tokens: ordinary input = input_tokens - cached_tokens - cache_write_tokens."
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/reasoning",
+          "finding": "Reasoning tokens are billed as output tokens. They are included in output_tokens."
+        },
+        {
+          "url": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
+          "finding": "Lists GPT-6 Luna (Global and Data Zone) with every price shown as '$-': 'GPT-6 Sol and Luna prices are currently in processing for publishing on this page.' So OpenAI's list price is the only published rate."
+        }
+      ],
+      "route": "The course PORTKEY_API_KEY sends gpt-6-luna to Azure OpenAI, global deployment (response model gpt-6-luna-global, served model gpt-6-luna-2026-09-22, region East US 2, pay-as-you-go), seen in response headers on 2026-10-20. Global deployments use the global list price, so no regional uplift is applied.",
+      "tiers": [
+        {"up_to_input_tokens": 272000, "input": 0.10, "cached_input": 0.01, "cache_write": 0.125, "output": 0.50},
+        {"up_to_input_tokens": null, "input": 0.20, "cached_input": 0.02, "cache_write": 0.25, "output": 0.75}
+      ],
+      "notes": [
+        "cache_write is the 30-minute write rate, the default cache lifetime. GrantBridge never asks for 12-hour writes ($0.25 per 1M).",
+        "The second tier applies to the whole request when it has more than 272,000 input tokens. GrantBridge prompts stay far below that.",
+        "A Portkey response-cache hit is a saved copy of an earlier identical answer. The request never reaches Azure, so GrantBridge counts its cost as $0."
+      ]
+    }
+  ]
+}

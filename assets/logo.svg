@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="48" viewBox="0 0 232 48" role="img" aria-label="GrantBridge">
+  <g fill="none" stroke="#287F78" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 34 Q25 6 44 34"/>
+    <path d="M3 34 H47"/>
+    <path d="M15 34 V24 M25 34 V20 M35 34 V24"/>
+  </g>
+  <text x="56" y="33" font-family="Segoe UI, Source Sans Pro, Helvetica Neue, Arial, sans-serif" font-size="25" font-weight="700" fill="#173341">GrantBridge</text>
+</svg>

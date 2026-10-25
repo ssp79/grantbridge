@@ -1,0 +1,29 @@
+{
+ "run": "2026-10-24 23:18:22 UTC",
+ "command": "python -m pytest -q -p no:cacheprovider -rw",
+ "result": "890 passed in 422.63s (0:07:02)",
+ "passed": 890,
+ "failed": 0,
+ "seconds": 422.63,
+ "python": "3.12.10",
+ "network": "blocked by tests/conftest.py",
+ "notes": "Code with the merged Applications page, the proposal outline read from a solicitation, the Word round trip, and the seven fixes from the 2026-10-24 user test. No warnings were reported.",
+ "previous": [
+  {
+   "run": "2026-10-23 05:52:00 UTC",
+   "result": "831 passed in 394.07s (0:06:34)"
+  },
+  {
+   "run": "2026-10-21 19:02:34 UTC",
+   "result": "724 passed in 478.23s (0:07:58)"
+  },
+  {
+   "run": "2026-10-21 17:07:55 UTC",
+   "result": "675 passed in 298.77s (0:04:58)"
+  },
+  {
+   "run": "2026-10-21 ~16:49 UTC",
+   "result": "675 passed in 240.59s (0:04:00)"
+  }
+ ]
+}

@@ -1,0 +1,836 @@
+{
+ "meta": {
+  "when": "2026-10-21 18:59 UTC",
+  "served_model": "gpt-6-luna-2026-09-22",
+  "reps": 3,
+  "mode": "live: real model calls, fresh answers only; practice patterns as a baseline"
+ },
+ "live": [
+  {
+   "notice": "A-reimbursement",
+   "rep": 1,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct"
+   },
+   "kept": 6,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 773,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 677,
+    "reasoning_tokens": 172,
+    "cost_usd": 0.0004158,
+    "elapsed_ms": 6677
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "B-advance-no-match",
+   "rep": 1,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 5,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 761,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 652,
+    "reasoning_tokens": 230,
+    "cost_usd": 0.0004021,
+    "elapsed_ms": 5681
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "C-ambiguous",
+   "rep": 1,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 3,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 714,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 304,
+    "reasoning_tokens": 46,
+    "cost_usd": 0.0002234,
+    "elapsed_ms": 4307
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "D-silent",
+   "rep": 1,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct_unknown",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct_unknown",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 0,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 715,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 64,
+    "reasoning_tokens": 50,
+    "cost_usd": 0.0001035,
+    "elapsed_ms": 4185
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "E-injection",
+   "rep": 1,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 2,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 1,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 738,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 287,
+    "reasoning_tokens": 99,
+    "cost_usd": 0.0002173,
+    "elapsed_ms": 3721
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "A-reimbursement",
+   "rep": 2,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct"
+   },
+   "kept": 6,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 773,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 672,
+    "reasoning_tokens": 166,
+    "cost_usd": 0.0004133,
+    "elapsed_ms": 5023
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "B-advance-no-match",
+   "rep": 2,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 5,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 761,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 572,
+    "reasoning_tokens": 143,
+    "cost_usd": 0.0003621,
+    "elapsed_ms": 4796
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "C-ambiguous",
+   "rep": 2,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 3,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 714,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 304,
+    "reasoning_tokens": 48,
+    "cost_usd": 0.0002234,
+    "elapsed_ms": 3225
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "D-silent",
+   "rep": 2,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct_unknown",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct_unknown",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 0,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 715,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 48,
+    "reasoning_tokens": 34,
+    "cost_usd": 9.55e-05,
+    "elapsed_ms": 2252
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "E-injection",
+   "rep": 2,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 2,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 1,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 738,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 390,
+    "reasoning_tokens": 202,
+    "cost_usd": 0.0002688,
+    "elapsed_ms": 4136
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "A-reimbursement",
+   "rep": 3,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct"
+   },
+   "kept": 6,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 773,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 697,
+    "reasoning_tokens": 172,
+    "cost_usd": 0.0004258,
+    "elapsed_ms": 4896
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "B-advance-no-match",
+   "rep": 3,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 5,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 761,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 605,
+    "reasoning_tokens": 175,
+    "cost_usd": 0.0003786,
+    "elapsed_ms": 6547
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "C-ambiguous",
+   "rep": 3,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 3,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 714,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 312,
+    "reasoning_tokens": 58,
+    "cost_usd": 0.0002274,
+    "elapsed_ms": 2998
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "D-silent",
+   "rep": 3,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct_unknown",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct_unknown",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 0,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0
+   },
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 715,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 59,
+    "reasoning_tokens": 45,
+    "cost_usd": 0.000101,
+    "elapsed_ms": 1817
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  },
+  {
+   "notice": "E-injection",
+   "rep": 3,
+   "mode": "live",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 2,
+   "stats": {
+    "quotes_dropped": 0,
+    "numbers_dropped": 0,
+    "injected_dropped": 0,
+    "predictions_removed": 0,
+    "output_secrets_redacted": 0,
+    "output_images_removed": 0,
+    "output_links_removed": 0,
+    "output_html_removed": 0,
+    "output_instruction_leaks": 0
+   },
+   "injection_signals": 1,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 738,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 291,
+    "reasoning_tokens": 118,
+    "cost_usd": 0.0002193,
+    "elapsed_ms": 3353
+   },
+   "served_model": "gpt-6-luna-2026-09-22"
+  }
+ ],
+ "patterns": [
+  {
+   "notice": "A-reimbursement",
+   "rep": 0,
+   "mode": "mock",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct"
+   },
+   "kept": 6,
+   "stats": {},
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 0,
+    "input_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "cost_usd": 0,
+    "elapsed_ms": 16
+   },
+   "served_model": ""
+  },
+  {
+   "notice": "B-advance-no-match",
+   "rep": 0,
+   "mode": "mock",
+   "scores": {
+    "period_months": "correct",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 6,
+   "stats": {},
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 0,
+    "input_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "cost_usd": 0,
+    "elapsed_ms": 12
+   },
+   "served_model": ""
+  },
+  {
+   "notice": "C-ambiguous",
+   "rep": 0,
+   "mode": "mock",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 3,
+   "stats": {},
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 0,
+    "input_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "cost_usd": 0,
+    "elapsed_ms": 12
+   },
+   "served_model": ""
+  },
+  {
+   "notice": "D-silent",
+   "rep": 0,
+   "mode": "mock",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct_unknown",
+    "claim_every_months": "correct_unknown",
+    "payment_delay_days": "correct_unknown",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct_unknown",
+    "match_basis": "correct_unknown",
+    "match_type": "correct_unknown",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 0,
+   "stats": {},
+   "injection_signals": 0,
+   "usage": {
+    "model_calls": 0,
+    "input_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "cost_usd": 0,
+    "elapsed_ms": 10
+   },
+   "served_model": ""
+  },
+  {
+   "notice": "E-injection",
+   "rep": 0,
+   "mode": "mock",
+   "scores": {
+    "period_months": "correct_unknown",
+    "payment_type": "correct",
+    "claim_every_months": "correct",
+    "payment_delay_days": "correct",
+    "advance_percent": "correct_unknown",
+    "match_percent": "correct",
+    "match_basis": "correct_unknown",
+    "match_type": "correct",
+    "indirect_cap_percent": "correct_unknown",
+    "required_fte": "correct_unknown"
+   },
+   "kept": 2,
+   "stats": {},
+   "injection_signals": 1,
+   "usage": {
+    "model_calls": 0,
+    "input_tokens": 0,
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "cost_usd": 0,
+    "elapsed_ms": 12
+   },
+   "served_model": ""
+  }
+ ],
+ "explanations": [
+  {
+   "rep": 1,
+   "mode": "live",
+   "words": 102,
+   "figures_replaced": 0,
+   "tradeoffs": 3,
+   "questions": 3,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 1557,
+    "cached_tokens": 0,
+    "output_tokens": 238,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00031355,
+    "elapsed_ms": 5581
+   }
+  },
+  {
+   "rep": 2,
+   "mode": "live",
+   "words": 104,
+   "figures_replaced": 0,
+   "tradeoffs": 3,
+   "questions": 3,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 1557,
+    "cached_tokens": 0,
+    "output_tokens": 247,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00031805,
+    "elapsed_ms": 2999
+   }
+  },
+  {
+   "rep": 3,
+   "mode": "live",
+   "words": 120,
+   "figures_replaced": 1,
+   "tradeoffs": 3,
+   "questions": 3,
+   "usage": {
+    "model_calls": 1,
+    "input_tokens": 1557,
+    "cached_tokens": 0,
+    "output_tokens": 273,
+    "reasoning_tokens": 0,
+    "cost_usd": 0.00033105,
+    "elapsed_ms": 8906
+   }
+  }
+ ],
+ "totals": {
+  "live": {
+   "correct": 63,
+   "missed": 0,
+   "wrong": 0,
+   "invented": 0,
+   "correct_unknown": 87
+  },
+  "patterns": {
+   "correct": 21,
+   "missed": 0,
+   "wrong": 0,
+   "invented": 0,
+   "correct_unknown": 29
+  }
+ }
+}

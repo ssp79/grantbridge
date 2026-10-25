@@ -1,0 +1,3 @@
+# Only for the optional browser end-to-end run (scripts/e2e_scenario.py). The app itself needs requirements.txt only.
+-r requirements.txt
+playwright==1.64.0

@@ -1,0 +1,138 @@
+{
+ "generated": "2026-10-25T02:14:13+00:00",
+ "reps": 1,
+ "readings": [
+  {
+   "label": "FWS Highlands F25AS00379",
+   "chars": 17932,
+   "mode": "live",
+   "notice": "",
+   "seconds": 26.8,
+   "items": 36,
+   "kept": {
+    "sections": 11,
+    "criteria": 3,
+    "components": 12,
+    "registrations": 4,
+    "format_rules": 6
+   },
+   "usage": {
+    "id": 1,
+    "kind": "proposal_outline",
+    "status": "ok",
+    "started_at": "2026-10-25T02:13:04+00:00",
+    "duration_ms": 26727,
+    "model": "gpt-6-luna",
+    "served_model": "gpt-6-luna-2026-09-22",
+    "gateway_cache": [
+     "miss"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 4731,
+    "cached_tokens": 0,
+    "cache_write_tokens": 4728,
+    "output_tokens": 6687,
+    "reasoning_tokens": 350,
+    "cost_usd": 0.0039348,
+    "priced_cost_usd": 0.0039348,
+    "unpriced_calls": 0,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "model_ms": 26698,
+    "elapsed_ms": 26727,
+    "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20"
+   },
+   "kind": "real",
+   "rep": 1
+  },
+  {
+   "label": "FHWA PPPP-26-001",
+   "chars": 12292,
+   "mode": "live",
+   "notice": "",
+   "seconds": 21.3,
+   "items": 27,
+   "kept": {
+    "sections": 1,
+    "criteria": 10,
+    "components": 7,
+    "registrations": 2,
+    "format_rules": 7
+   },
+   "usage": {
+    "id": 1,
+    "kind": "proposal_outline",
+    "status": "ok",
+    "started_at": "2026-10-25T02:13:31+00:00",
+    "duration_ms": 21314,
+    "model": "gpt-6-luna",
+    "served_model": "gpt-6-luna-2026-09-22",
+    "gateway_cache": [
+     "miss"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 3664,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3661,
+    "output_tokens": 5175,
+    "reasoning_tokens": 310,
+    "cost_usd": 0.003045425,
+    "priced_cost_usd": 0.003045425,
+    "unpriced_calls": 0,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "model_ms": 21270,
+    "elapsed_ms": 21314,
+    "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20"
+   },
+   "kind": "real",
+   "rep": 1
+  },
+  {
+   "label": "NOAA-OAR-CPO-2026-33326",
+   "chars": 12250,
+   "mode": "live",
+   "notice": "",
+   "seconds": 19.8,
+   "items": 31,
+   "kept": {
+    "sections": 8,
+    "criteria": 5,
+    "components": 8,
+    "registrations": 3,
+    "format_rules": 7
+   },
+   "usage": {
+    "id": 1,
+    "kind": "proposal_outline",
+    "status": "ok",
+    "started_at": "2026-10-25T02:13:53+00:00",
+    "duration_ms": 19815,
+    "model": "gpt-6-luna",
+    "served_model": "gpt-6-luna-2026-09-22",
+    "gateway_cache": [
+     "miss"
+    ],
+    "model_calls": 1,
+    "tool_calls": 0,
+    "input_tokens": 3630,
+    "cached_tokens": 0,
+    "cache_write_tokens": 3627,
+    "output_tokens": 4667,
+    "reasoning_tokens": 273,
+    "cost_usd": 0.002787175,
+    "priced_cost_usd": 0.002787175,
+    "unpriced_calls": 0,
+    "unreported_calls": 0,
+    "gateway_hits": 0,
+    "model_ms": 19770,
+    "elapsed_ms": 19815,
+    "price_ref": "OpenAI API pricing, gpt-6-luna, Standard tier, checked 2026-10-20"
+   },
+   "kind": "real",
+   "rep": 1
+  }
+ ]
+}

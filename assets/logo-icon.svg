@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" role="img" aria-label="GrantBridge">
+  <rect width="48" height="48" rx="10" fill="#287F78"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 33 Q24 9 40 33"/>
+    <path d="M6 33 H42"/>
+    <path d="M16 33 V25 M24 33 V21 M32 33 V25"/>
+  </g>
+</svg>

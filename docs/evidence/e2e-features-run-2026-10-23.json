@@ -1,0 +1,248 @@
+{
+ "run": "2026-10-23T06:08:05.123489+00:00",
+ "steps": [
+  {
+   "step": "F0",
+   "what": "Set up: account, demo data, and two typed answers",
+   "ok": true,
+   "seconds": 11.6,
+   "screenshot": null,
+   "problems": [],
+   "note": "new account, sample demo data, answers typed for questions 1 and 3"
+  },
+  {
+   "step": "F1",
+   "what": "Review proposal: an advisory scorecard for the whole application",
+   "ok": true,
+   "seconds": 17.8,
+   "screenshot": "docs/screenshots/e2e-F1-proposal-scorecard.png",
+   "problems": [],
+   "note": "AI (live) review; checked: 5 rated dimensions; Average rating (advisory) 2 / 5"
+  },
+  {
+   "step": "F2",
+   "what": "Review proposal: what to improve first, and what is missing or unsupported",
+   "ok": true,
+   "seconds": 0.0,
+   "screenshot": "docs/screenshots/e2e-F2-proposal-recommendations.png",
+   "problems": [],
+   "note": "checked: 5 prioritized recommendation(s), each labeled funder requirement or best practice"
+  },
+  {
+   "step": "F3",
+   "what": "Revise with AI: the suggestion before and after",
+   "ok": true,
+   "seconds": 2.5,
+   "screenshot": "docs/screenshots/e2e-F3-revision-before-after.png",
+   "problems": [],
+   "note": "Revise question 3 with AI: checked: a revision suggestion shown beside the saved answer, labeled suggestion only"
+  },
+  {
+   "step": "F4",
+   "what": "Use the revision and review again: the before-and-after comparison",
+   "ok": true,
+   "seconds": 13.3,
+   "screenshot": "docs/screenshots/e2e-F4-review-comparison.png",
+   "problems": [],
+   "note": "checked: the second review shows the before-and-after comparison"
+  },
+  {
+   "step": "F5",
+   "what": "Budget & narrative: lines typed in, exact totals, and the checks",
+   "ok": true,
+   "seconds": 6.8,
+   "screenshot": "docs/screenshots/e2e-F5-budget-lines.png",
+   "problems": [],
+   "note": "checked: 3 lines typed in; code totals $23,000 with $21,000 requested; the mismatch is flagged"
+  },
+  {
+   "step": "F6",
+   "what": "Budget narrative written from the lines only, checked by code",
+   "ok": true,
+   "seconds": 5.6,
+   "screenshot": "docs/screenshots/e2e-F6-budget-narrative.png",
+   "problems": [],
+   "note": "AI (live) narrative; checked: labeled, and marked as matching the current budget"
+  },
+  {
+   "step": "F7",
+   "what": "AI Grant Advisor answers a budget question with the get_budget tool",
+   "ok": true,
+   "seconds": 12.5,
+   "screenshot": "docs/screenshots/e2e-F7-advisor-budget.png",
+   "problems": [],
+   "note": "AI (live) answer (Answer 1); checked: its trace shows the get_budget tool call"
+  },
+  {
+   "step": "F8",
+   "what": "Timeline: a workback plan from the deadline, with its source labeled",
+   "ok": true,
+   "seconds": 4.2,
+   "screenshot": "docs/screenshots/e2e-F8-timeline-plan.png",
+   "problems": [],
+   "note": "checked: 7 steps shown; 0.6 s from the click to the saved plan in the browser, 17.9 ms of it in GrantBridge's code"
+  },
+  {
+   "step": "F9",
+   "what": "Mark a step done, download the calendar, and see the next steps on the Dashboard",
+   "ok": true,
+   "seconds": 3.5,
+   "screenshot": "docs/screenshots/e2e-F9-dashboard-next-steps.png",
+   "problems": [],
+   "note": "checked: 1 of 7 steps done; the .ics file has 7 events (6 open steps and the deadline) and no alarms; the dashboard lists Document collection next"
+  },
+  {
+   "step": "F10",
+   "what": "Should we pursue? A grant that fails a required rule",
+   "ok": true,
+   "seconds": 6.6,
+   "screenshot": "docs/screenshots/e2e-F10-pursue-do-not-pursue.png",
+   "problems": [],
+   "note": "checked: outcome Do not pursue, from the failed state rule; AI fit evidence"
+  },
+  {
+   "step": "F11",
+   "what": "Should we pursue? Promising, with rules still to confirm",
+   "ok": true,
+   "seconds": 8.7,
+   "screenshot": "docs/screenshots/e2e-F11-pursue-verify-first.png",
+   "problems": [],
+   "note": "checked: outcome Promising, but verify first; 2 rules to confirm are listed; AI fit evidence"
+  },
+  {
+   "step": "F12",
+   "what": "Confirm the listing's rules: the outcome becomes Strong candidate",
+   "ok": true,
+   "seconds": 0.4,
+   "screenshot": "docs/screenshots/e2e-F12-pursue-strong.png",
+   "problems": [],
+   "note": "checked: after the user confirmed both rules the outcome is Strong candidate, and they are listed as confirmed by the user; the AI fit evidence was reused (no new AI call)"
+  },
+  {
+   "step": "A1",
+   "what": "Can we afford to win? Paste the award terms: each condition is quoted, with its source",
+   "ok": true,
+   "seconds": 9.9,
+   "screenshot": "docs/screenshots/e2e-A1-afford-terms-found.png",
+   "problems": [],
+   "note": "AI (live); checked: all 7 areas stated, and all 9 quotes are word for word in the pasted notice or the listing; Award terms saved: 9 condition(s) found, each quoted from the text. AI use: gpt-6-luna \u00b7 1,124 input tokens (0 cached) + 975 output (151 reasoning) \u00b7 estimated cost $0.00063 \u00b7 7.7 s."
+  },
+  {
+   "step": "A2",
+   "what": "Enter the organization's numbers: the verdict, worked out by code, and the cash curve",
+   "ok": true,
+   "seconds": 1.5,
+   "screenshot": "docs/screenshots/e2e-A2-afford-summary.png",
+   "problems": [],
+   "note": "checked: Winning would strain your cash, with the chart; Match you must fund $55,000; Cash tied up at the worst point $58,562; Payments begin month 6"
+  },
+  {
+   "step": "A3",
+   "what": "What if: payment in installments instead of reimbursement, without saving anything",
+   "ok": true,
+   "seconds": 2.5,
+   "screenshot": "docs/screenshots/e2e-A3-afford-what-if.png",
+   "problems": [],
+   "note": "checked: paid in installments, the cash tied up at the worst point goes from $58,562 to $51,724, and nothing is saved; This scenario:"
+  },
+  {
+   "step": "A4",
+   "what": "Explain these numbers (AI): plain words, every figure checked against the arithmetic",
+   "ok": true,
+   "seconds": 26.1,
+   "screenshot": "docs/screenshots/e2e-A4-afford-explanation.png",
+   "problems": [],
+   "note": "AI (live); checked: a plain-language explanation of about 220 words, its figures checked by code"
+  },
+  {
+   "step": "A5",
+   "what": "Should we pursue? The cash-flow burden feeds the go/no-go assessment",
+   "ok": true,
+   "seconds": 5.1,
+   "screenshot": "docs/screenshots/e2e-A5-pursue-caution.png",
+   "problems": [],
+   "note": "checked: the same grant, assessed again, is now Proceed with caution, and the rules list names the cash-flow burden"
+  },
+  {
+   "step": "F13",
+   "what": "Portfolio Strategist: recommended, deferred, and excluded grants, each with its reason",
+   "ok": true,
+   "seconds": 11.6,
+   "screenshot": "docs/screenshots/e2e-F13-portfolio-recommended.png",
+   "problems": [],
+   "note": "checked: recommended 3, deferred 1, excluded 1 (one marked not interested); Potential requests $75,000"
+  },
+  {
+   "step": "A6",
+   "what": "Portfolio Strategist: defer grants that would strain our cash",
+   "ok": true,
+   "seconds": 0.3,
+   "screenshot": "docs/screenshots/e2e-A6-portfolio-cash-deferred.png",
+   "problems": [],
+   "note": "checked: the card shows the cash-flow result; switched off, it only informs; switched on, the grant is deferred with that reason"
+  },
+  {
+   "step": "A7",
+   "what": "Switch the cash rule off again: the grant returns to the ranking",
+   "ok": true,
+   "seconds": 0.3,
+   "screenshot": null,
+   "problems": [],
+   "note": "checked: switched off again, the cash-flow reason is gone and the grant is ranked as before"
+  },
+  {
+   "step": "F14",
+   "what": "Lower the staff hours: the recommendation changes immediately",
+   "ok": true,
+   "seconds": 3.0,
+   "screenshot": "docs/screenshots/e2e-F14-portfolio-less-capacity.png",
+   "problems": [],
+   "note": "checked: at 3 hours a week the recommended grants went from 3 to 2, recomputed at once"
+  },
+  {
+   "step": "F15",
+   "what": "Weekly capacity: scheduled hours against available hours, week by week",
+   "ok": true,
+   "seconds": 0.1,
+   "screenshot": "docs/screenshots/e2e-F15-portfolio-weekly-capacity.png",
+   "problems": [],
+   "note": "checked: the week-by-week chart and table are shown"
+  },
+  {
+   "step": "F16",
+   "what": "Mission drift: concerns grounded in quotes from the grant and the profile",
+   "ok": true,
+   "seconds": 8.1,
+   "screenshot": "docs/screenshots/e2e-F16-mission-drift.png",
+   "problems": [],
+   "note": "checked: the card quotes the grant; Mission drift for STEM Futures Mentoring Award: Moderate. AI use: gpt-6-luna \u00b7 1,271 input tokens (0 cached) + 745 output (177 reasoning) \u00b7 estimated cost $0.00"
+  },
+  {
+   "step": "I1",
+   "what": "Start an Application: a funder's PDF read into a review screen, with its source sentences",
+   "ok": true,
+   "seconds": 14.2,
+   "screenshot": "docs/screenshots/e2e-I1-import-review.png",
+   "problems": [],
+   "note": "a real PDF was uploaded and read; 3 question(s) found, each shown beside the sentence in the document it came from, and nothing written to an application yet"
+  },
+  {
+   "step": "I2",
+   "what": "The confirmed items populate the application workspace",
+   "ok": true,
+   "seconds": 1.7,
+   "screenshot": "docs/screenshots/e2e-I2-import-applied.png",
+   "problems": [],
+   "note": "confirmed on the review screen (Add 13 item(s) to the application); Imported 3 question(s) and 10 requirement(s) from your solicitation. Your existing title was left unchanged."
+  },
+  {
+   "step": "I3",
+   "what": "Review proposal: the funder's own requirements, checked one by one against the answers",
+   "ok": true,
+   "seconds": 21.5,
+   "screenshot": "docs/screenshots/e2e-I3-compliance-checklist.png",
+   "problems": [],
+   "note": "each imported requirement reported against the answers, as Needs verification, Not found in your answers, Partly addressed; a requirement counts as addressed only with a sentence quoted from the user's own answer"
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "meta": {
+  "when": "2026-10-21 12:19 UTC",
+  "model": "gpt-6-luna",
+  "served_model": "gpt-6-luna-2026-09-22",
+  "reps": 3,
+  "mode": "live: real model calls, fresh answers only"
+ },
+ "summary": [
+  {
+   "workflow": "Proposal review",
+   "runs": 3,
+   "mean_model_calls": 1,
+   "mean_input_tokens": 2066,
+   "mean_cached_tokens": 0,
+   "mean_cache_write_tokens": 2063,
+   "mean_output_tokens": 1161,
+   "mean_reasoning_tokens": 84.666667,
+   "mean_cost_usd": 0.000839,
+   "mean_elapsed_ms": 10148.333333,
+   "min_cost": 0.000762675,
+   "max_cost": 0.000958175
+  },
+  {
+   "workflow": "Revise one answer",
+   "runs": 3,
+   "mean_model_calls": 1,
+   "mean_input_tokens": 1016,
+   "mean_cached_tokens": 0,
+   "mean_cache_write_tokens": 0,
+   "mean_output_tokens": 224,
+   "mean_reasoning_tokens": 99,
+   "mean_cost_usd": 0.000214,
+   "mean_elapsed_ms": 3664,
+   "min_cost": 0.0001936,
+   "max_cost": 0.0002241
+  },
+  {
+   "workflow": "Budget narrative",
+   "runs": 3,
+   "mean_model_calls": 1,
+   "mean_input_tokens": 1244,
+   "mean_cached_tokens": 0,
+   "mean_cache_write_tokens": 1241,
+   "mean_output_tokens": 497.666667,
+   "mean_reasoning_tokens": 223,
+   "mean_cost_usd": 0.000404,
+   "mean_elapsed_ms": 7182.333333,
+   "min_cost": 0.000390925,
+   "max_cost": 0.000430925
+  },
+  {
+   "workflow": "Pursuit assessment",
+   "runs": 3,
+   "mean_model_calls": 1,
+   "mean_input_tokens": 1136,
+   "mean_cached_tokens": 0,
+   "mean_cache_write_tokens": 1133,
+   "mean_output_tokens": 300,
+   "mean_reasoning_tokens": 0,
+   "mean_cost_usd": 0.000292,
+   "mean_elapsed_ms": 3778,
+   "min_cost": 0.000266425,
+   "max_cost": 0.000321925
+  },
+  {
+   "workflow": "Mission drift",
+   "runs": 3,
+   "mean_model_calls": 1,
+   "mean_input_tokens": 1218,
+   "mean_cached_tokens": 0,
+   "mean_cache_write_tokens": 1215,
+   "mean_output_tokens": 769.666667,
+   "mean_reasoning_tokens": 238,
+   "mean_cost_usd": 0.000537,
+   "mean_elapsed_ms": 11229.333333,
+   "min_cost": 0.000496675,
+   "max_cost": 0.000564675
+  }
+ ],
+ "records": [
+  {
+   "workflow": "Proposal review",
+   "rep": 1,
+   "model_calls": 1,
+   "input_tokens": 2066,
+   "cached_tokens": 0,
+   "cache_write_tokens": 2063,
+   "output_tokens": 1400,
+   "reasoning_tokens": 254,
+   "cost_usd": 0.000958175,
+   "elapsed_ms": 13643,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Revise one answer",
+   "rep": 1,
+   "model_calls": 1,
+   "input_tokens": 1016,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 243,
+   "reasoning_tokens": 115,
+   "cost_usd": 0.0002231,
+   "elapsed_ms": 3542,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Budget narrative",
+   "rep": 1,
+   "model_calls": 1,
+   "input_tokens": 1244,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1241,
+   "output_tokens": 551,
+   "reasoning_tokens": 274,
+   "cost_usd": 0.000430925,
+   "elapsed_ms": 6521,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Pursuit assessment",
+   "rep": 1,
+   "model_calls": 1,
+   "input_tokens": 1136,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1133,
+   "output_tokens": 360,
+   "reasoning_tokens": 0,
+   "cost_usd": 0.000321925,
+   "elapsed_ms": 3630,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Mission drift",
+   "rep": 1,
+   "model_calls": 1,
+   "input_tokens": 1218,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1215,
+   "output_tokens": 825,
+   "reasoning_tokens": 221,
+   "cost_usd": 0.000564675,
+   "elapsed_ms": 9834,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Proposal review",
+   "rep": 2,
+   "model_calls": 1,
+   "input_tokens": 2066,
+   "cached_tokens": 0,
+   "cache_write_tokens": 2063,
+   "output_tokens": 1009,
+   "reasoning_tokens": 0,
+   "cost_usd": 0.000762675,
+   "elapsed_ms": 8208,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Revise one answer",
+   "rep": 2,
+   "model_calls": 1,
+   "input_tokens": 1016,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 184,
+   "reasoning_tokens": 66,
+   "cost_usd": 0.0001936,
+   "elapsed_ms": 3105,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Budget narrative",
+   "rep": 2,
+   "model_calls": 1,
+   "input_tokens": 1244,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1241,
+   "output_tokens": 471,
+   "reasoning_tokens": 202,
+   "cost_usd": 0.000390925,
+   "elapsed_ms": 6256,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Pursuit assessment",
+   "rep": 2,
+   "model_calls": 1,
+   "input_tokens": 1136,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1133,
+   "output_tokens": 249,
+   "reasoning_tokens": 0,
+   "cost_usd": 0.000266425,
+   "elapsed_ms": 4043,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Mission drift",
+   "rep": 2,
+   "model_calls": 1,
+   "input_tokens": 1218,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1215,
+   "output_tokens": 689,
+   "reasoning_tokens": 218,
+   "cost_usd": 0.000496675,
+   "elapsed_ms": 13013,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Proposal review",
+   "rep": 3,
+   "model_calls": 1,
+   "input_tokens": 2066,
+   "cached_tokens": 0,
+   "cache_write_tokens": 2063,
+   "output_tokens": 1074,
+   "reasoning_tokens": 0,
+   "cost_usd": 0.000795175,
+   "elapsed_ms": 8594,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Revise one answer",
+   "rep": 3,
+   "model_calls": 1,
+   "input_tokens": 1016,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "output_tokens": 245,
+   "reasoning_tokens": 116,
+   "cost_usd": 0.0002241,
+   "elapsed_ms": 4345,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Budget narrative",
+   "rep": 3,
+   "model_calls": 1,
+   "input_tokens": 1244,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1241,
+   "output_tokens": 471,
+   "reasoning_tokens": 193,
+   "cost_usd": 0.000390925,
+   "elapsed_ms": 8770,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Pursuit assessment",
+   "rep": 3,
+   "model_calls": 1,
+   "input_tokens": 1136,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1133,
+   "output_tokens": 291,
+   "reasoning_tokens": 0,
+   "cost_usd": 0.000287425,
+   "elapsed_ms": 3661,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  },
+  {
+   "workflow": "Mission drift",
+   "rep": 3,
+   "model_calls": 1,
+   "input_tokens": 1218,
+   "cached_tokens": 0,
+   "cache_write_tokens": 1215,
+   "output_tokens": 795,
+   "reasoning_tokens": 275,
+   "cost_usd": 0.000549675,
+   "elapsed_ms": 10841,
+   "served_model": "gpt-6-luna-2026-09-22",
+   "gateway_cache": [
+    "refresh"
+   ],
+   "mode": "live"
+  }
+ ]
+}
