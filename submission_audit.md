@@ -1,6 +1,6 @@
 # GrantBridge submission audit
 
-For Sam, before submitting on Canvas (due **Monday 2026-10-26, 6:00 PM**). It maps every rubric row to its evidence, lists what is still missing, and gives the exact GitHub commands. **Nothing has been committed, pushed, published, or deployed.**
+For Sam, before submitting on Canvas (due **Monday 2026-10-26, 6:00 PM**). It maps every rubric row to its evidence, lists what is still missing, and gives the exact GitHub commands. **Committed and pushed on 2026-10-25** to the private repository above, after a scan found no real key value, no `.env` and no database in anything staged. Nothing is deployed.
 
 ## At a glance (2026-10-24)
 
@@ -15,7 +15,7 @@ For Sam, before submitting on Canvas (due **Monday 2026-10-26, 6:00 PM**). It ma
 
 **Missing, and only Sam can do it:**
 
-1. The GitHub repository and its URL (commands in section 3).
+1. ~~The GitHub repository~~ — **created and pushed on 2026-10-25**: <https://github.com/ssp79/grantbridge> (private, branch `main`). `zlisto` has been invited as a collaborator and must accept the invitation; check **Settings → Collaborators**. GitHub does not offer read-only collaborators on a personal repository, so the invitation is for write access — make the repository public and remove the collaborator if you would rather not grant that.
 2. ~~Reprint the two PDFs~~ — **done on 2026-10-25.** `report.pdf` (15 pages) and `slides.pdf` (10 pages) in this folder are printed from the current HTML. To rebuild them yourself: `python -m scripts.print_pdfs --browser chromium`.
 3. ~~A real user test~~ — **done on 2026-10-24**; see `docs/evidence/user-test-2026-10-24.md`.
 4. Optional: a narrated video in your own voice, if you want one instead of the automated recording.
