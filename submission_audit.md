@@ -110,11 +110,21 @@ Notes:
 
 ## 4. Canvas checklist
 
-- [ ] GitHub repository URL. Public, or private with **zlisto** added as a collaborator (step 4 above).
-- [ ] `report.html` from the repository folder (self-contained; rebuilt with the repository URL in step 5). `report.pdf` is beside it if a PDF is wanted.
-- [ ] `slides.html` from the repository folder (self-contained), or `slides.pdf`.
-- [ ] Optional: the demo video, `demo-video/grantbridge-demo-2026-10-21.webm`. It is not in the repository, so attach it from that folder. Most browsers play WebM; if Canvas will not take it, say so and I will convert it.
-- [ ] Before submitting: `.venv\Scripts\python -m pytest` once more, and open both files in a browser.
+Per Tauhid's announcement of 2026-10-25: **Canvas accepts files or a URL, not both, and he chose files.**
+Submit the two HTML files and nothing else. *"Any other files you include will annoy me and be penalized."*
+
+- [ ] **`report.html`** — self-contained, 0 external requests (measured). Carries
+      <https://github.com/ssp79/grantbridge> in section 1, with the private-repository notice.
+- [ ] **`slides.html`** — self-contained, 0 external requests (measured). Carries the same URL and notice on
+      the title slide and again on the closing slide.
+- [ ] Optional: the demo video, `demo-video/grantbridge-demo-2026-10-24.webm` (3 min 57 s, 41 MB). It is not in
+      the repository; attach it from that folder. Most browsers play WebM; if Canvas refuses it, say so and it
+      can be converted.
+- [ ] **Do not attach anything else.** Not `report.pdf`, not `slides.pdf`, not the repository as a zip. The
+      PDFs stay in the repository for convenience, but they are not part of the submission.
+- [ ] **Do not paste the repository URL into the Canvas comment box** instead of the files. The URL has to be
+      *inside* the two HTML files, and it is.
+- [ ] Before submitting: open both HTML files by double-clicking them, and check the repository link appears.
 
 ## 5. If the staff key does not work: use practice mode, not a deployment
 

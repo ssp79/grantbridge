@@ -620,7 +620,7 @@ write evidence-checked applications, and plan the work back from each deadline.<
 
 <h2>1. Title and links</h2>
 <ul class="links">
-<li><strong>Code repository:</strong> {repo_link()}</li>
+<li><strong>Code repository:</strong> {repo_link()}{private_note_report()}</li>
 <li><strong>Run it:</strong> <code>python -m streamlit run streamlit_app.py</code> (README: Quick start). A fresh
 clone reached a running app in {esc(clone)}, with the API key read from a <code>.env</code> one folder above the
 repository.</li>
@@ -1182,7 +1182,7 @@ def slides() -> str:
     <img src="{photo_uri(TITLE_PHOTO)}" alt="A small community team plans together around a wooden table covered with handwritten notes.">
     <p class="credit">Photo: Sweet Life on Unsplash (Unsplash License). The people shown are not affiliated with GrantBridge.</p>
   </div></div>
-  <p class="note">AI Foundations final project · Sam Parks · every organization and account is a sample · → or space to move</p>
+  <p class="note">AI Foundations final project · Sam Parks · every organization and account is a sample{private_note_slide()} · → or space to move</p>
 </div></section>
 
 <section aria-label="Slide 2: The problem"><div class="frame">
@@ -1322,7 +1322,7 @@ def slides() -> str:
   </ul>
   <p class="big" style="margin-top:28px !important">Decide what is worth applying for.</p>
   <p class="note">The public About page runs both sample examples with no sign-in · report: report.html ·
-  repository: {esc(REPO_URL) if REPO_URL else "GitHub URL to be added"} · all data sample · not production-grade security</p>
+  repository: {esc(REPO_URL) if REPO_URL else "GitHub URL to be added"}{" (private)" if REPO_PRIVATE and REPO_URL else ""} · all data sample · not production-grade security</p>
 </div></section>
 """
     css = (REVEAL / "reveal.min.css").read_text(encoding="utf-8")
@@ -1337,6 +1337,7 @@ def slides() -> str:
 
 
 REPO_URL = ""  # set by --repo-url once the GitHub repository exists
+REPO_PRIVATE = True  # the course asks a private repository to say so in the report and the slides
 
 
 def repo_link() -> str:
@@ -1346,14 +1347,33 @@ def repo_link() -> str:
             "The exact commands are in <code>submission_audit.md</code>.")
 
 
+def private_note_report() -> str:
+    if not (REPO_URL and REPO_PRIVATE):
+        return ""
+    return (" &mdash; <strong>this repository is private.</strong> The course account <code>zlisto</code> has been "
+            "invited as a collaborator; GitHub requires the invitation to be accepted before the repository can be "
+            "cloned. If it has expired or did not arrive, please ask and it will be re-sent, or the repository made "
+            "public.")
+
+
+def private_note_slide() -> str:
+    if not REPO_URL:
+        return ""
+    return (f" · repository: {esc(REPO_URL)}"
+            + (" (private: zlisto invited as a collaborator)" if REPO_PRIVATE else ""))
+
+
 def main(argv: list[str] | None = None) -> int:
-    global REPO_URL
+    global REPO_URL, REPO_PRIVATE
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--repo-url", default="", help="the GitHub repository's URL, once it exists")
+    parser.add_argument("--repo-public", action="store_true",
+                        help="the repository is public, so drop the private-repository notice")
     args = parser.parse_args(argv)
     if args.repo_url and not re.fullmatch(r"https://github\.com/[\w.-]+/[\w.-]+/?", args.repo_url):
         raise SystemExit("--repo-url must look like https://github.com/<owner>/<repository>")
     REPO_URL = args.repo_url.rstrip("/")
+    REPO_PRIVATE = not args.repo_public
     # Wide tables scroll inside their own box on a phone instead of widening the page.
     page = report().replace("<table>", '<div class="scroll"><table>').replace("</table>", "</table></div>")
     (REPO / "report.html").write_text(page, encoding="utf-8")
