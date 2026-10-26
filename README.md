@@ -21,9 +21,9 @@
   - `PROGRESS.md` (the work log)
   - Both HTML files are self-contained, and `python -m scripts.build_deliverables` rebuilds them from the evidence in `docs/`.
 
-## Quick start (about 5 minutes; measured at 88.8 seconds on a fresh clone)
+## Quick start (about 5 minutes; measured at 54.7 seconds from a GitHub clone)
 
-*Measured on 2026-10-25 from an empty clone to a page answering in a browser, with the API key read from a `.env` one folder above the repository: `docs/evidence/fresh-clone-test-2026-10-25.md`. Most of that is `pip install` downloading dependencies, so it varies with your network: the same test took 47.7 seconds the day before.*
+*Measured on 2026-10-25: an anonymous `git clone` of this repository, then the steps below, timed until the page answered in a browser, with the API key read from a `.env` one folder above the clone. See `docs/evidence/fresh-clone-test-2026-10-25b.md`. Most of that time is `pip install` downloading dependencies, so it varies with your network: the same test measured 88.8 s and 47.7 s on other runs.*
 
 ### Prerequisites
 

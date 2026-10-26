@@ -1064,7 +1064,7 @@ not what the AI says.</li>
 </ul>
 <h3>Next steps</h3>
 <ol>
-<li>Run the user test with a nonprofit professional (the kit is ready), and revise from what they say.</li>
+<li>Run moderated usability tests with several nonprofit professionals, across organization sizes and grant types, to see whether the findings in section 7 hold beyond one person.</li>
 <li>Test Can We Afford to Win? on real award agreements, with the funder's or grantee's permission.</li>
 <li>Add foundation data sources, with the same source labels and dates.</li>
 <li>Calibrate the effort assumptions against real applications.</li>
@@ -1115,9 +1115,9 @@ html, body { background: var(--ivory); }
 .cards .card.new { border-color: var(--teal); box-shadow: inset 0 0 0 1px var(--teal); }
 .cards.five { grid-template-columns: repeat(5, 1fr); gap: 12px; }
 .cards.five .card { padding: 13px 15px; }
-.cards.five .card p { font-size: 17px; line-height: 1.28; margin: 0 0 7px; }
-.cards.five .card .k { font-size: 18px; margin-bottom: 5px; }
-.cards.five .card .why { font-size: 15px; }
+.cards.five .card p { font-size: 18px; line-height: 1.30; margin: 0 0 7px; }
+.cards.five .card .k { font-size: 19px; margin-bottom: 6px; }
+.cards.five .card .why { font-size: 16px; }
 .lead { font-size: 22px !important; line-height: 1.38; color: var(--ink-soft); margin: 0 0 14px; max-width: 60ch; }
 .quote { border-left: 3px solid var(--teal); padding: 6px 0 6px 14px; margin: 12px 0 0; }
 .quote em { font-size: 19px; line-height: 1.36; color: var(--teal-ink); }
@@ -1158,6 +1158,12 @@ Reveal.initialize({ width: 1280, height: 720, margin: 0.04, center: false, hash:
 
 
 SLIDE_CROP = (330, 90, 1400, 720)  # the page without the sidebar, so the slide can show it larger
+# Slide 5 and 8 crop to the outcome itself: the old crop cut 'Strong candidate' and the metrics row off
+# the bottom, which is the one thing a viewer needs to read from the back of a room.
+PURSUE_CROP = (370, 240, 1380, 1000)    # the saved banner down through the eligibility cards
+PORTFOLIO_CROP = (380, 240, 1370, 1000)  # capacity, then Recommended / Deferred / Excluded
+INJECTION_CROP = (395, 95, 1360, 640)    # fills the column; the report shows this one full width and
+                                         # legible, so the slide carries the claim in its caption
 TITLE_PHOTO = REPO / "assets" / "photos" / "community-planning-720.webp"
 
 
@@ -1224,27 +1230,27 @@ def slides() -> str:
 <section aria-label="Slide 3: What is new"><div class="frame">
   <p class="eyebrow">What is new</p>
   <h2>Everything before the writing, and everything after it</h2>
-  <p class="lead">Discovery tools end where the hard part begins; writing assistants start after the expensive
-  decision is already made. GrantBridge is the five steps in between &mdash; and code, not the model, makes
-  every call that has to be right.</p>
+  <p class="lead">Discovery tools stop where the hard part starts. Writing assistants start after the expensive
+  decision is made. GrantBridge is the five steps in between &mdash; and <strong>code, not the model, makes
+  every call that has to be right</strong>.</p>
   <div class="cards five">
-    <div class="card"><p class="k">1 · Should we pursue it?</p><p>Eligibility, fit, readiness, staff hours and
-    budget, each from a rule printed on the page. The AI adds evidence; it cannot override a
-    check.</p><p class="why">No fortnight spent on a grant you were never eligible for.</p></div>
+    <div class="card"><p class="k">1 · Should we pursue it?</p><p>Eligibility, fit, readiness, hours and budget
+    &mdash; each from a rule on the page. The AI adds evidence; it cannot overturn a
+    check.</p><p class="why">No weeks lost to a grant you were never eligible for.</p></div>
     <div class="card new"><p class="k">2 · Can we afford to win it? <span class="tag">new</span></p><p>Quotes the
     match, the reimbursement delay and the overhead cap, then simulates the cash winning would tie
-    up.</p><p class="why">Catches the grant that fits but drains the bank account.</p></div>
-    <div class="card"><p class="k">3 · Which ones, together?</p><p>Grants scheduled against the team's real
-    weekly hours; mission drift flagged in the funder's own words.</p><p class="why">A plan the team can
-    actually staff.</p></div>
+    up.</p><p class="why">Catches the grant that fits but drains the bank.</p></div>
+    <div class="card"><p class="k">3 · Which ones, together?</p><p><strong>Portfolio Strategist</strong>
+    schedules grants against the team's real weekly hours; mission drift is flagged in the funder's own
+    words.</p><p class="why">A plan the team can actually staff.</p></div>
     <div class="card new"><p class="k">4 · The funder's own outline <span class="tag">new</span></p><p>The
-    solicitation read into the sections it prescribes, what each must contain, the forms and the
-    rubric.</p><p class="why">The hour of copying that starts every application.</p></div>
+    solicitation read into the sections it prescribes: contents, limits, forms,
+    rubric.</p><p class="why">Removes the hour of copying that starts every application.</p></div>
     <div class="card new"><p class="k">5 · Did we actually answer it? <span class="tag">new</span></p><p>A
-    requirement counts as addressed only when the review can quote the sentence in your answer that covers
-    it.</p><p class="why">Find the gap before the funder does.</p></div>
+    requirement counts as addressed only if the review can quote your own
+    sentence.</p><p class="why">Find the gap before the funder does.</p></div>
   </div>
-  <p class="note">Every item above carries the funder's own sentence, and unknown is never treated as a no.
+  <p class="note">Every item carries the funder's own sentence, and unknown is never treated as a no.
   {COMPETITOR_NOTE_SLIDE}</p>
 </div></section>
 
@@ -1259,9 +1265,9 @@ def slides() -> str:
   <p class="eyebrow">Demo · real screenshots, sample data</p>
   <h2>Decide before you write</h2>
   <div class="cols">
-    <figure class="shotfig"><img class="shot" src="{image('e2e-F12-pursue-strong.png', 1000, SLIDE_CROP)}" alt="Should We Pursue? showing Strong candidate after confirming two rules">
+    <figure class="shotfig"><img class="shot" src="{image('e2e-F12-pursue-strong.png', 1100, PURSUE_CROP)}" alt="Should We Pursue? showing Strong candidate after confirming two rules">
     <figcaption><strong>Should We Pursue?</strong> Explicit rules decide. After the user confirmed two listing rules: Strong candidate{", with the AI's fit evidence reused (no new AI call)" if REUSED else ""}.</figcaption></figure>
-    <figure class="shotfig"><img class="shot" src="{image('e2e-F13-portfolio-recommended.png', 1000, SLIDE_CROP)}" alt="Portfolio Strategist showing recommended, deferred and excluded grants">
+    <figure class="shotfig"><img class="shot" src="{image('e2e-F13-portfolio-recommended.png', 1100, PORTFOLIO_CROP)}" alt="Portfolio Strategist showing recommended, deferred and excluded grants">
     <figcaption><strong>Portfolio Strategist.</strong> Recommended, deferred, or excluded at the team's weekly hours, each with its reason.</figcaption></figure>
   </div>
 </div></section>
@@ -1307,7 +1313,7 @@ def slides() -> str:
     <code>DAN</code> jailbreak name, and that 3-letter match would have dropped requirements containing
     <em>guidance</em>. Now matched on whole words.</li>
   </ul></div>
-  <figure class="shotfig"><img class="shot" src="{image('e2e-S2-malicious-grant-blocked.png', 1000, (400, 0, 1345, 640))}" alt="A malicious grant's injection is blocked">
+  <figure class="shotfig"><img class="shot" src="{image('e2e-S2-malicious-grant-blocked.png', 1100, INJECTION_CROP)}" alt="A malicious grant's injection is blocked">
   <figcaption><strong>Live run.</strong> A grant's text told the AI to “ignore all previous instructions”. GrantBridge sent it only as data and flagged it.</figcaption></figure></div>
 </div></section>
 
