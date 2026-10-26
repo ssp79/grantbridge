@@ -22,3 +22,7 @@ Thumbs.db
 
 # The demo video is submitted on its own (scripts/record_demo.py writes it here)
 demo-video/
+
+# A local staging folder for the Canvas upload: copies of the built deliverables.
+# Not committed, so the copies can never drift from the real report.html and slides.html.
+submission/
