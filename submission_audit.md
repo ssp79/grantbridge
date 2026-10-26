@@ -7,7 +7,7 @@ For Sam, before submitting on Canvas (due **Monday 2026-10-26, 6:00 PM**). It ma
 **Ready:**
 
 - **Browser run:** 52 of 52 steps passed, with live AI and live Grants.gov, on the final code (`docs/evidence/e2e-run-2026-10-25.md`).
-- **Tests:** **906 passed, 0 failed, 0 warnings** in 904.5 s on the final code (`docs/evidence/test-run-2026-10-25.md`).
+- **Tests:** **906 passed, 0 failed, 0 warnings** on the final code, confirmed by a second full run after the pre-submission edits (`docs/evidence/test-run-2026-10-25.md`).
 - **Three real federal notices:** the import was run against the Fish and Wildlife, FHWA and NOAA notices, and all 240 quotations in the three outlines re-check against the notice each came from, with none missing (`docs/evidence/real-solicitations-2026-10-23.md`, reproducible offline with `python -m scripts.check_real_solicitations`). That exercise also exposed a false positive in the injection filter, now fixed and tested; report §6.
 - **Fresh clone:** an empty clone ran in **88.8 s**, with the key read from a `.env` one folder above the repository, and **906 tests passed inside the clone** (measured 2026-10-25 on the final code; the 47.7 s measured on 10-24 differed almost entirely in `pip` download time).
 - **Report and slides:** `report.html` prints at 15 letter pages, and `slides.html` has 10 slides (reveal.js 5.1.0, inlined, no CDN). Both open offline (0 network requests, measured). `report.pdf` and `slides.pdf` are printed from them.

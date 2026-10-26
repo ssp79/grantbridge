@@ -240,7 +240,7 @@ def video_row() -> str:
     if not files:
         return "Optional; not recorded."
     newest = files[-1]
-    return (f"<code>{esc(newest.name)}</code> ({newest.stat().st_size / 1_000_000:.0f} MB), submitted separately. "
+    return (f"<code>{esc(newest.name)}</code> ({newest.stat().st_size / 1_000_000:.0f} MB). It is <strong>not in the repository</strong> &mdash; too large to be worth committing &mdash; and is submitted on its own. "
             "An automated, captioned screen recording of the real app running on sample data, made by "
             "<code>python -m scripts.record_demo</code>. The captions and pointer are drawn by that script on top "
             "of the page; nothing on the page is edited, and no step is staged or sped up.")
@@ -373,7 +373,7 @@ ul.links { margin: 10px 0; padding-left: 20px; }
 ul.links li { margin: 5px 0; }
 
 @media print {
-  body { background: #fff; font-size: 10pt; line-height: 1.42; }
+  body { background: #fff; font-size: 9.7pt; line-height: 1.40; }
   main { max-width: none; padding: 0; background: #fff; }
   h2 { page-break-after: avoid; break-after: avoid; margin-top: 18px; }
   h3 { page-break-after: avoid; break-after: avoid; }
@@ -738,6 +738,18 @@ sentence in the user's own answer</td><td>Step I3</td></tr>
 </table>
 <p class="meta">All {E2E_OK} of {len(STEPS)} steps passed, with live AI and live Grants.gov. The full log, with
 what each step checked, is <code>docs/evidence/e2e-run-{E2E_DATE}.md</code>.</p>
+
+<h3>Why not just paste the notice into a chatbot?</h3>
+<p>A general-purpose assistant answers all of this fluently, and that is the problem: it cannot tell you which
+part of its answer came from the document. Four things here are not prompt engineering. <strong>An item is
+dropped unless its sentence is in the source</strong>, which is why all 240 quotations from the three federal
+notices re-check. <strong>The verdicts are computed, not written</strong>: eligibility, the cash simulation and
+the schedule are Python over rules printed on the page, so the same inputs always give the same answer and the
+model cannot overturn a check &mdash; ask a chatbot twice and you may get two verdicts. <strong>Two of them are
+not text tasks at all</strong>, being day-by-day arithmetic over quoted award terms and a schedule against the
+team's weekly hours. <strong>And unknown is never a no</strong>: missing information stays missing and is
+labeled, where an assistant asked "are we eligible?" guesses rather than declines. It is code around the
+model, not a better prompt.</p>
 {figure("e2e-A2-afford-summary.png", f"Can we afford to win? for a SAMPLE grant that fits the sample organization's mission. Its sample terms pay only by reimbursement and need a 50% match: {shown['Match you must fund']} to fund, and {shown['Cash tied up at the worst point']} of cash tied up at the worst point, against {DEMO_RESERVES} of reserves.", 900, crop=AFFORD_CROP)}
 <p>The same rule carries the application's own setup. A funder's solicitation is uploaded as a PDF, DOCX or
 TXT file; the model reads it, and code keeps only what the document states, each item shown beside its own
@@ -801,16 +813,22 @@ The burden then feeds Should We Pursue? (a caution rule) and,
 if the user switches it on, the portfolio. In the browser run, reading the pasted notice was one model call
 (step A1: {esc(a1_use.group(1)) if a1_use else "practice mode, no AI call"}).</p>
 <h3>One traced run</h3>
-<p>In the browser run (step 10), a new account asked the advisor <em>"{esc(TRACE['question'])}"</em> with live AI.
-The server logged every step of that turn. The log records which step ran, its time, tokens, and cost, but never the
-prompt, the reply, or any profile text:</p>
+<p>On 2026-10-21 a new account asked the advisor <em>"{esc(TRACE['question'])}"</em> with live AI, and the server
+logged every step of that turn. The log records which step ran, its time, tokens, and cost, but never the prompt,
+the reply, or any profile text:</p>
 {trace_table()}
 <p>In total: {sum(s['type'] == 'llm' for s in TRACE['steps'])} model calls, {sum(s['type'] == 'tool' for s in TRACE['steps'])}
 tool calls, {sum(s['tokens_in'] for s in TRACE['steps']):,} input and {sum(s['tokens_out'] for s in TRACE['steps']):,}
-output tokens, and {usd(sum(s['cost_usd'] or 0 for s in TRACE['steps']))}. The page showed the same run under
-Technical details (step 11): “{esc(note('11', 200))}”. Later in the run, the advisor answered a budget question by
+output tokens, and {usd(sum(s['cost_usd'] or 0 for s in TRACE['steps']))}.</p>
+<p>The interface shows the same breakdown to the user. In the browser run of {E2E_DATE}, step 11 opened that panel
+after the same question and reported: “{esc(note('11', 200))}”. <strong>These are two different turns</strong>
+&mdash; the server log above was written at 16:46 UTC on 2026-10-21, and the browser run is a separate session
+&mdash; so the figures are close without being identical. Asking the same question twice does not produce the same
+answer, and the input differs because the build changed between the two dates. Neither figure is derived from the
+other, and both are the provider's own counts. Later in the browser run the advisor answered a budget question by
 calling <code>get_budget</code> (step F7: “{esc(note('F7', 120))}”).</p>
-<p class="meta">Source: <code>{esc(TRACE['source'])}</code>, copied from the browser run's server log.</p>
+<p class="meta">Sources: <code>{esc(TRACE['source'])}</code> for the server log, and
+<code>docs/evidence/e2e-run-{E2E_DATE}.md</code> for the browser run.</p>
 <div class="grid2">{figure("e2e-10-advisor-answer.png", "Step 10: the advisor's answer, with the facts it used and their sources.", 900, crop=SLIDE_CROP)}
 {figure("e2e-11-advisor-trace-cost.png", "Step 11: the same turn's technical details: every step (model call, tool, code), the tokens, and the estimated cost.", 900, crop=SLIDE_CROP)}</div>
 
@@ -990,13 +1008,11 @@ and one with an injected instruction), with the expected terms written before an
 {AFFORD['meta']['reps']} times with live AI:</li>
 </ul>
 {afford_eval_table()}
-<p class="meta">Source: <code>{esc(AFFORD_PATH.relative_to(REPO).as_posix())}</code>. Code removed
-{AFFORD_DROPPED['quotes_dropped']} unquoted conditions, {AFFORD_DROPPED['numbers_dropped']} numbers outside their quotes,
-and {AFFORD_DROPPED['injected_dropped']} conditions quoted from injected text in these runs. Across
-{len(AFFORD['explanations'])} explanation runs, code replaced {AFFORD_COST['replaced']}
-{"figure" if AFFORD_COST['replaced'] == 1 else "figures"} the computed numbers did not support. The patterns were written with
-the notices in view, so their score is a baseline, not evidence. These are short notices written for the test:
-real award agreements are longer.</p>
+<p class="meta">Source: <code>{esc(AFFORD_PATH.relative_to(REPO).as_posix())}</code>, which lists what code
+removed in these runs: {AFFORD_DROPPED['quotes_dropped']} unquoted conditions,
+{AFFORD_DROPPED['numbers_dropped']} numbers outside their quotes, and {AFFORD_DROPPED['injected_dropped']} quoted
+from injected text. These are short notices written for the test; real award agreements are longer, and the
+practice patterns were written with the notices in view, so their score is a baseline rather than evidence.</p>
 <ul>
 <li><strong>Stronger applications, measured before and after.</strong> One live run drafted two blank answers,
 reviewed the proposal, used three AI revisions as written (no person edited them), and reviewed again
@@ -1010,8 +1026,6 @@ its own revisions, so the rating change is not independent evidence. One run on 
 <li><strong>Decisions in seconds.</strong> In the browser run, a pursuit assessment returned its outcome with the
 deciding rule (F10, F11). After the user confirmed two rules, the reassessment took {esc(str(f12['seconds']))} s.
 When the weekly hours changed, the portfolio recomputed at once (F14: {esc(note('F14', 120).replace(', recomputed at once', ''))}).</li>
-<li><strong>Every step works end to end:</strong> the browser run passed {E2E_OK} of {len(STEPS)} steps, and
-{TESTS['passed']} automated tests passed, with none failing, in {TESTS['seconds'] / 60:.0f} minutes.</li>
 </ul>
 <h3>The browser run</h3>
 <p>All <strong>{E2E_OK} of {len(STEPS)} steps passed</strong> on {E2E_DATE}, with live AI and live Grants.gov,
@@ -1020,14 +1034,21 @@ AI explanation, the advisor with its tools, drafting, proposal review and revisi
 Pursue?, Can We Afford to Win?, the portfolio, mission drift, a solicitation PDF read into an outline and
 checked against its requirements, a 390&nbsp;px phone layout, and a blocked prompt-injection attack. Section 3 walks
 six of those steps end to end. The full log, with what each step checked, its time and its screenshot, is
-<code>docs/evidence/e2e-run-{E2E_DATE}.md</code>.</p>
+<code>docs/evidence/e2e-run-{E2E_DATE}.md</code>. Alongside it, <strong>{TESTS['passed']} automated tests
+pass</strong> with none failing and no warnings, in {TESTS['seconds'] / 60:.0f} minutes
+(<code>docs/evidence/test-run-{TESTS['run'][:10]}.md</code>); the suite blocks network access, so none of it
+reaches a model. Several of those tests are contracts that fail the build rather than a feature: every
+account-scoped repository function must have a cross-account test, every internal prompt must be registered,
+and every quotation in the three federal outlines must still be found in its notice.</p>
 
 <h2>8. Limits and next steps</h2>
 <h3>Limits</h3>
 <ul>
 <li><strong>One user, one session.</strong> A single unmoderated test (section 7) found two defects and
-timed one task. We still do not know how much time GrantBridge saves across a whole application, or whether
-staff come to trust the rules over weeks rather than minutes.</li>
+timed one task. The participant was recruited by the author and is not independent of the project, their
+answers were relayed rather than recorded, and their "several hours" baseline is a recollection that nobody
+timed. We still do not know how much time GrantBridge saves across a whole application, or whether staff come
+to trust the rules over weeks rather than minutes.</li>
 <li><strong>Small data.</strong> Search covers 10 sample grants and live Grants.gov federal listings.
 There are no foundation or corporate funders, and no 990 data.</li>
 <li><strong>A simple cash model.</strong> Can We Afford to Win? spreads spending evenly, takes the terms as written,
@@ -1270,19 +1291,20 @@ def slides() -> str:
     <li>Reading one award notice: {usd(AFFORD_COST['extract'], 5)}; explaining its numbers: {usd(AFFORD_COST['explain'], 5)}. The cash arithmetic itself uses no AI.</li>
     <li>AI results are reused when nothing changed; the portfolio and plans use no AI.</li>
   </ul></div></div>
-  <p class="note">Provider token counts from fresh calls only · rates from data/pricing.json (checked 2026-10-20) · usage per month is our assumption, not observed.</p>
+  <p class="note">All of it on <strong>gpt-6-luna</strong> through Portkey · provider token counts from fresh calls only · rates from data/pricing.json (checked 2026-10-20) · usage per month is our assumption, not observed.</p>
 </div></section>
 
 <section aria-label="Slide 8: Safety"><div class="frame">
   <p class="eyebrow">Safety</p>
   <h2>Rules over the model</h2>
   <div class="cols"><div><ul>
-    <li>Grant and notice text is data: injected instructions are flagged, never followed.</li>
+    <li>Grant and notice text is data: injected instructions are flagged, never followed, and the live
+    red-team passed every check (nothing leaked, nothing saved).</li>
     <li>An award term needs a verbatim quote, or it stays <em>unknown</em>. GrantBridge never assumes a typical term.</li>
-    <li>Live red-team: every check passed (nothing leaked, nothing saved).</li>
-    <li>Every query is scoped to one account. Signed out, only About and Sign in exist.</li>
-    <li><strong>A real notice broke the filter.</strong> A contact called <em>Dan</em> matched the
-    <code>DAN</code> jailbreak name; that 3-letter match would have silently dropped any requirement containing
+    <li>Public pages and demos need no sign-in; organization data and the application workflows do, and every
+    query is scoped to one account.</li>
+    <li><strong>A real notice broke the filter:</strong> a contact called <em>Dan</em> matched the
+    <code>DAN</code> jailbreak name, and that 3-letter match would have dropped requirements containing
     <em>guidance</em>. Now matched on whole words.</li>
   </ul></div>
   <figure class="shotfig"><img class="shot" src="{image('e2e-S2-malicious-grant-blocked.png', 1000, (400, 0, 1345, 640))}" alt="A malicious grant's injection is blocked">
@@ -1315,7 +1337,8 @@ def slides() -> str:
   <p class="eyebrow">Next steps</p>
   <h2>From a working demo to a tool small teams rely on</h2>
   <ul>
-    <li>Run the user test with a nonprofit professional, and revise from what they say.</li>
+    <li>Expand usability testing across multiple nonprofits, organization sizes, and grant types to validate
+    usability and recommendations.</li>
     <li>Test Can We Afford to Win? on real award agreements, with the funder's permission.</li>
     <li>Add foundation funders, with the same source labels and dates.</li>
     <li>Deploy behind HTTPS, with the key kept as a secret.</li>
